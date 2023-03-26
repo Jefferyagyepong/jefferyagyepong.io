@@ -23,3 +23,8 @@
     "sass": "^1.58.3"
   }
 }
+"eslintConfig": {
+    "rules": {
+        "jsx-a11y/accessible-emoji": "off"
+    }
+},
