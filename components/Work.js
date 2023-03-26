@@ -1,8 +1,8 @@
 
 export default function Work() {
     return (
-     
   
+      
     <section className="flex-box ">
       <div className="flex-item" id="CoastRepublic">
        
@@ -51,6 +51,8 @@ launch on 08-04-23
 
          
         </section>
+  
+  
       
    
 

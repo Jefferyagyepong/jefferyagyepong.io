@@ -6,7 +6,8 @@ export default function Column (){
           <img src="static/devicon.svg" alt="" width={190} height={190} />
         <h2 className="color-primary">Front-end Developer</h2>
         <p className="color-secondary">
-          I like to code things from scratch,and enjoy bringing ideas to life in
+            I like to code things from scratch,<br/>
+            and enjoy bringing ideas to life in<br/>
           the browser.
         </p>
 
@@ -29,8 +30,9 @@ export default function Column (){
         <img src="static/designericon.svg" alt="" width={190} height={190}  />
         <h2 className="color-primary">Designer</h2>
         <p className="color-secondary">
-          I value simple content structure, clean design patterns, and
-          thoughtful interactions.
+            I value simple content structure,<br/>
+            clean design patterns, and thoughtful<br/>
+            interactions.
         </p>
 
         <h3 className="color-primary">Things I enjoy designing:</h3>
@@ -49,7 +51,8 @@ export default function Column (){
         <img src="static/mentoricon.svg" alt="" width={190} height={190}  />
         <h2 className="color-primary">Mentor</h2>
         <p className="color-secondary">
-          I genuinely care about people and love helping fellow designers work
+            I genuinely care about people and<br/>
+            love helping fellow designers work<br/>
           on their craft
         </p>
 
