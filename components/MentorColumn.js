@@ -1,0 +1,55 @@
+export default function MentorColumn (){
+    return (
+     
+  
+    <section className="flex-box ">
+      <div className="flex-items">
+        <img src="static/spotmentor.svg" alt="" width={190} height={190}/>
+        <h2 className="color-primary">Spot Mentoring</h2>
+        <h3 className="color-primary">GHS500</h3>
+        <p className="color-secondary">
+          1 hour of candid conversation and advice as needed with no long term,
+          ongoing commitment required.
+        </p>
+
+        <h4 className="color-primary">Good for:</h4>
+        <p className="color-secondary">All designers</p>
+
+        <a href="#" className="link-item ">Book a session</a>
+      </div>
+
+      <div className="flex-items">
+    <img src="static/support.svg" alt="" width={190} height={190} />
+        <h2 className="color-primary">Production Support</h2>
+        <h3 className="color-primary">GHS800</h3>
+        <p className="color-secondary">
+          4 hours of targeted feedback and design critique to help you focus on
+          delivering your best work.
+        </p>
+
+        <h4 className="color-primary">Great for:</h4>
+        <p className="color-secondary">Experienced designers</p>
+
+          <a href="#" className="link-item  ">Improve your chops</a>
+      </div>
+
+      <div className="flex-items">
+          <img src="static/gem.svg" alt="" width={190} height={190} />
+        <h2 className="color-primary">Tailored Learning</h2>
+        <h3 className="color-primary">GHS1200</h3>
+        <p className="color-secondary">
+          12 hours of professional coaching and collaboration to help you
+          achieve long term goals and ambitions.
+        </p>
+
+        <h4 className="color-primary">Best for:</h4>
+        <p className="color-secondary">New designers</p>
+
+        <a href="#" className="link-item  ">Start your journey</a>
+      </div>
+    </section>
+
+   
+
+  );
+}

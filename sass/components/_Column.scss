@@ -1,0 +1,117 @@
+
+.columns{
+  display: flex;
+  flex-flow: row ;
+  justify-content: space-between;
+  margin-top: 5px 0;
+  padding: 20px;
+  text-align: center;
+display: -webkit-box;
+  display: -ms-flexbox;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  width: 88%;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 15px;
+     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: -3rem;
+    margin-bottom: 4rem;
+    background-color: #f5f5f5;
+    gap: 1rem;
+  flex-wrap: wrap;
+  
+ 
+ 
+}
+
+.column h1, h2,h3,h4,h5,h6, p{
+ padding-bottom: 45px;
+}
+
+
+
+  
+
+    
+
+
+#empty-text-back  {  
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  width: 100%;
+border-radius: 16px;
+    justify-content: center;
+    justify-content: center;
+    gap: .3rem;
+    margin-bottom: 5rem;
+  display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+  
+}
+
+
+
+
+
+
+
+.flex{
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.mailj{
+    
+
+border: 2px solid #fff;
+border-radius: 25px;
+padding: 17px 20px;
+text-align: center;
+color: #fff;
+margin: 0 auto;
+
+}
+.link-item{
+  border: 2px solid #000;
+    border-radius: 25px;
+    padding: 17px 20px;
+    text-align: center;
+    color: #000;
+    margin: 0 auto;
+}
+.center-link {
+
+
+  border: 2px solid #fff;
+  border-radius: 25px;
+  padding: 17px 20px;
+  text-align: center;
+  color: #fff;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+ gap: .9rem;
+ max-width: 15%;
+ margin: 0 auto;
+
+}
+.center-link:hover {
+color: #000;
+
+}
+
+ .mailj:hover{
+ 
+     color: white;
+     background-color: #6e25ef;
+
+}
+
+ 

@@ -1,0 +1,161 @@
+footer{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   width: 100%;
+   align-items: center;
+   background-color: #6e25ef;
+   gap: 3rem;
+  display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+
+
+   
+     }
+   
+     footer .col{
+     display: flex;
+     flex-direction: column;
+     align-items: start;
+     margin-bottom: 20px;
+     padding: 5rem;
+display: -webkit-box;
+  display: -ms-flexbox;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+       }
+     
+     footer .logo{
+       margin-bottom: 30px;
+       margin-top: 2.2rem; 
+       padding-top: 20px;
+     }
+
+     footer h4{
+
+       color: #fff;
+     }
+
+
+     
+     footer p{
+
+   margin: 0 0 8px 0;
+   color: #fff;
+       }
+       .footer-link{
+        color: #141c3a;
+transition: 0.3s ease;
+       }
+                .footer-link:hover {
+                  color: #fff;
+        
+                }
+     
+     
+     footer a{
+     font-size: 16px;
+     text-decoration: none;
+     margin: 0 0 8px 0;
+     padding: 10px;
+     text-decoration: none;
+     color: #fff;
+     cursor: pointer;
+     }
+      footer a:hover{
+     color: whitesmoke;
+       }
+     
+   
+   
+       footer .follow a{
+        color: white;
+     
+     
+        text-align: center;
+     
+        justify-content: center;
+        align-items: center;
+        margin: 2px;
+        cursor: pointer;
+        transition: 0.5s ease;
+         }
+          footer .follow a:hover{
+         color: #141c3a;
+             }
+   
+     footer .install .row i{
+   margin: 10px 0  15px 0;
+   display: inline;
+     }
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    .coast  {
+     width: 100%;
+     text-align: center;
+    padding: 20px;
+   
+   }
+     
+   
+   .coast  p{
+     text-align: center;
+     font-size: 11px;
+     padding: 15px;
+   }
+     .collaborate{
+      width: 100%;
+      text-align: center;
+  
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 4rem;
+      color: #141c3a;
+      padding-bottom: 5rem;
+      padding-top: 5rem;
+   
+      margin-bottom: 17rem;
+     }
+     
+      
+#work{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+background-color: #141c3a;
+color: #fff;
+padding-top: 2rem;
+padding-bottom: 2rem;
+margin-bottom: -2rem;
+}
+#work p, h2{
+
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+ 
+}
+
+.testimonial-container{
+text-align: center;
+width: 100%;
+margin-bottom: 5rem;
+padding-top: 40px;
+padding-bottom: 40px;
+
+}
+
+   

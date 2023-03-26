@@ -1,0 +1,51 @@
+
+#welcome p{
+    text-align: center;
+    font-weight: 300;
+    color: #141c3a;
+}
+
+
+#welcome{
+width: 100%;
+margin-top: 30px;
+text-align: center;
+color: #141c3a;
+padding: 2px;
+}
+
+#display, #display2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -7rem;
+  
+
+}
+
+
+    
+.feature h2{
+     text-align: center;
+    font-weight: 700;
+    color: white;   
+    padding-top: 9rem;
+     
+    
+}
+.feature p{
+    
+    text-align: center;
+    color: white;
+     padding-right: 170px;
+     padding-bottom: 120px;
+        padding-left: 170px;
+padding-right: 90px; 
+line-height: 2.4em;
+ 
+  
+
+    
+}

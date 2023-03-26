@@ -1,0 +1,11 @@
+@mixin acticeForIcons {
+  color: $color-primary;
+}
+
+@mixin setProperty($property, $value, $unit: null) {
+  #{$property}: #{$value}$unit;
+}
+
+// .class{
+//   @include setProperty(margin,10,px);
+//  }
