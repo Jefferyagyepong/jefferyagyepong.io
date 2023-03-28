@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { faInstagram, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -7,7 +8,7 @@ export default function Footer() {
 
      <footer class="section-p1">
       <div class="col">
-        <img src=""alt="" className="logo"/>
+      <Image src="/jefferylogo.png" width={50} height={50} alt="jeffery logo"/> <br/>  
         <h4>Contact</h4>
         <p><strong>Address: </strong> 10th Ave, McCarthy Hill, Accra</p>
         <p><strong>Phone: </strong> +233 244736420</p>

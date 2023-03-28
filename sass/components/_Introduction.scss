@@ -127,25 +127,12 @@ background-color: skyblue;
 
 
 
-.feature p{
-    
-
-
-    
-     
-}
-
-
 #display{
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-display: -webkit-box;
-    display: -ms-flexbox;
-    -webkit-box-pack: space-evenly;
-    -ms-flex-pack: space-evenly;
     margin-top: 7rem;
 
 
@@ -156,10 +143,7 @@ display: -webkit-box;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-display: -webkit-box;
-    display: -ms-flexbox;
-    -webkit-box-pack: space-evenly;
-    -ms-flex-pack: space-evenly;
+
 
 }
  #display img {

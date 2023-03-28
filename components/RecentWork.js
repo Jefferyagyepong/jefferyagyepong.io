@@ -6,7 +6,7 @@ export default function RecentWork() {
     <div className="feature ">
       <h2 className="feature-title">My Recent Work</h2>
       <p className="feature-para">
-        Here are a few design projects I've worked on recently. Want to see
+        Here are a few design projects I&apos;ve worked on recently. Want to see
         more?
 
         </p>

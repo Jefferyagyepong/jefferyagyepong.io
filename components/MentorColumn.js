@@ -1,10 +1,11 @@
-export default function MentorColumn (){
+import Image from "next/image";
+export default function MentorColumn() {
     return (
      
   
     <section className="flex-box ">
-      <div className="flex-items">
-        <img src="static/spotmentor.svg" alt="" width={190} height={190}/>
+        <div className="flex-items">
+          <Image src="static/spotmentor.svg"  alt="icon spotmentor" width={190} height={190}/>     
         <h2 className="color-primary">Spot Mentoring</h2>
         <h3 className="color-primary">GHS500</h3>
         <p className="color-secondary">
@@ -18,8 +19,8 @@ export default function MentorColumn (){
         <a href="#" className="link-item ">Book a session</a>
       </div>
 
-      <div className="flex-items">
-    <img src="static/support.svg" alt="" width={190} height={190} />
+        <div className="flex-items">
+            <Image src="static/support.svg"  alt="icon support" width={190} height={190}/>  
         <h2 className="color-primary">Production Support</h2>
         <h3 className="color-primary">GHS800</h3>
         <p className="color-secondary">
@@ -33,8 +34,8 @@ export default function MentorColumn (){
           <a href="#" className="link-item  ">Improve your chops</a>
       </div>
 
-      <div className="flex-items">
-          <img src="static/gem.svg" alt="" width={190} height={190} />
+        <div className="flex-items">
+           <Image src="static/gem.svg"  alt="icon gem" width={190} height={190}/> 
         <h2 className="color-primary">Tailored Learning</h2>
         <h3 className="color-primary">GHS1200</h3>
         <p className="color-secondary">

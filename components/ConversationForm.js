@@ -1,12 +1,14 @@
-export default function ConversationForm (){
+import Image from "next/image";
+export default function ConversationForm() {
     return (
      
      
       <div className="jeffery" >
         <div id="display" className="section-p1">
-      <img src="/static/jeffery.svg" alt=""   width={250} height={300}  />
+           <Image src="static/jeffery.svg" width={250} height={300} alt="dev jeffery"/>
 
-      <p> Want to discuss a startup collaboration? I'm most definitely game.</p>
+
+      <p> Want to discuss a startup collaboration? I&apos;m most definitely game.</p>
        
      <div className="form-wrapper">
                 <form  action="https://formspree.io/f/mwkjpala" method="post">

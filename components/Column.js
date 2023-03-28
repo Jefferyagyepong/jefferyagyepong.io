@@ -1,9 +1,10 @@
-export default function Column (){
+import Image from "next/image";
+export default function Column() {
     return (
   
        <section className="columns section-p1">
-      <div className="column">
-          <img src="static/devicon.svg" alt="" width={190} height={190} />
+        <div className="column">
+           <Image src="static/devicon.svg" width={190} height={190} alt="Icon developer"/>
         <h2 className="color-primary">Front-end Developer</h2>
         <p className="color-secondary">
             I like to code things from scratch,<br/>
@@ -26,8 +27,7 @@ export default function Column (){
    
 
         <div className="column">
-          
-        <img src="static/designericon.svg" alt="" width={190} height={190}  />
+           <Image src="static/designericon.svg" width={190} height={190} alt="Icon designer"/>
         <h2 className="color-primary">Designer</h2>
         <p className="color-secondary">
             I value simple content structure,<br/>
@@ -47,8 +47,8 @@ export default function Column (){
         </div>
       
 
-      <div className="column">
-        <img src="static/mentoricon.svg" alt="" width={190} height={190}  />
+        <div className="column">
+           <Image src="static/mentoricon.svg" width={190} height={190} alt="Icon mentor"/>
         <h2 className="color-primary">Mentor</h2>
         <p className="color-secondary">
             I genuinely care about people and<br/>

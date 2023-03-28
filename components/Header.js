@@ -1,12 +1,13 @@
 import BurgerMenu from '../components/BurgerMenu'
-
+import Image from 'next/image';
 export default function Header() {
     return (
       <nav id="navbar">
     
         <div className="logo">
           <a href="./">
-              <img src="/jefferylogo.png" width="50" height="55" alt="Jeffery Agyepong " />
+             <Image src="/jefferylogo.png" width={50} height={55} alt="Jeffery Agyepong logo"/>
+            
           </a>
       
         </div>
