@@ -6,7 +6,7 @@ export default function SeeMore() {
 <div id="empty-text-back" className="section-m1">
     
    
-        <a className="center-link" href="" target="_blank" >  <FontAwesomeIcon icon={faHands} width="20" />  See more on Dribbble</a>
+        <a className="see-more" href="" target="_blank" >  <FontAwesomeIcon icon={faHands} width="20" />  See more on Dribbble</a>
   
         </div>
           );

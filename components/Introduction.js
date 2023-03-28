@@ -18,7 +18,7 @@ export default function Introduction() {
     </div>
 
             <div id="display2" >
-         <Image src="/static/profile.svg"  width={490} height={490}  alt="Web developer display Image"/>        
+         <Image src="/static/profile.svg"  width={590} height={590} className="image" alt="Web developer display Image"/>        
      
     </div>
         

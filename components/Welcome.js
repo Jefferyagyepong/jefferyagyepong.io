@@ -8,7 +8,7 @@ export default function Welcome() {
   
 
     <div id="display2" >
-      <Image src="/static/jefferymacbook.svg"  alt="dev Jeffery" width={290} height={290}/>     
+      <Image src="/static/jefferymacbook.svg" className="image"  alt="dev Jeffery" width={290} height={290}/>     
 
     </div>
 
