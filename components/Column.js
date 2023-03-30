@@ -26,7 +26,7 @@ export default function Column() {
         </div>
    
 
-        <div className="column" >
+        <div className="column" id="border-right">
            <Image src="static/designericon.svg" width={190} height={190} alt="Icon designer"/>
         <h2 className="color-primary">Designer</h2>
         <p className="color-secondary">
@@ -62,9 +62,9 @@ export default function Column() {
         <p className="color-secondary">3 years experience</p>
         <p className="color-secondary">2 short courses</p>
           <p className="color-secondary">1 bootcamp</p>
-          <p className="color-secondary">1 bootcamp</p>
-          <p className="color-secondary">1 bootcamp</p>
-           <p className="color-secondary">1 bootcamp</p>
+          <p className="color-secondary">over 8+ logo designs</p>
+          <p className="color-secondary">SEO strategies</p>
+           <p className="color-secondary">TEST DOME CERTIFICATE</p>
       </div>
     </section>
       
