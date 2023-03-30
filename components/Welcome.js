@@ -15,10 +15,10 @@ export default function Welcome() {
     <div className="feature">
       <h2 className="feature-title">Being a designer is tough..</h2>
       <p className="feature-para">
-        It seems like every other day there&pos;s a new design trend to learn, tool<br/>
-        to master, and endless design-related articles to read. Honestly, it can<br/>
-        be overwhelming and intimidating. I know because I&apos;ve walked more than a<br/>
-        few miles in those shoes. So whether yo&apos;re new to the field or simply<br/>
+        It seems like every other day there&pos;s a new design trend to learn, tool
+        to master, and endless design-related articles to read. Honestly, it can
+        be overwhelming and intimidating. I know because I&apos;ve walked more than a
+        few miles in those shoes. So whether yo&apos;re new to the field or simply
         looking for some guidance and support, I can help.
       </p>
             </div>

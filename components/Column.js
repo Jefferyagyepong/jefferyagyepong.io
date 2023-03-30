@@ -13,16 +13,16 @@ export default function Column() {
         </p>
 
         <h3 className="color-primary">Languages I speak:</h3>
-        <p  className="color-secondary">HTML5, CSS3, Javascript, Git, Sass</p>
+        <h6  className="color-secondary">HTML5, CSS3, Javascript, Git, Sass</h6>
 
         <h4 className="color-primary">Dev Tools:</h4>
-        <p  className="color-secondary">Visual Studio Code</p>
-        <p  className="color-secondary">Bootstrap</p>
-      <p  className="color-secondary">Vercel</p>
-        <p  className="color-secondary">GitHub</p>
+        <h6  className="color-secondary">Visual Studio Code</h6>
+        <h6  className="color-secondary">Bootstrap</h6>
+      <h6 className="color-secondary">Vercel</h6>
+        <h6  className="color-secondary">GitHub</h6>
          
-          <p  className="color-secondary">Terminal</p>
-            <p  className="color-secondary">Terminal</p>
+          <h6  className="color-secondary">Terminal</h6>
+            <h6  className="color-secondary">Terminal</h6>
         </div>
    
 
@@ -36,14 +36,14 @@ export default function Column() {
         </p>
 
         <h3 className="color-primary">Things I enjoy designing:</h3>
-        <p className="color-secondary">Ui,Web,Logos</p>
+        <h6 className="color-secondary">Ui,Web,Logos</h6>
         <h4 className="color-primary">Design Tools:</h4>
-        <p className="color-secondary">Inkscape</p>
-        <p className="color-secondary">Sketch</p>
-        <p className="color-secondary">Pencil & Paper</p>
-        <p className="color-secondary">Web flow</p>
-        <p className="color-secondary">Figma</p>
-        <p className="color-secondary">Boxy-SVG</p>
+        <h6 className="color-secondary">Inkscape</h6>
+        <h6 className="color-secondary">Sketch</h6>
+        <h6 className="color-secondary">Pencil & Paper</h6>
+        <h6 className="color-secondary">Web flow</h6>
+        <h6 className="color-secondary">Figma</h6>
+        <h6 className="color-secondary">Boxy-SVG</h6>
         </div>
       
 
@@ -57,14 +57,14 @@ export default function Column() {
         </p>
 
         <h3 className="color-primary">Experience I draw from:</h3>
-        <p  className="color-secondary">Ui, Product Design</p>
+        <h6  className="color-secondary">Ui, Product Design</h6>
         <h4 className="color-primary">Mentor stats:</h4>
-        <p className="color-secondary">3 years experience</p>
-        <p className="color-secondary">2 short courses</p>
-          <p className="color-secondary">1 bootcamp</p>
-          <p className="color-secondary">over 8+ logo designs</p>
-          <p className="color-secondary">SEO strategies</p>
-           <p className="color-secondary">TEST DOME CERTIFICATE</p>
+        <h6 className="color-secondary">3 years experience</h6>
+        <h6 className="color-secondary">2 short courses</h6>
+          <h6 className="color-secondary">1 bootcamp</h6>
+          <h6 className="color-secondary">over 8+ logo designs</h6>
+          <h6 className="color-secondary">SEO strategies</h6>
+           <h6 className="color-secondary">TEST DOME CERTIFICATE</h6>
       </div>
     </section>
       

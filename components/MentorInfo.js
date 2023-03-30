@@ -15,9 +15,9 @@ export default function MentorInfo() {
                <div className="feature">
       <h2 className="feature-title">Benefits of Mentorship</h2>
       <p className="feature-para">
-            I know a thing or two because I&apos;ve done a<br/>
-            thing or two in my design career, and<br/>
-            I&apos;m committed to helping you make use<br/>
+            I know a thing or two because I&apos;ve done a
+            thing or two in my design career, and
+            I&apos;m committed to helping you make use
             of that knowledge.
       </p>
     </div>
