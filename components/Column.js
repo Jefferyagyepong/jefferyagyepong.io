@@ -3,7 +3,7 @@ export default function Column() {
     return (
   
        <section className="columns section-p1">
-        <div className="column">
+        <div className="column"  >
            <Image src="static/devicon.svg" width={190} height={190} alt="Icon developer"/>
         <h2 className="color-primary">Front-end Developer</h2>
         <p className="color-secondary">
@@ -26,7 +26,7 @@ export default function Column() {
         </div>
    
 
-        <div className="column">
+        <div className="column" >
            <Image src="static/designericon.svg" width={190} height={190} alt="Icon designer"/>
         <h2 className="color-primary">Designer</h2>
         <p className="color-secondary">
