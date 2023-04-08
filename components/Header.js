@@ -8,7 +8,7 @@ export default function Header() {
              <Image src="/jefferylogo.png" width={50} height={55} alt="Jeffery Agyepong logo"/>
             
         </a>
-        <div className='menu'>
+        <div className='hides'>
             <BurgerMenu />
         </div>
       
