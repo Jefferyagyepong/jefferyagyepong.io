@@ -5,7 +5,7 @@ export default function Header() {
       <div  id="navbar">
         
           <a href="./">
-             <Image src="/jefferylogo.png" width={50} height={55} alt="Jeffery Agyepong logo"/>
+             <Image src="/jefferylogo.png" width={50} height={55} alt="Jeffery Agyepong logo" id='logo'/>
             
         </a>
         <div className='hides'>
