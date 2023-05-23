@@ -1,35 +1,35 @@
-import BurgerMenu from '../components/BurgerMenu'
+import Link from 'next/link';
 import Image from 'next/image';
 export default function Header() {
     return (
-      <div  id="navbar">
-        
+      <div className="Header">
+       
           <a href="./">
              <Image src="/jefferylogo.png" width={50} height={55} alt="Jeffery Agyepong logo" id='logo'/>
             
         </a>
-        <div className='hides'>
-            <BurgerMenu />
-        </div>
-      
- 
-  
-          <ul className='nav-link'>
-            <li className='nav-links'><a href="./mentorship" id="bound">Mentorship</a></li>
+          <section className="top-nav">
+   
+                    <input id="menu-toggle" type="checkbox" />
+                 
+    <label className='menu-button-container' htmlFor="menu-toggle">
+                        <div className='menu-button'></div>
+                    
+                         
+                    
+  </label>
+                    <ul className="menu">
+                        <li><Link href={"/mentorship"} className="salmon-mobile">Mentorship</Link></li>
+                        <li><Link  href={"/sayhello"}  className="salmon-mobile">Say Hello</Link></li>
 
-            <li className='nav-links'><a href="./sayhello" id="round">Say Hello</a></li>
-        </ul>
-     
-         
-      
-                
-  
-  
+
+    </ul>
+  </section>
+        
+   
+
       </div>
-    
   
-
-     
 
   );
 }

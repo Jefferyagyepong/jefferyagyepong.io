@@ -41,138 +41,82 @@ h1 {
    width: 100%;
  }
 
- .bm-burger-button {
-   position: fixed;
-   width: 22px;
-   height: 27px;
-  right: 26px;
-   top: 25px;
- }
 
- .bm-burger-bars {
-   background: black;
- }
-
- .bm-burger-bars-hover {
-   background: black;
- }
-
- .bm-cross-button {
-   height: 24px;
-   width: 24px;
- }
-
- .bm-cross {
-   background: black;
- }
-
- .bm-menu-wrap {
-   position: fixed;
-   height: 100%;
- }
-
- .bm-menu {
-   padding: 2.5em 1.5em 0;
-   font-size: 1em;
-   background: black;
- }
-
- bm-morph-shape {
-   fill: #373a47;
- }
-
- .bm-item-list {
-   color: #fff;
- }
-
- .bm-item {
-   display: inline-block;
-   text-align: start;
-   padding: 1.3rem;
-   font-weight: 600;
-   color: #fff;
- }
-
- .bm-item:hover {
-   color: #000;
- }
-
- .bm-overlay {
-   background: rgba(0, 0, 0, 0.3);
- }
 
 
 
 /*styling mobile(smartphone) media queries
+
+
 */
 
 
 
 @media screen and (min-width: 320px) {
 
+  .Header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
-  .hides {
+  .menu {
     display: block;
   }
-  .nav-link{
-    display: none;
+
+  .top-nav {
+    display: block;
   }
-  #logo{
-    margin-left: 1rem;
-  }
+
+    .nav-link {
+      display: none;
+    }
+  
+    #logo {
+      margin-left: 1rem;
+    }
+
+
 }
 
 @media screen and (min-width: 550px) {
-
-  .hides {
-    display: none;
-  }
-        .nav-link {
-          display: block;
-    
-        }
-
-
+  .nav-link {
+      display: block;
+  
+    }
 }
 
 @media screen and (min-width: 768px) {
 
-
-  .hides {
-    display: none;
-  }
         .nav-link {
-          display: block;
-    
-        }
-  
+            display: block;
+        
+          }
 }
 
 @media screen and (min-width: 960px) {
- 
 
-  .hides {
+  .Header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .menu {
     display: none;
   }
-                     .nav-link {
-                       display: block;
-          
-                     }
-          
-          
-                   
+
+  .top-nav {
+    display: none;
+  }
+.nav-link {
+  display: block;
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
