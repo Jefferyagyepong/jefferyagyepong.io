@@ -11,7 +11,7 @@ export default function Work() {
               Established in 2023 by Jeffery Agyepong and its Scheduled to
 launch on 08-04-23              
             </span>
-            <a className="hide-link" href="#">Visit  Website</a>
+            <a className="hide-link" href="https://coast-republic.vercel.app">Visit  Website</a>
 
             
      </div>
