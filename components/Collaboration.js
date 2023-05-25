@@ -1,5 +1,6 @@
 import {  faMessage } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Link from "next/link";
 export default function Collaboration() {
     return (
      
@@ -8,9 +9,14 @@ export default function Collaboration() {
       <p className="feature-para">
         I&apos;m always open to discussing product design work or partnership
         opportunities.
-      </p>
+        </p>
+        <div className="center-link">
+          
+          <Link href={"/conversation"} className="anchor"><FontAwesomeIcon icon={faMessage} width="20" ></FontAwesomeIcon>Start a conversation</Link>
 
-            <a className="center-link" href="/conversation.html"><FontAwesomeIcon icon={faMessage} width="20" />start a conversation </a>
+        </div>
+
+          
             
  
       </div>

@@ -1,63 +1,87 @@
-import Image from "next/image";
+
 import { faInstagram, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Link from "next/link.js";
+
+
 export default function Footer() {
-  
+ 
+
+
     return (
 
-     <footer class="section-p1">
-      <div class="col">
-      <Image src="/jefferylogo.png" width={50} height={50} alt="jeffery logo"/> <br/>  
-        <h4>Contact</h4>
-        <p><strong>Address: </strong> 10th Ave, McCarthy Hill, Accra</p>
-        <p><strong>Phone: </strong> +233 244736420</p>
-        <p><strong>Hours: </strong> 8:00 -18:00, Mon - sat</p>
-
-        <div className="follow">
-          <h4>Follow me</h4>
-          <div className="icon">
-            <a
+      
+      <footer className="footer">
+          <div className="container-footer">
+            <div className="row">
+              <div className="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+              
+                       <li>   <Link href="/conversation"  >   Start a Project Conversation</Link></li>
+                       <li> <Link href="/mentorship"  > Mentorship</Link></li>
+  
+                    
+                </ul>
+                
+              </div>
+               <div className="footer-col">
+                <h4>Follow me</h4>
+                <ul>
+                  <li></li>
+                       <li>            <Link
               href="https://twitter.com/jeffagyepong"
-              
+           className="icon"
               target="_blank"
-            >    <FontAwesomeIcon icon={faTwitter} width="20" /></a>
-            <a
+            ><FontAwesomeIcon icon={faTwitter} width={20} height={20} style={{color:"blue"}} /></Link></li>
+                       <li>          <Link
               href="mailto:jefferyagyepong05@gmail.com"
-          
+            className="icon"
               target="_blank"
-            >  <FontAwesomeIcon icon={faEnvelope} width="20" /></a>
-            <a
+            ><FontAwesomeIcon icon={faEnvelope} width={20} height={20}/></Link></li>
+  
+                       <li>  <Link
               href="https://www.linkedin.com/in/jeffery-agyepong-943ba0234"
-              
+               className="icon"
               target="_blank"
-            >  <FontAwesomeIcon icon={faLinkedin} width="20" /></a>
-            <a
+            ><FontAwesomeIcon icon={faLinkedin} width={20} height={20} style={{color:"red"}}/></Link></li>
+                  <li> <Link
               href="https://www.instagram.com/jefferyagyepong_/"
-            
+        className="icon"
               target="_blank"
-            >  <FontAwesomeIcon icon={faInstagram} width="20" /></a>
+            ><FontAwesomeIcon icon={faInstagram} width={20} height={20} style={{color:"orange"}}/></Link></li>
+                </ul>
+                
+              </div>
+              <div className="footer-col">
+                        <h4>Contact</h4>
+                   <address>   
+                10th Avenue Mccarthy Hill, Greater Accra, GH
+              </address>
+              <br/>
+                <Link  href="tel:+233244736420" className="white">(233) 244736420</Link><br/><br/>
+                   <Link  href="mailto:jefferyagyepong05@gmail.com"  className="white">jefferyagyepong05@gmail.com</Link>
+              </div>
+         
+              
+            </div>
+            
           </div>
-        </div>
-      </div>
-
-      <div className="col">
-        <h4>Quick links</h4>
-        <a href="/conversation.html"  className="footer-link">
-          Start a Project Conversation</a
-        >
-        <a href="/chat.html"  className="footer-link">Say Hello</a>
-      </div>
-
-      <div className="coast">
+        <div className="footer-bottom">
         
-
-        <p>Handcrafted by Jeffery Agyepong &copy;2023</p>
-        <p>All rights Reserved</p>
-      </div>
-    </footer>
-     
-     
-
+            <p   className="copyright">
+                
+          Handcrafted by Jeffery Agyepong  all rights reserved {' '}   &copy;   {new Date().getFullYear()}
+          </p>
+  
+          </div>
+          
+      </footer>
+   
+   
+   
   );
 }
+
+

@@ -97,21 +97,19 @@ margin-bottom: 3rem;
     margin: 0 auto;
 }
 .center-link {
-
-
-  border: 2px solid #fff;
-  border-radius: 25px;
-  padding: 17px 20px;
-  text-align: center;
-  color: #fff;
+ width: 100%;
  display: flex;
- flex-direction: row;
  align-items: center;
  justify-content: center;
- gap: .9rem;
- max-width: 20%;
- margin: 0 auto;
 
+
+}
+.anchor{
+  border: 2px solid #fff;
+  text-align: center;
+  padding: 10px 12px;
+  border-radius: 7px;
+  color: #fff;
 }
 .center-link:hover {
 color: #000;

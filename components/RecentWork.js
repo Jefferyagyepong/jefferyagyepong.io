@@ -1,5 +1,6 @@
 import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Link from "next/link";
 export default function RecentWork() {
     return (
      
@@ -10,7 +11,11 @@ export default function RecentWork() {
         more?
 
         </p>
-                <a href="mailto:agyepong9jeff@icloud.com" class="center-link"><FontAwesomeIcon icon={faEnvelope} width="20" /> Email me</a>
+        <div className="center-link">
+           <Link href={"mailto:agyepong9jeff@icloud.com"}  className="anchor"><FontAwesomeIcon icon={faEnvelope} width="20" ></FontAwesomeIcon>Email me</Link>
+
+        </div>
+               
     </div>
 
    

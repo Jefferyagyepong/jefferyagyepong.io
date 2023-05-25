@@ -15,7 +15,7 @@ export default function Welcome() {
     <div className="feature">
       <h2 className="feature-title">Being a designer is tough..</h2>
       <p className="feature-para">
-        It seems like every other day there&pos;s a new design trend to learn, tool
+        It seems like every other day there&apos;s a new design trend to learn, tool
         to master, and endless design-related articles to read. Honestly, it can
         be overwhelming and intimidating. I know because I&apos;ve walked more than a
         few miles in those shoes. So whether yo&apos;re new to the field or simply
