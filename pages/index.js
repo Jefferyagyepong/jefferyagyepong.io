@@ -31,9 +31,9 @@ export default function Home() {
       <Head>
         <title>Jeffery Agyepong | Front-End Developer</title>
            <meta property="og:title" content="Jeffery Agyepong | Front-End Developer" />
-<meta property="og:type" content="" />
-<meta property="og:url" content="https://jjefferyagyepong.com"/>
-<meta property="og:image" content="" />
+<meta property="og:type" content="Portfolio website" />
+<meta property="og:url" content="https://jefferyagyepong-io.vercel.app"/>
+<meta property="og:image" content="/favicon.ico" />
              
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="author" content="Jeffery Agyepong" />
