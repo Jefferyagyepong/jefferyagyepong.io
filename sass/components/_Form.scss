@@ -6,7 +6,6 @@
    
 }
 form{
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -14,6 +13,7 @@ form{
     margin-bottom: 4rem;
 display: -webkit-box;
     display: -ms-flexbox;
+    display: flex;
     -webkit-box-pack: space-evenly;
     -ms-flex-pack: space-evenly;
 }
@@ -33,13 +33,13 @@ select{
     display: inline-block;
 }
 .inline{
-    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 2rem;
     display: -webkit-box;
         display: -ms-flexbox;
+            display: flex;
         -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
 }

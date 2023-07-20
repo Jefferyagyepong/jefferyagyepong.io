@@ -1,5 +1,10 @@
 
 .columns{
+    display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
   display: flex;
   flex-flow: row ;
   justify-content: center;

@@ -34,7 +34,7 @@ export default function Footer() {
               href="https://twitter.com/jeffagyepong"
            className="icon"
               target="_blank"
-            ><FontAwesomeIcon icon={faTwitter} width={20} height={20} style={{color:"blue"}} /></Link></li>
+            ><FontAwesomeIcon icon={faTwitter} width={20} height={20}  /></Link></li>
                        <li>          <Link
               href="mailto:jefferyagyepong05@gmail.com"
             className="icon"
@@ -45,12 +45,12 @@ export default function Footer() {
               href="https://www.linkedin.com/in/jeffery-agyepong-943ba0234"
                className="icon"
               target="_blank"
-            ><FontAwesomeIcon icon={faLinkedin} width={20} height={20} style={{color:"red"}}/></Link></li>
+            ><FontAwesomeIcon icon={faLinkedin} width={20} height={20} /></Link></li>
                   <li> <Link
               href="https://www.instagram.com/jefferyagyepong_/"
         className="icon"
               target="_blank"
-            ><FontAwesomeIcon icon={faInstagram} width={20} height={20} style={{color:"orange"}}/></Link></li>
+            ><FontAwesomeIcon icon={faInstagram} width={20} height={20} /></Link></li>
                 </ul>
                 
               </div>

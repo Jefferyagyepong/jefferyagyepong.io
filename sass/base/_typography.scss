@@ -9,6 +9,7 @@ h1 {
    font-size: 1.8rem;
  }
 
+
  h3 {
    font-size: 1.5rem;
    text-align: center;
@@ -29,6 +30,7 @@ h1 {
 
       text-align: center;
         color: #fff;
+        width: 77%;
      
 
     }
@@ -43,80 +45,3 @@ h1 {
 
 
 
-
-
-/*styling mobile(smartphone) media queries
-
-
-*/
-
-
-
-@media screen and (min-width: 320px) {
-
-  .Header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .menu {
-    display: block;
-  }
-
-  .top-nav {
-    display: block;
-  }
-
-    .nav-link {
-      display: none;
-    }
-  
-    #logo {
-      margin-left: 1rem;
-    }
-
-
-}
-
-@media screen and (min-width: 550px) {
-  .nav-link {
-      display: block;
-  
-    }
-}
-
-@media screen and (min-width: 768px) {
-
-        .nav-link {
-            display: block;
-        
-          }
-}
-
-@media screen and (min-width: 960px) {
-
-  .Header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .menu {
-    display: none;
-  }
-
-  .top-nav {
-    display: none;
-  }
-.nav-link {
-  display: block;
-
-}
-}

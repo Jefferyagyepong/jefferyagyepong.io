@@ -16,7 +16,11 @@
     color: #141c3a;
 }
 .flex-box{
-  
+    display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
 width: 100%;
 display: flex;
 flex-flow: row;
@@ -25,13 +29,18 @@ justify-content: space-evenly;
 
 }
 .see-more{
-    border: 2px solid #6e25ef;
+    border: 2px solid #bafdce;
     padding: 12px 14px;
     margin-top: 3rem;
     border-radius: 12px;
 }
 
 .flex-item{
+    display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -42,6 +51,11 @@ height: 45vh;
 
 }
 .flex-items {
+    display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
 
     width: 40rem;
     flex-basis: auto;
@@ -69,8 +83,8 @@ background-color: #141c3a;
     background-color: greenyellow;
 }
 .hide a{
-    border: 1px solid #6e25ef;
-    color: #fff;
+    border: 1px solid #bafdce;
+    color: #000;
     border-radius: 15px;
     padding: 12px 14px;
  
@@ -78,8 +92,8 @@ background-color: #141c3a;
  
 }
 .hide a:hover{
-   background-color: #6e25ef;
-   color: #fff;
+   background-color: #bafdce;
+   color: #000;
  
 }
 .hide {
@@ -121,6 +135,11 @@ background-color: skyblue;
 
 
 #display{
+    display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -155,14 +174,14 @@ margin-bottom: -5rem;
 
 .container {
   text-align: center;
-
+margin-top: 2rem;
    width: 100%;
 }
 
 
 .feature{
   
-    background-color: #6e25ef;
+    background-color: #222;
     padding-top: 90px;
   margin-top: 3rem;
     padding-bottom: 90px;
@@ -175,7 +194,7 @@ margin-bottom: -5rem;
     line-height: 2.9rem;
 }
 .feature-para {
-    color: #fff;
+    color: #eee;
     text-align: center;
             line-height: 2.4em;
             word-wrap: break-word;
@@ -184,14 +203,13 @@ margin-bottom: -5rem;
         font-size: small;
 }
 .color-secondary{
-    color: #141c3a;
-    text-align: center;
- 
+    color: #000;
+    text-align: center; 
    
    
 }
  .color-primary {
-     color: #6e25ef;
+     color: #fff;
      text-align: center;
 
  }

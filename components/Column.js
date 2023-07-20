@@ -20,8 +20,7 @@ export default function Column() {
         <h6  className="color-secondary">Bootstrap</h6>
       <h6 className="color-secondary">Vercel</h6>
         <h6  className="color-secondary">GitHub</h6>
-         
-          <h6  className="color-secondary">Terminal</h6>
+          <h6  className="color-secondary">Git</h6>
             <h6  className="color-secondary">Terminal</h6>
         </div>
    
