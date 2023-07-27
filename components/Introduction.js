@@ -26,7 +26,7 @@ export default function Introduction() {
          
                 <div className="feature ">
                     <h2 className="feature-title">Hi, I&apos;m Jeffery. Nice to meet you.</h2>
-                    <p className="feature-para">
+                    <p >
                         Since beginning my journey as a Web Developer and as a Designer nearly 3
                         years ago, I&apos;ve started with my projects, consulted for startups, and I&apos;m
                         willing to collaborate with talented people to create digital products

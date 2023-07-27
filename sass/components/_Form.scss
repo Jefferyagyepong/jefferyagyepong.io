@@ -1,5 +1,8 @@
 .form-wrapper{
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
  
   
  
@@ -20,14 +23,13 @@ display: -webkit-box;
 .input-field{
     padding: 1rem;
     border-radius: 5px;
-    width: 180px;
     max-width: 100%;
 }
 textarea{
     padding: 1rem;
     border-radius: 5px;
-  
-    max-width: 100%;
+    width: fit-content;
+
 }
 select{
     display: inline-block;
@@ -44,12 +46,17 @@ select{
         -ms-flex-pack: space-evenly;
 }
 .submit{
-    border: 2px solid #6e25ef;
+    border: 2px solid #000;
     padding: 12px 14px;
     text-align: center;
     border-radius: 15px;
     width: 110px;
     max-width: 100%;
+    transition: 0.3s;
  
+
+}
+.submit:hover {
+ border-color: orange;
 
 }

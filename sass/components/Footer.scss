@@ -142,7 +142,7 @@
      margin-bottom: 2rem;
     }
     #work{
-      width: 90%;
+      width: 96%;
       display: flex;
       flex-direction: row;
       background-color: #24262b;
@@ -152,5 +152,6 @@
       padding: 2rem;
       margin: 0 auto;
       margin-top: 3rem;
+      flex-wrap: wrap;
     }
    

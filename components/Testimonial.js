@@ -11,7 +11,7 @@ export default function Testimonial() {
                   <Image src="/chisom.jpeg"  alt="chisom -project-manager" width={50} height={55} />   
                 </div>
                 
-                <p className="color-secondary">“Jeffery was a real pleasure to work with and
+                <p className="black">“Jeffery was a real pleasure to work with and
                     we look forward to working with him again. He&apos;s definitely the kind
                     of designer you can trust with a project from start to finish.”</p>
                 <h5 >Nwike Chisom Stephen</h5>

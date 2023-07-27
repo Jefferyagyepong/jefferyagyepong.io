@@ -4,7 +4,7 @@ export default function Welcome() {
      
      <div id="welcome" >
       <h2>I haven&apos;t met you, and this is crazy...</h2>
-      <p className="color-secondary">But if you need a mentor, then email me maybe.</p>
+      <p className="black">But if you need a mentor, then email me maybe.</p>
   
 
     <div id="display2" >
@@ -14,7 +14,7 @@ export default function Welcome() {
 
     <div className="feature">
       <h2 className="feature-title">Being a designer is tough..</h2>
-      <p className="feature-para">
+      <p >
         It seems like every other day there&apos;s a new design trend to learn, tool
         to master, and endless design-related articles to read. Honestly, it can
         be overwhelming and intimidating. I know because I&apos;ve walked more than a

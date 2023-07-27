@@ -6,7 +6,7 @@ export default function Column() {
         <div className="column"  >
            <Image src="static/devicon.svg" width={190} height={190} alt="Icon developer"/>
         <h2 className="color-primary">Front-end Developer</h2>
-        <p className="color-secondary">
+        <p className="black">
             I like to code things from scratch,<br/>
             and enjoy bringing ideas to life in<br/>
           the browser.
@@ -28,7 +28,7 @@ export default function Column() {
         <div className="column" id="border-right">
            <Image src="static/designericon.svg" width={190} height={190} alt="Icon designer"/>
         <h2 className="color-primary">Designer</h2>
-        <p className="color-secondary">
+        <p className="black">
             I value simple content structure,<br/>
             clean design patterns, and thoughtful<br/>
             interactions.
@@ -49,7 +49,7 @@ export default function Column() {
         <div className="column">
            <Image src="static/mentoricon.svg" width={190} height={190} alt="Icon mentor"/>
         <h2 className="color-primary">Mentor</h2>
-        <p className="color-secondary">
+        <p  className="black">
             I genuinely care about people and<br/>
             love helping fellow designers work<br/>
           on their craft

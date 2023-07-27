@@ -30,9 +30,7 @@ export default function HelloForm (){
                
                    
                 <textarea
-                    cols="70"
-                    rows="15"
-                  
+                 
                 placeholder="Type your message..."
               
                   ></textarea>

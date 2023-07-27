@@ -1,13 +1,14 @@
 import {faHands} from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";   
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; 
+import Link from "next/link";  
 export default function SeeMore() {
     return ( 
 
-<div id="empty-text-back" className="section-m1">
-    
-   
-        <a className="see-more" href="" target="_blank" >  <FontAwesomeIcon icon={faHands} width="20" />  See more on Dribbble</a>
+
   
+          <div className="center-link">
+           <Link href="" target="blank"  className="see-more"><FontAwesomeIcon icon={faHands} width="20" ></FontAwesomeIcon> See more on Dribbble</Link>
+
         </div>
           );
 }
