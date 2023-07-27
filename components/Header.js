@@ -5,7 +5,7 @@ export default function Header() {
       <div className="Header">
        
           <a href="./">
-             <Image src="/jefferylogo.png" width={50} height={55} alt="Jeffery Agyepong logo" id='logo'/>
+             <Image src="/ja.svg" width={80} height={85} alt="Jeffery Agyepong logo" id='logo'/>
             
         </a>
           <section className="top-nav">
