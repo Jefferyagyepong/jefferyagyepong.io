@@ -30,7 +30,7 @@ export default function Introduction() {
                         Since beginning my journey as a Web Developer and as a Designer nearly 3
                         years ago, I&apos;ve started with my projects, consulted for startups, and I&apos;m
                         willing to collaborate with talented people to create digital products
-                        for both business and consumer use. I&apos;m quietly confident,naturally
+                        for both business and consumer use. I&apos;m quietly confident, naturally
                         curious, and perpetually working on improving my chops one design
                         problem at a time.
                     </p>
