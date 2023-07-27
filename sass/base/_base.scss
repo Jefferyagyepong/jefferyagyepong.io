@@ -12,15 +12,18 @@
   width: 4px;
   border: 1px solid #000;
   scroll-behavior: smooth;
+  transition: 0.3s ease;
 }
 
 ::-webkit-scrollbar-track {
   scroll-behavior: smooth;
   border-radius: 0;
+    transition: 0.3s ease;
  }
 
 ::-webkit-scrollbar-thumb {
   border-radius: 0;
+    transition: 0.3s ease;
  }
 
 html {
