@@ -121,7 +121,7 @@ top: 0;
   .menu {
     position: absolute;
     top: 0;
-    margin-top: 70px;
+    margin-top: 90px;
     right: 0;
     flex-direction: column;
     width: 100%;
@@ -136,6 +136,7 @@ top: 0;
     padding: 0;
     border: 0;
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    background-color: #141c3aff;
   }
 
   #menu-toggle:checked~.menu li {

@@ -28,27 +28,22 @@ export default function Footer() {
               </div>
                <div className="footer-col">
                 <h4>Follow me</h4>
-                <ul>
-                  <li></li>
+                <ul  className="inline-block">
                        <li>            <Link
               href="https://twitter.com/jeffagyepong"
-           className="icon"
               target="_blank"
             ><FontAwesomeIcon icon={faTwitter} width={20} height={20}  /></Link></li>
                        <li>          <Link
               href="mailto:jefferyagyepong05@gmail.com"
-            className="icon"
               target="_blank"
             ><FontAwesomeIcon icon={faEnvelope} width={20} height={20}/></Link></li>
   
                        <li>  <Link
               href="https://www.linkedin.com/in/jeffery-agyepong-943ba0234"
-               className="icon"
               target="_blank"
             ><FontAwesomeIcon icon={faLinkedin} width={20} height={20} /></Link></li>
                   <li> <Link
               href="https://www.instagram.com/jefferyagyepong_/"
-        className="icon"
               target="_blank"
             ><FontAwesomeIcon icon={faInstagram} width={20} height={20} /></Link></li>
                 </ul>

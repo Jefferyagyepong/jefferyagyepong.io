@@ -47,18 +47,9 @@ export default function ConversationForm() {
               </select>
                 
               </div>
-            
-
-                  
-
-
-
-
                 
                 <textarea
-                    cols="55"
-                    rows="10"
-                    name="Comment"
+                  
               placeholder="Additional details..."
               
                   ></textarea>
