@@ -7,42 +7,46 @@ export default function Column() {
            <Image src="static/devicon.svg" width={190} height={190} alt="Icon developer"/>
         <h2 className="color-primary">Front-end Developer</h2>
         <p className="black">
-            I like to code things from scratch,<br/>
-            and enjoy bringing ideas to life in<br/>
+            I like to code things from scratch,
+            and enjoy bringing ideas to life in
           the browser.
         </p>
 
         <h3 className="color-primary">Languages I speak:</h3>
-        <h6  className="color-secondary">HTML5, CSS3, Javascript, Git, Sass</h6>
+        <h4   className="color-secondary">HTML5, CSS3, Javascript</h4>
 
-        <h4 className="color-primary">Dev Tools:</h4>
-        <h6  className="color-secondary">Visual Studio Code</h6>
-        <h6  className="color-secondary">Bootstrap</h6>
-      <h6 className="color-secondary">Vercel</h6>
-        <h6  className="color-secondary">GitHub</h6>
-          <h6  className="color-secondary">Git</h6>
-            <h6  className="color-secondary">Terminal</h6>
+        <h5  className="black">Dev Tools:</h5>
+        <h6  className="black">Visual Studio Code</h6>
+        <h6   className="black">Dev Http</h6>
+        <h6   className="black">GitHub</h6>
+          <h6  className="black">Git</h6>
+          <h6  className="black">Terminal</h6>
+          <h6  className="black">PostMan</h6>
+          
         </div>
+        <hr/>
    
 
-        <div className="column" id="border-right">
+        <div className="column">
            <Image src="static/designericon.svg" width={190} height={190} alt="Icon designer"/>
         <h2 className="color-primary">Designer</h2>
         <p className="black">
-            I value simple content structure,<br/>
-            clean design patterns, and thoughtful<br/>
+            I value simple content structure,
+            clean design patterns, and thoughtful
             interactions.
         </p>
 
         <h3 className="color-primary">Things I enjoy designing:</h3>
-        <h6 className="color-secondary">Ui,Web,Logos</h6>
-        <h4 className="color-primary">Design Tools:</h4>
-        <h6 className="color-secondary">Inkscape</h6>
-        <h6 className="color-secondary">Sketch</h6>
-        <h6 className="color-secondary">Pencil & Paper</h6>
-        <h6 className="color-secondary">Web flow</h6>
-        <h6 className="color-secondary">Figma</h6>
-        <h6 className="color-secondary">Boxy-SVG</h6>
+          <h4 className="color-secondary">Ui, Web, Logos</h4>
+          
+
+          <h5  className="color-primary">Design Tools:</h5>
+          <h6 className="black">Adobe creative suite</h6>
+        <h6  className="black">Inkscape</h6>
+        <h6  className="black">Pencil & Paper</h6>
+        <h6  className="black">Web flow</h6>
+        <h6  className="black">Figma</h6>
+        <h6  className="black">Gimp</h6>
         </div>
       
 
@@ -50,16 +54,17 @@ export default function Column() {
            <Image src="static/mentoricon.svg" width={190} height={190} alt="Icon mentor"/>
         <h2 className="color-primary">Mentor</h2>
         <p  className="black">
-            I genuinely care about people and<br/>
-            love helping fellow designers work<br/>
+            I genuinely care about people and
+            love helping fellow designers work
           on their craft
         </p>
 
         <h3 className="color-primary">Experience I draw from:</h3>
-        <h6  className="color-secondary">Ui, Product Design</h6>
-        <h4 className="color-primary">Mentor stats:</h4>
+          <h4 className="color-secondary">Ui, Product Design</h4>
+          
+        <h5 className="color-primary">Mentor stats:</h5>
         <h6 className="color-secondary">3 years experience</h6>
-        <h6 className="color-secondary">2 short courses</h6>
+        <h6 className="color-secondary">4 short courses</h6>
           <h6 className="color-secondary">1 bootcamp</h6>
           <h6 className="color-secondary">over 8+ logo designs</h6>
           <h6 className="color-secondary">SEO strategies</h6>

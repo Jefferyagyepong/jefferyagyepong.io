@@ -1,18 +1,11 @@
 
       .test1{
 
-    
-    margin-bottom:10px;
-
-   color: #141c3a;
-  
-    position: relative;
+   color: #141c3a; 
 }
 
 .test2{
-  
-
-    margin-bottom: 20px;
+padding-top: 3rem;
     color: #141c3a;
 }
 .flex-box{
@@ -36,7 +29,8 @@ justify-content: space-evenly;
     justify-content: center;
     gap: 1rem;
     margin-top: 3rem;
-    color: #000;
+    color: #141c3aff;
+ 
  
 }
 .see-mores {
@@ -47,7 +41,7 @@ justify-content: space-evenly;
         justify-content: center;
         gap: 1rem;
         margin-top: 3rem;
-        color: #fff;
+        color: #141c3aff;
 
 }
 
@@ -100,7 +94,7 @@ background-color: #141c3a;
 }
 .hide a{
     border: 1px solid #bafdce;
-    color: #000;
+    color: #141c3aff;
     border-radius: 15px;
     padding: 12px 14px;
  
@@ -109,7 +103,7 @@ background-color: #141c3a;
 }
 .hide a:hover{
    background-color: #bafdce;
-   color: #000;
+   color: #141c3aff;
  
 }
 .hide {
@@ -161,22 +155,21 @@ background-color: skyblue;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 7rem;
+
 
 
 }
 #display2 {
     width: 100%;
   margin: 20px auto;
-margin-bottom: -5rem;
+  
+
 >div{
     position: unset !important;
 }
 .image{
     object-fit: contain;
     width: 66% !important;
-    position: relative !important;
-    height: unset !important;
 }
 }
 
@@ -189,23 +182,18 @@ margin-bottom: -5rem;
 }
 
 .container {
-  text-align: center;
-margin-top: 4rem;
+    text-align: center;
    width: 100%;
+   margin-top: 15rem;
 }
 
 
 .feature{
   
-    background-color: #222;
-    padding-top: 90px;
-  margin-top: 3rem;
-    padding-bottom: 90px;
-  
+width: 100%;
 }
 .feature-title{
     padding-top: 3rem;
-    color: #fff;
-    padding-bottom: 5rem;
-    line-height: 2.9rem;
+    text-align: center;
+    color: #141c3a;
 }

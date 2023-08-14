@@ -1,113 +1,394 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="1122.5197"
-   height="793.70081"
-   viewBox="0 0 297 210"
-   version="1.1"
-   id="svg5"
-   inkscape:version="1.1.2 (b8e25be8, 2022-02-05)"
-   sodipodi:docname="ja.svg"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview7"
-     pagecolor="#ffffff"
-     bordercolor="#cccccc"
-     borderopacity="1"
-     inkscape:pageshadow="0"
-     inkscape:pageopacity="1"
-     inkscape:pagecheckerboard="0"
-     inkscape:document-units="px"
-     showgrid="false"
-     units="px"
-     inkscape:zoom="0.39108446"
-     inkscape:cx="448.75217"
-     inkscape:cy="489.66405"
-     inkscape:window-width="1280"
-     inkscape:window-height="703"
-     inkscape:window-x="0"
-     inkscape:window-y="25"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="layer1" />
-  <defs
-     id="defs2" />
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1">
-    <g
-       id="g8442"
-       transform="translate(16.91344,8.118451)">
-      <g
-         aria-label="J"
-         id="text1222"
-         style="font-size:187.314px;line-height:1.25;font-family:College;-inkscape-font-specification:College;stroke-width:2.59908">
-        <path
-           d="m 65.469648,103.45852 v 18.29239 H 102.05441 V 30.288995 H 92.908222 V 11.996613 h 36.584768 v 18.292382 h -9.14619 v 95.120385 l -14.63391,14.63391 H 61.811172 L 47.177266,125.40938 v -21.95086 z"
-           id="path830" />
-      </g>
-      <g
-         aria-label="A"
-         id="text2458"
-         style="font-size:155.644px;line-height:1.25;font-family:College;-inkscape-font-specification:College;stroke-width:2.15964">
-        <path
-           d="m 132.66262,171.164 v -15.19961 h 7.5998 l 22.79942,-91.197652 h 15.1996 l 22.79942,91.197652 h 7.5998 V 171.164 h -30.39922 v -15.19961 h 7.59981 l -3.7999,-15.19961 h -22.79942 l -3.7999,15.19961 h 7.59981 V 171.164 Z m 37.99902,-75.998044 -7.5998,30.399214 h 15.1996 z"
-           id="path833" />
-      </g>
-      <g
-         aria-label="effery"
-         transform="rotate(-89.772937)"
-         id="text4224"
-         style="font-size:16.166px;line-height:1.25;font-family:College;-inkscape-font-specification:College;stroke-width:0.224313">
-        <path
-           d="m -105.93828,138.9024 v -11.05097 h 6.314849 v 1.57871 h -4.736129 v 3.15742 h 3.15742 v 1.57871 h -3.15742 v 3.15742 h 4.736129 v 1.57871 z"
-           id="path836" />
-        <path
-           d="m -98.04472,138.9024 v -11.05097 h 6.314843 v 1.57871 h -4.736132 v 3.15742 h 3.157421 v 1.57871 h -3.157421 v 4.73613 z"
-           id="path838" />
-        <path
-           d="m -90.151166,138.9024 v -11.05097 h 6.314844 v 1.57871 h -4.736133 v 3.15742 h 3.157422 v 1.57871 h -3.157422 v 4.73613 z"
-           id="path840" />
-        <path
-           d="m -82.257611,138.9024 v -11.05097 h 6.314844 v 1.57871 H -80.6789 v 3.15742 h 3.157422 v 1.57871 H -80.6789 v 3.15742 h 4.736133 v 1.57871 z"
-           id="path842" />
-        <path
-           d="m -74.364056,138.9024 v -11.05097 h 5.051875 l 1.262969,1.26297 v 3.7889 l -0.473614,0.47362 0.473614,0.47361 v 5.05187 h -1.578711 v -4.73613 h -3.157422 v 4.73613 z m 1.578711,-6.31484 h 3.157422 v -3.15742 h -3.157422 z"
-           id="path844" />
-        <path
-           d="m -66.470502,127.85143 h 1.578711 l 2.368067,4.14411 2.368066,-4.14411 h 1.578711 l -3.157422,5.52549 v 5.52548 h -1.578711 v -5.52548 z"
-           id="path846" />
-      </g>
-      <g
-         aria-label="gyepong"
-         id="text6218"
-         style="font-size:13.1302px;line-height:1.25;font-family:College;-inkscape-font-specification:College;stroke-width:0.182189">
-        <path
-           d="m 148.23395,188.07744 -1.0258,-1.0258 v -6.92413 l 1.0258,-1.02579 h 3.07739 l 1.0258,1.02579 v 1.5387 h -1.28225 v -1.28225 h -2.56449 v 6.41123 h 2.56449 v -2.56449 h -1.28224 v -1.28225 h 2.56449 v 4.10319 l -1.0258,1.0258 z"
-           id="path849" />
-        <path
-           d="m 153.61939,179.10172 h 1.28224 l 1.92337,3.36589 1.92337,-3.36589 h 1.28225 l -2.5645,4.48786 v 4.48786 h -1.28224 v -4.48786 z"
-           id="path851" />
-        <path
-           d="m 161.31286,188.07744 v -8.97572 h 5.12899 v 1.28224 h -3.84674 v 2.56449 h 2.56449 v 1.28225 h -2.56449 v 2.56449 h 3.84674 v 1.28225 z"
-           id="path853" />
-        <path
-           d="m 167.72409,188.07744 v -8.97572 h 4.10319 l 1.0258,1.02579 v 3.07739 l -1.0258,1.0258 h -2.82094 v 3.84674 z m 1.28225,-5.12899 h 2.56449 v -2.56449 h -2.56449 z"
-           id="path855" />
-        <path
-           d="m 175.16112,188.07744 -1.0258,-1.0258 v -6.92413 l 1.0258,-1.02579 h 3.07739 l 1.0258,1.02579 v 6.92413 l -1.0258,1.0258 z m 0.25645,-1.28225 h 2.56449 v -6.41123 h -2.56449 z"
-           id="path857" />
-        <path
-           d="m 180.54655,188.07744 v -8.97572 h 1.28225 l 3.20561,6.15478 v -6.15478 h 1.28225 v 8.97572 h -1.28225 l -3.20561,-6.15478 v 6.15478 z"
-           id="path859" />
-        <path
-           d="m 188.62471,188.07744 -1.0258,-1.0258 v -6.92413 l 1.0258,-1.02579 h 3.07739 l 1.02579,1.02579 v 1.5387 h -1.28224 v -1.28225 h -2.56449 v 6.41123 h 2.56449 v -2.56449 h -1.28225 v -1.28225 h 2.56449 v 4.10319 l -1.02579,1.0258 z"
-           id="path861" />
-      </g>
-    </g>
+<svg width="1122.5" height="793.7" version="1.1" viewBox="0 0 297 210" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <font id="font5421" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-0" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-4" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-00" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-0-5" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-4-7" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-8" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-0-4" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-4-73" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-84" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-0-8" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-4-4" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-00-6" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-0-5-0" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-4-7-6" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-8-1" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-0-4-6" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-4-73-2" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-7" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-0-44" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-4-2" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-00-63" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-0-5-2" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-4-7-9" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-8-3" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-0-4-9" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-4-73-22" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-08" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-0-9" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-4-77" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-00-3" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-0-5-4" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-4-7-2" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-8-10" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-0-4-2" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-4-73-9" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-84-8" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-0-8-9" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-4-4-7" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-00-6-7" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-0-5-0-8" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-4-7-6-2" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-8-1-3" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-0-4-6-7" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-4-73-2-9" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-2" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-0-34" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-4-9" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-00-0" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-0-5-7" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-4-7-50" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-8-3-6" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-0-4-3" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-4-73-24" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-86" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-0-3" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-4-4-9" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-00-7" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-0-5-2-8" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-4-7-5" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-8-8" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-0-4-1" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <font id="font5421-4-73-2-2" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+   <glyph glyph-name="glyph 1"/>
+   <glyph glyph-name="glyph 2"/>
+  </font>
+  <filter id="filter5047" x="-.012192" y="-.020074" width="1.0244" height="1.0401" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="0.090224732"/>
+  </filter>
+ </defs>
+ <g stroke="#fff">
+  <g transform="translate(-23.478 -9.6722)" fill="#141c3a" filter="url(#filter5047)" opacity=".74757" stroke-width="2.5328" aria-label="JA">
+   <path d="m115.45 127.96v7.3873h14.775v-44.324h-7.3872v-14.775h29.549v14.775h-7.3872v47.278l-11.82 11.82h-20.684l-11.82-11.82v-10.342z"/>
+   <path d="m163.21 150.12v-14.775h7.3872l14.775-59.098h14.775l14.775 59.098h7.3873v14.775h-28.494v-14.775h6.3319l-1.8468-7.3873h-11.081l-1.8468 7.3873h6.3319v14.775zm29.549-44.324-1.8468 7.3873h3.6936z"/>
   </g>
+  <path d="m212.43 98.912a74.419 8.4567 0 0 1-74.419 8.4567 74.419 8.4567 0 0 1-74.419-8.4567 74.419 8.4567 0 0 1 74.419-8.4567 74.419 8.4567 0 0 1 74.419 8.4567z" fill-rule="evenodd" opacity=".15534" stroke-opacity=".96078" stroke-width="1.8526" style="paint-order:stroke markers fill"/>
+ </g>
 </svg>

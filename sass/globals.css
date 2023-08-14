@@ -1,89 +1,93 @@
-@charset "UTF-8";
+@import "../abstracts/variables";
+
 *,
 *::after,
 *::before {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 ::-webkit-scrollbar {
   height: 6px;
   /* height of horizontal scrollbar ← You're missing this */
   width: 4px;
-  border: 1px solid #d5d5d5;
+  border: 1px solid #000;
+  scroll-behavior: smooth;
+  transition: 0.3s ease;
 }
 
 ::-webkit-scrollbar-track {
+  scroll-behavior: smooth;
   border-radius: 0;
-  background: #c5cae921;
+  transition: 0.3s ease;
 }
 
 ::-webkit-scrollbar-thumb {
   border-radius: 0;
-  background: #2196f3;
+  transition: 0.3s ease;
 }
 
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+  transition: 0.3s ease;
 }
+
+
+
 
 body {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  text-rendering: optimizeLegibility;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-family: "Helvertica", sans-serif;
+
 }
 
-h4 {
-  border-left: 2rem solid #2196f3;
+a {
+  text-decoration: none;
 }
 
-h6 {
-  font-size: 1.6rem;
-  width: 95%;
-  margin: 0 auto;
-}
+
+
 
 .MyApp {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   min-height: 100vh;
 }
 
 button {
   outline: 0 !important;
-  -webkit-transition: all 0.25s;
   transition: all 0.25s;
-}
 
-button:active, button:hover {
-  -webkit-transition: all 0.25s;
-  transition: all 0.25s;
-  outline: #2196f3;
+  &:active,
+  &:hover {
+    transition: all 0.25s;
+
+  }
 }
 
 body,
 html {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   min-height: 100vh;
-  background-color: white;
 }
 
 footer {
   margin-top: auto;
-  width: 100%;
 }
-/*# sourceMappingURL=global.css.map */
+
+li {
+  list-style: none;
+}
+
+ img {
+   width: 100%;
+   height: 100%;
+ }
+

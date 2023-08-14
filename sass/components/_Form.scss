@@ -28,8 +28,7 @@ display: -webkit-box;
 textarea{
     padding: 1rem;
     border-radius: 5px;
-    width: fit-content;
-
+    max-width: 100%;
 }
 select{
     display: inline-block;
@@ -46,7 +45,7 @@ select{
         -ms-flex-pack: space-evenly;
 }
 .submit{
-    border: 2px solid #000;
+    border: 2px solid #141c3a;
     padding: 12px 14px;
     text-align: center;
     border-radius: 15px;
@@ -57,6 +56,6 @@ select{
 
 }
 .submit:hover {
- border-color: orange;
+ border-color: #fff;
 
 }

@@ -1,6 +1,5 @@
 
      .footer-container {
-       max-width: 1170px;
        margin: auto;
      }
   
@@ -15,15 +14,15 @@
 
   
      .footer {
-      background-color: #222;
+      background-color: #141c3aff;
        padding: 70px 0;
        color: floralwhite;
        margin-top: 3rem;
      }
   
      #newsletter {
-       background-color: #fff;
-       color: #000;
+       background-color: #f0f0f0;
+       color: #141c3a;
        margin-top: 1.5rem;
        padding: .5rem 1rem;
        transition: 0.3s ease;
@@ -37,8 +36,8 @@
      }
   
      #newsletter:hover {
-       background-color: #000;
-       color: #bbbbbb;
+       background-color: #141c3a;
+       color: #f0f0f0;
   
   
      }
@@ -70,7 +69,7 @@
        position: absolute;
        left: 0;
        bottom: -10px;
-       background-color: #888888;
+       background-color: #f0f0f0;
        height: 2px;
        box-sizing: border-box;
        width: 50px;
@@ -109,7 +108,7 @@
      }
   
      .footer-col .social-links a:hover {
-       color: #24262b;
+       color: #141c3a;
        background-color: #ffffff;
      }
   
@@ -145,8 +144,7 @@
       width: 100%;
       display: flex;
       flex-direction: row;
-      background-color: #24262b;
-      color: #ffffff;
+      color: #141c3aff;
       align-items: center;
       justify-content: center;
       margin-top: 3rem;  
