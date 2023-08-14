@@ -14,7 +14,7 @@ export default function MentorInfo() {
         <br/>        <br/>        <br/>
                <div className="feature">
       <h2 className="feature-title">Benefits of Mentorship</h2>
-      <p className="white">
+      <p>
             I know a thing or two because I&apos;ve done a
             thing or two in my design career, and
             I&apos;m committed to helping you make use

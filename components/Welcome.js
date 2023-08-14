@@ -2,12 +2,15 @@ import Image from "next/image";
 export default function Welcome() {
     return (
      
-     <div id="welcome" >
+      <div id="welcome" >
+    
+        <div id="display2" >
+          <div className="container">
       <h2>I haven&apos;t met you, and this is crazy...</h2>
-      <p className="black">But if you need a mentor, then email me maybe.</p>
+      <p>But if you need a mentor, then email me maybe.</p>
+          </div>
+            
   
-
-    <div id="display2" >
       <Image src="/static/jefferymacbook.svg" className="image"  alt="dev Jeffery" width={290} height={290}/>     
 
     </div>
@@ -22,8 +25,9 @@ export default function Welcome() {
         looking for some guidance and support, I can help.
       </p>
             </div>
-              </div>
-
+          
+        </div>
+        
    
 
   );

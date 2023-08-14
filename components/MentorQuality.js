@@ -2,7 +2,7 @@ import Image from "next/image";
 export default function MentorQuality() {
     return (
      
-   <section className="flex-box">
+   <div className="flex-box">
         <div className="flex-items">
            <Image src="static/authenticity.svg"  alt="icon authenticity" width={190} height={190}/>     
     
@@ -43,7 +43,7 @@ export default function MentorQuality() {
           design journey.
         </p>
       </div>
-    </section>
+    </div>
 
    
 
