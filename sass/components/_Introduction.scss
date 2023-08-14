@@ -117,7 +117,11 @@ background-color: #141c3a;
    
 }
 #CoastRepublic{
-background-color: skyblue;
+background-image:url(/background.svg) ;
+background-size: cover;
+opacity: 2;
+background-position: center;
+background-repeat: no-repeat;
   
 }
 .flex-item:hover .hide-image{
