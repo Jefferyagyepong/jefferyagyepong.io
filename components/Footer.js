@@ -67,7 +67,7 @@ export default function Footer() {
         
             <p   className="copyright">
                 
-          Handcrafted by Jeffery Agyepong  all rights reserved {' '}   &copy;   {new Date().getFullYear()}
+        Jeffery Agyepong   {' '}   &copy;   {new Date().getFullYear()}
           </p>
   
           </div>

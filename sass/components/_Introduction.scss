@@ -85,6 +85,12 @@ height: 45vh;
 #Beelydrop:hover, #CoastRepublic:hover, #YoCho:hover{
 background-color: #141c3a;
 }
+
+#CoastRepublic:hover,
+#Beelydrop:hover,
+#YoCho:hover{
+    background-image: none;
+}
 #Beelydrop{
     background-color: goldenrod;
 
@@ -94,7 +100,7 @@ background-color: #141c3a;
 }
 .hide a{
     border: 1px solid #bafdce;
-    color: #141c3aff;
+    color: #fff;
     border-radius: 15px;
     padding: 12px 14px;
  
@@ -122,6 +128,7 @@ background-size: cover;
 opacity: 2;
 background-position: center;
 background-repeat: no-repeat;
+opacity: 2;
   
 }
 .flex-item:hover .hide-image{
@@ -201,3 +208,4 @@ width: 100%;
     text-align: center;
     color: #141c3a;
 }
+
