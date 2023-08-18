@@ -34,7 +34,7 @@ export default function Footer() {
               target="_blank"
             ><FontAwesomeIcon icon={faTwitter} width={20} height={20}  /></Link></li>
                        <li>          <Link
-              href="https://github.com/jefferyagyepong"
+              href="https://github.com/Jefferyagyepong"
               target="_blank"
             ><FontAwesomeIcon icon={faGithub} width={20} height={20}/></Link></li>
   
