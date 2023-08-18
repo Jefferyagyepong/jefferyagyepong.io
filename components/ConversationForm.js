@@ -4,8 +4,8 @@ export default function ConversationForm() {
      
      
       <div className="jeffery" >
-        <div id="display" className="section-p1">
-           <Image src="static/jeffery.svg" width={250} height={300} alt="dev jeffery"/>
+        <div id="display" >
+           <Image src="static/jeffery.svg" width={150} height={150} alt="dev jeffery"/>
 
 
       <p> Want to discuss a startup collaboration? I&apos;m most definitely game.</p>
@@ -48,14 +48,8 @@ export default function ConversationForm() {
                 
               </div>
                 
-                <textarea
-                  
-              placeholder="Additional details..."
-              
-                  ></textarea>
-
-                  
-
+              <textarea placeholder="Additional details..." />
+            
                              <input type="submit" name="submit" value="send"className="submit" />
                    
                 </form>

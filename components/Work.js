@@ -33,7 +33,7 @@ launch on 08-04-23
         
 
       <div className="flex-item" id="YoCho">
-        <Image  className="hide-image" src="static/YoCho.svg"  alt="Yo Cho"width={380} height={400} />   
+        <Image  className="hide-image" src="static/YoCho.svg"  alt="Yo Cho" width={380} height={400} />   
       
             <div className="hide">
             <span>Restaurant loacated at Backsaw ST Dompoase.

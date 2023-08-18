@@ -1,5 +1,5 @@
 
-import { faInstagram, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram, faLinkedin, faTwitter, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link.js";
@@ -34,9 +34,9 @@ export default function Footer() {
               target="_blank"
             ><FontAwesomeIcon icon={faTwitter} width={20} height={20}  /></Link></li>
                        <li>          <Link
-              href="mailto:jefferyagyepong05@gmail.com"
+              href="https://github.com/jefferyagyepong"
               target="_blank"
-            ><FontAwesomeIcon icon={faEnvelope} width={20} height={20}/></Link></li>
+            ><FontAwesomeIcon icon={faGithub} width={20} height={20}/></Link></li>
   
                        <li>  <Link
               href="https://www.linkedin.com/in/jeffery-agyepong-943ba0234"
