@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
-<svg width="1122.5" height="793.7" version="1.1" viewBox="0 0 297 210" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+<svg width="210mm" height="297mm" version="1.1" viewBox="0 0 210 297" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
  <defs>
   <font id="font5421" horiz-adv-x="1024" horiz-origin-x="144" horiz-origin-y="32" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
    <font-face font-family="SVGFont 1" ascent="16" cap-height="144" descent="32" units-per-em="1040"/>
@@ -1929,14 +1929,16 @@
    <glyph glyph-name="glyph 2"/>
   </font>
  </defs>
- <ellipse cx="148.2" cy="106.26" rx="37.825" ry="37.834" fill="#f8f8f8" stroke="#fff" stroke-width=".49407" style="paint-order:stroke markers fill"/>
- <g transform="matrix(.48196 -.027737 .02773 .48208 76.643 55.853)" fill="#141c3a" stroke="#141c3a">
-  <rect transform="matrix(.73367 .67951 -.76549 .64345 0 0)" x="140.54" y="-17.207" width="79.306" height="7.1184" stroke-width="3.7589px"/>
-  <path d="m177.56 81.046 3.4034 3.1522-72.073 60.582a1.7716 1.5632 0.070502 0 1-2.5047-0.0539l-3.4034-3.1522 72.073-60.582a1.7716 1.5632 0.070502 0 1 2.5047 0.05391z" stroke-width="3.7442px" bx:shape="rect 264.686 346.2 15.139 228.788 4 0 4 0 1@3459ef3b"/>
-  <rect transform="matrix(-.75429 .65655 .74538 .66664 0 0)" x="-54.17" y="183.4" width="1.6974" height="5.0292" rx=".58518" ry=".58426" stroke-width="2.0883px"/>
-  <path d="m174.8 138.12 2.5067 6.8466-8.4457-1.9088z" stroke-width="2.0801px" bx:shape="triangle 376.033 110.338 19.744 15.521 0.5 0 1@0b210796"/>
-  <rect transform="matrix(.73367 .67951 -.76549 .64345 0 0)" x="178.83" y="-64.544" width="1.8782" height="2.8721" stroke-width="2.0883px"/>
-  <rect transform="matrix(.77887 .62719 -.71903 .69498 0 0)" x="190.59" y="-44.345" width="2.4681" height="7.6475" rx="1.5536" ry="1.5371" stroke-width="2.0882px"/>
-  <rect transform="matrix(.78707 -.61686 .70942 .70478 0 0)" x="-31.64" y="178.21" width="3.9333" height="1.3276" rx=".84107" ry=".82949" stroke-width=".41763"/>
+ <g transform="translate(-10.148 6.7654)" stroke="#141c3a">
+  <ellipse cx="113.66" cy="136.66" rx="37.824" ry="37.833" fill="#f8f8f8" stroke-width="2" style="paint-order:stroke markers fill"/>
+  <g transform="matrix(.48195 -.027737 .02773 .48207 42.103 86.254)" fill="#141c3a">
+   <rect transform="matrix(.73367 .67951 -.76549 .64345 0 0)" x="140.54" y="-17.207" width="79.306" height="7.1184" stroke-width="3.7589px"/>
+   <path d="m177.56 81.046 3.4034 3.1522-72.073 60.582a1.7716 1.5632 0.070502 0 1-2.5047-0.0539l-3.4034-3.1522 72.073-60.582a1.7716 1.5632 0.070502 0 1 2.5047 0.05391z" stroke-width="3.7442px" bx:shape="rect 264.686 346.2 15.139 228.788 4 0 4 0 1@3459ef3b"/>
+   <rect transform="matrix(-.75429 .65655 .74538 .66664 0 0)" x="-54.17" y="183.4" width="1.6974" height="5.0292" rx=".58518" ry=".58426" stroke-width="2.0883px"/>
+   <path d="m174.8 138.12 2.5067 6.8466-8.4457-1.9088z" stroke-width="2.0801px" bx:shape="triangle 376.033 110.338 19.744 15.521 0.5 0 1@0b210796"/>
+   <rect transform="matrix(.73367 .67951 -.76549 .64345 0 0)" x="178.83" y="-64.544" width="1.8782" height="2.8721" stroke-width="2.0883px"/>
+   <rect transform="matrix(.77887 .62719 -.71903 .69498 0 0)" x="190.59" y="-44.345" width="2.4681" height="7.6475" rx="1.5536" ry="1.5371" stroke-width="2.0882px"/>
+   <rect transform="matrix(.78707 -.61686 .70942 .70478 0 0)" x="-31.64" y="178.21" width="3.9333" height="1.3276" rx=".84107" ry=".82949" stroke-width=".41763"/>
+  </g>
  </g>
 </svg>
