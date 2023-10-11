@@ -1,58 +1,78 @@
-.form-wrapper{
+.form-wrapper {
     width: 100%;
-
-
-}
-form{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
-    margin-bottom: 4rem;
+    padding: 20px;
+
 
 }
-.input-field{
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 4rem;
+
+
+
+}
+
+.input-field {
     padding: 1rem;
     border-radius: 5px;
     max-width: 100%;
+    width: 100%;
 }
-textarea{
-width: 66%;
-height: 22%;
+
+textarea {
+    width: 100%;
+    height: auto;
+
 
 }
-select{
+
+select {
     display: inline-block;
 }
-.inline{
+
+.inline {
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 2rem;
     display: -webkit-box;
-        display: -ms-flexbox;
-            display: flex;
-        -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
 }
-.submit{
-    border: 2px solid #141c3a;
-    padding: 12px 14px;
+
+.submit {
+    border:none;
+    padding: 10px 14px;
     text-align: center;
     border-radius: 15px;
     width: 110px;
     max-width: 100%;
     transition: 0.3s;
- 
+    background-color: #141414;
+    color: floralwhite;
+
 
 }
+
 .submit:hover {
- border-color: #fff;
+    background-color: #808080;
+    color: #141414;
 
 }
-.jeffery{
-      margin-top: 11rem;
-      width: 100%;
 
-    }
+.jeffery {
+    margin-top: 11rem;
+    width: 100%;
+
+}
