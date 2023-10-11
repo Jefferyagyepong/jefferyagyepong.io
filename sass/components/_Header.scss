@@ -3,20 +3,26 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
-  gap: 11rem;
+  justify-content: space-between;
   background-image: url(/header.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   position: fixed;
   top: 0;
+  height: 3rem;
 
 
 }
 .ja {
   color: floralwhite;
-font-family: fantasy;
+margin-left: 3rem;
+}
+.salmon-mobile {
+  color: lightgreen;
+  text-decoration: none;
+
+
 }
 
 .nav-link {
@@ -40,7 +46,7 @@ font-family: fantasy;
 
 .top-nav {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
   align-items: center;
   color: #fff;
   height: 50px;
