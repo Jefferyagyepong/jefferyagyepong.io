@@ -1504,6 +1504,11 @@ lodash.merge@^4.6.2:
   resolved "https://registry.npmjs.org/lodash.merge/-/lodash.merge-4.6.2.tgz"
   integrity sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==
 
+lodash@4.1.x:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.1.0.tgz#299894283de01a9eefbedff4c4b9b00a6a2e6e96"
+  integrity sha512-B9sgtKUlz0xe7lkYb80BcOpwwJJw5iOiz4HkBDzF0+i5nJLiwfBnL08m7bBkCOPBfi+0aqvrJDMdZDfAvs8vYg==
+
 loose-envify@^1.1.0, loose-envify@^1.4.0:
   version "1.4.0"
   resolved "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz"
@@ -1945,6 +1950,11 @@ slash@^4.0.0:
   resolved "https://registry.npmjs.org/slash/-/slash-4.0.0.tgz"
   integrity sha512-3dOsAHXXUkQTpOYcoAxLIorMTp4gIQr5IW3iVb7A7lFIp0VHhnynm9izx6TssdrIcVIESAlVjtnO2K8bg+Coew==
 
+sliced@0.0.x:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/sliced/-/sliced-0.0.5.tgz#5edc044ca4eb6f7816d50ba2fc63e25d8fe4707f"
+  integrity sha512-9bYT917D6H3+q8GlQBJmLVz3bc4OeVGfZ2BB12wvLnluTGfG6/8UdOUbKJDW1EEx9SZMDbjnatkau5/XcUeyOw==
+
 snapsvg-cjs@0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/snapsvg-cjs/-/snapsvg-cjs-0.0.6.tgz#3b2f56af2573d3d364c3ed5bf8885745f4d2dde1"
@@ -1970,6 +1980,14 @@ source-map@~0.1.30:
   integrity sha512-VtCvB9SIQhk3aF6h+N85EaqIaBFIAfZ9Cu+NJHHVvc8BbEcnvDcFw6sqQ2dQrT6SlOrZq3tIvyD9+EGq/lJryQ==
   dependencies:
     amdefine ">=0.0.4"
+
+sql@^0.78.0:
+  version "0.78.0"
+  resolved "https://registry.yarnpkg.com/sql/-/sql-0.78.0.tgz#894585d56111dbb1768741a4d9935c82c8595949"
+  integrity sha512-+If27aF3UQxmnuF5JgTJKd/X6TiELa1f58Zo5TX9ULbPnqs1fBDODwwbtU0WwM5H3lSiwx2En4m2lB1rCoIhvQ==
+  dependencies:
+    lodash "4.1.x"
+    sliced "0.0.x"
 
 stop-iteration-iterator@^1.0.0:
   version "1.0.0"

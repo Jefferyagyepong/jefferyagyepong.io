@@ -1,55 +1,110 @@
 import Image from "next/image";
+import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faEnvelope,
+  faMessage,
+  faPerson,
+  faPhone,
+} from "@fortawesome/free-solid-svg-icons";
 export default function HelloForm() {
+  const [candidat, setCandidat] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
+  const [user, setUser] = useState();
+
+  const onSubmit = async e => {
+    e.preventDefault();
+    if (candidat.name === "" || candidat.email === "")
+      return alert("name or email is empty");
+
+    await fetch("/api/post", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(candidat),
+    })
+      .then(res => res.json())
+      .then(data => setUser(data.user));
+  };
   return (
-    <div className="jeffery">
-      <div id="display">
-        <Image
-          src="static/jeffery.svg"
-          width={150}
-          height={150}
-          alt="dev jeffery"
-        />
+    <div>
+      <div className="jeffery">
+        <div id="display">
+          <Image
+            src="static/jeffery.svg"
+            width={150}
+            height={150}
+            alt="dev jeffery"
+          />
 
-        <p>
-          {" "}
-          Thanks for taking the time to reach out. How can I help you today?
-        </p>
+          <p>
+            {" "}
+            Want to discuss a startup collaboration? I&apos;m most definitely
+            game.
+          </p>
 
-        <div className="form-wrapper">
-          <form action="https://formspree.io/f/mwkjpala" method="post">
+          <form onSubmit={onSubmit} className="">
+            <label htmlFor="Name">
+              <FontAwesomeIcon icon={faPerson} width={10} height={10} /> Name
+            </label>
             <input
-              className="input-field"
               type="text"
-              placeholder="Name"
-              id="name"
-              required
-            />
-            <br /> <br />
+              className=""
+              onChange={() => {
+                setCandidat({ ...candidat, name: event.target.value });
+              }}
+            ></input>
+            <br />
+            <br />
+            <label htmlFor="Email">
+              <FontAwesomeIcon icon={faEnvelope} width={10} height={10} /> Email
+            </label>
             <input
-              className="input-field"
-              type="text"
-              placeholder="Phone"
-              id="phone"
-              required
-            />
-            <br /> <br />
+              type="email"
+              className=""
+              onChange={() => {
+                setCandidat({ ...candidat, email: event.target.value });
+              }}
+            ></input>
+            <br />
+            <br />
+
+            <label htmlFor="Phone">
+              <FontAwesomeIcon icon={faPhone} width={10} height={10} /> Phone no
+            </label>
             <input
-              className="input-field"
-              type="text"
-              placeholder="Email"
-              id="mail"
-              required
-            />
-            <br /> <br />
-            <textarea rows="8" placeholder="Type your message..."></textarea>
-            <br /> <br />
-            <input
-              type="submit"
-              name="submit"
-              value="Submit"
-              className="submit"
-            />
+              type="tel"
+              className=""
+              onChange={() => {
+                setCandidat({ ...candidat, phone: event.target.value });
+              }}
+            ></input>
+            <br />
+            <br />
+            <label htmlFor="Message">
+              <FontAwesomeIcon icon={faMessage} width={10} height={10} />{" "}
+              Message
+            </label>
+            <textarea
+              rows="6"
+              cols=""
+              onChange={() => {
+                setCandidat({ ...candidat, message: event.target.value });
+              }}
+            ></textarea>
+            <br />
+            <br />
+
+            <button className="" type="submit">
+              <>Submit</>
+            </button>
           </form>
+          <div className="p-2">{user ? "user is : " + user : ""}</div>
         </div>
       </div>
     </div>
