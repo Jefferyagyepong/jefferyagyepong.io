@@ -30,9 +30,10 @@
 
 html {
   // This defines what 1rem is
-  font-size: 70.5%;
+  font-size: 78.5%;
   scroll-behavior: smooth;
   transition: 0.3s ease;
+    text-rendering: optimizeLegibility;
 }
 
 
@@ -44,7 +45,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #fff;
-  font-family: "Helvertica", sans-serif;
+font-family: sans-serif;
 
 }
 

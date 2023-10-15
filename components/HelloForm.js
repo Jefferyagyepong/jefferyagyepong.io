@@ -42,13 +42,14 @@ export default function HelloForm() {
             alt="dev jeffery"
           />
 
-          <p>
-            {" "}
-            Want to discuss a startup collaboration? I&apos;m most definitely
-            game.
-          </p>
+          <p> Want to say hello 👋🏿 I&apos;m most definitely game.</p>
 
-          <form onSubmit={onSubmit} className="">
+          <form
+            onSubmit={onSubmit}
+            action="/api/post"
+            method="post"
+            className=""
+          >
             <label htmlFor="Name">
               <FontAwesomeIcon icon={faPerson} width={10} height={10} /> Name
             </label>
@@ -104,7 +105,7 @@ export default function HelloForm() {
               <>Submit</>
             </button>
           </form>
-          <div className="p-2">{user ? "user is : " + user : ""}</div>
+          <div className="p-2">{user ? "user info \n: " + user : ""}</div>
         </div>
       </div>
     </div>

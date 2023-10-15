@@ -78,9 +78,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <p className="copyright">
-          Jeffery Agyepong &copy; {new Date().getFullYear()}
-        </p>
+        <p className="copyright">copyright &copy; {new Date().getFullYear()}</p>
       </div>
       <a
         href="https://www.testdome.com/certificates/b3cfc24591104b3ba89c08dea5e490ad"

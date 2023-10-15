@@ -149,9 +149,18 @@ ul {
   width: 100%;
   display: flex;
   flex-direction: row;
-  color: #141c3aff;
+  color: white;
   align-items: center;
   justify-content: center;
   margin-top: 3rem;
+  padding-top: 2rem;
   flex-wrap: wrap;
+  border: none;
+  background-color: #141c3a;
+
+  
+}
+.para {
+  color: white;
+
 }

@@ -50,8 +50,7 @@ export default function ConversationForm() {
 
           <form onSubmit={onSubmit} className="">
             <label htmlFor="Name">
-              <FontAwesomeIcon icon={faPerson} width={10} height={10} />
-              Name
+              <FontAwesomeIcon icon={faPerson} width={10} height={10} /> Name
             </label>
             <input
               type="text"
@@ -63,8 +62,7 @@ export default function ConversationForm() {
             <br />
             <br />
             <label htmlFor="Email">
-              <FontAwesomeIcon icon={faEnvelope} width={10} height={10} />
-              Email
+              <FontAwesomeIcon icon={faEnvelope} width={10} height={10} /> Email
             </label>
             <input
               type="email"
@@ -108,7 +106,7 @@ export default function ConversationForm() {
             <br />
             <br />
             <label htmlFor="Message">
-              <FontAwesomeIcon icon={faMessage} width={10} height={10} />
+              <FontAwesomeIcon icon={faMessage} width={10} height={10} />{" "}
               Message
             </label>
             <textarea

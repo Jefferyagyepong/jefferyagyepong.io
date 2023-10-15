@@ -1,16 +1,9 @@
 .columns {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  display: flex;
-  flex-flow: row;
-  justify-content: center;
-  text-align: center;
-  width: 95%;
+  flex-direction: row;
   align-items: center;
-  margin: 0 auto;
+  justify-content: center;
+
   border-radius: 15px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -47,12 +40,11 @@ p {
 }
 
 .column {
-  padding: 10px;
   display: flex;
-  align-items: center;
   flex-direction: column;
-  text-align: start;
-  justify-content: flex-start;
+  flex-grow: 0;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -66,7 +58,7 @@ p {
 .mailj {
 
 
-  border:none;
+  border: none;
   background-color: #141c3aff;
   border-radius: 20px;
   text-align: center;
@@ -122,8 +114,3 @@ p {
   background-color: #808080;
 
 }
-
-.color-primary {
-  color: #141c3aff;
-}
-

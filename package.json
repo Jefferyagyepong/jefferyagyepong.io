@@ -8,6 +8,19 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "keywords": [
+    "Javascript",
+    "github",
+    "ReactJS",
+    "Seo Expert",
+    "software",
+    "Ghana",
+    "Web Developer"
+  ],
+    "author": "Jeffery Agyepong <agyepong9jeff@icloud.com>",
+  "bugs": {
+    "url": "https://github.com/jefferyagyepong/portfolioJeffery/issues"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.3.0",
     "@fortawesome/free-brands-svg-icons": "^6.3.0",

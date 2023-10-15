@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 export default function MentorColumn() {
   return (
     <section className="columns section-p1">
@@ -17,9 +18,10 @@ export default function MentorColumn() {
         </p>
         <h4 className="color-primary">Good for:</h4>
         <p className="black">All designers</p>
-        <a href="#" className="mailj">
+        <Link className="mailj" href={"/pay"}>
+          {" "}
           Book a session
-        </a>
+        </Link>
       </div>
 
       <div className="column">
@@ -37,9 +39,10 @@ export default function MentorColumn() {
         </p>
         <h4 className="color-primary">Great for:</h4>
         <p className="black">Experienced designers</p>
-        <a href="#" className="mailj">
+        <Link className="mailj" href={"/pay"}>
+          {" "}
           Improve your chops
-        </a>
+        </Link>
       </div>
 
       <div className="column">
@@ -52,9 +55,10 @@ export default function MentorColumn() {
         </p>
         <h4 className="color-primary">Best for:</h4>
         <p className="black">New designers</p>
-        <a href="#" className="mailj">
+        <Link className="mailj" href={"/pay"}>
+          {" "}
           Start your journey
-        </a>
+        </Link>
       </div>
     </section>
   );

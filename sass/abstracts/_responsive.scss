@@ -17,85 +17,17 @@
         .menu {
           display: none;
         }
-}
-@media screen and (min-width: 550px) {
-.top-nav {
-    display: none;
-  }
-        .menu {
-          display: none;
-        }
-}
-
-@media screen and (min-width: 768px) {
-  .top-nav {
-      display: none;
-    }
-            .menu {
-              display: none;
-            }
- 
-}
-@media screen and (min-width: 960px) {
- 
-  .Header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-
-  }
-  .menu {
-    display: none;
-  }
-
-  .top-nav {
-    display: none;
-  }
-  .desktop {
-    display: block;
-  }
-  
-}
+           
+      }
 
 
-@media screen and (min-width: 320px) {
-
-  .Header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .menu {
-    display: block;
-  }
-
-  .top-nav {
-    display: block;
-  }
-
-    .nav-link {
-      display: none;
-    }
-  
-    #logo {
-      margin-left: 1rem;
-    }
-
-
-}
 
 @media screen and (min-width: 550px) {
   .nav-link {
       display: block;
   
     }
+       
 }
 
 @media screen and (min-width: 768px) {
@@ -103,7 +35,9 @@
         .nav-link {
             display: block;
         
+            
           }
+                    
 }
 
 @media screen and (min-width: 960px) {
@@ -128,5 +62,6 @@
   display: block;
 
 }
+  
 }
 
