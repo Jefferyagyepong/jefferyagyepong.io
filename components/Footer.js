@@ -80,16 +80,7 @@ export default function Footer() {
       <div className="footer-bottom">
         <p className="copyright">copyright &copy; {new Date().getFullYear()}</p>
       </div>
-      <a
-        href="https://www.testdome.com/certificates/b3cfc24591104b3ba89c08dea5e490ad"
-        class="testdome-certificate-stamp silver"
-      >
-        <span class="testdome-certificate-name"></span>
-        <span class="testdome-certificate-test-name"></span>
-        <span class="testdome-certificate-card-logo">
-          <br />
-        </span>
-      </a>
+
     </footer>
   );
 }
