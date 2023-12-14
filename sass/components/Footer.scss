@@ -164,3 +164,32 @@ ul {
   color: white;
 
 }
+.down {
+  margin: 0 auto;
+  text-align: center;
+}
+.black {
+  color: black;
+  transition: 0.5s;
+}
+
+.black:hover {
+  opacity: 0.3;
+}
+.payment-container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.payment-logo {
+  width: 55px;
+  height: 33px;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 2px;
+  box-shadow: 0 0 1 #f0f0f0;
+  border: 1px solid gray;
+}
