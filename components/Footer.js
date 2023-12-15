@@ -66,12 +66,12 @@ export default function Footer() {
             <h4>Contact</h4>
             <address>10th Avenue Mccarthy Hill, Greater Accra, GH</address>
             <br />
-            <Link href="tel:+233244736420" className="white">
+            <Link href="tel:+233244736420" className="black">
               (233) 244736420
             </Link>
             <br />
             <br />
-            <Link href="mailto:jefferyagyepong05@gmail.com" className="white">
+            <Link href="mailto:jefferyagyepong05@gmail.com" className="black">
               jefferyagyepong05@gmail.com
             </Link>
           </div>

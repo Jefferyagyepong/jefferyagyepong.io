@@ -1,12 +1,9 @@
 import Image from "next/image";
 export default function FootBottom() {
   return (
-    <div className="down"><br/><br/>
-      &copy; {new Date().getFullYear()}
-      <abbr title="Coast Reppublic" className="black">
-        {" "}
-        jefferyagyepong
-      </abbr>{" "}
+    <div className="down">
+      <br />
+      <br />
       <br /> <br />
       <div className="payment-container">
         <Image
@@ -24,6 +21,8 @@ export default function FootBottom() {
           className="payment-logo"
         />
       </div>
+      &copy; {new Date().getFullYear()}
+      <span> Jeffery Agyepong</span>
     </div>
   );
 }

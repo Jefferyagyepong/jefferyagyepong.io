@@ -2,7 +2,7 @@ import FootBottom from "@/components/FootBottom";
 import React, { useState } from "react";
 import { PaystackButton } from "react-paystack";
 const App = () => {
-  const publicKey = "pk_test_e44bf87ec09165000fabee1d8ea8df1ec5d27f04";
+  const publicKey = "sk_live_91abb369709adbf19dd2a3076ff6f4b5f8e032ba";
   const amount = 800;
   const currency = "GHS";
   const [email, setEmail] = useState("");
@@ -44,6 +44,7 @@ const App = () => {
               onChange={e => setName(e.target.value)}
             />
           </div>
+          <br />
           <div className="input-container">
             <label>Email</label>
             <input
@@ -52,6 +53,7 @@ const App = () => {
               onChange={e => setEmail(e.target.value)}
             />
           </div>
+          <br />
           <div className="input-container">
             <label>Phone</label>
             <input
@@ -60,12 +62,13 @@ const App = () => {
               onChange={e => setPhone(e.target.value)}
             />
           </div>
+          <br />
           <div className="send-container">
             <PaystackButton {...componentProps} />
           </div>
         </section>
       </form>
-      <FootBottom/>
+      <FootBottom />
     </main>
   );
 };
