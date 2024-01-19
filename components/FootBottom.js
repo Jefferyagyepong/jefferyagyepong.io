@@ -8,20 +8,20 @@ export default function FootBottom() {
       <div className="payment-container">
         <Image
           src={"/momo.jpg"}
-          height={78}
-          width={95}
+          height={28}
+          width={25}
           alt="momo logo"
           className="payment-logo"
         />
         <Image
           src={"/Visa.png"}
-          height={60}
-          width={75}
+          height={28}
+          width={25}
           alt="momo logo"
           className="payment-logo"
         />
       </div>
-      &copy; {new Date().getFullYear()}
+      &copy; {new Date().getFullYear()}<br/>
       <span> Jeffery Agyepong</span>
     </div>
   );

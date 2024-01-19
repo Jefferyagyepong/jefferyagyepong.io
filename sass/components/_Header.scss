@@ -10,9 +10,6 @@
   background-size: cover;
   position: fixed;
   top: 0;
-
-
-
 }
 
 .ja {
@@ -22,9 +19,18 @@
 }
 
 .salmon-mobile {
-  color: lightgreen;
+  color: white;
+  text-align: center;
   text-decoration: none;
   padding-right: 2rem;
+  transition: 0.5s ease;
+
+
+}
+.salmon-mobile:hover {
+opacity: 0.6;
+
+ 
 
 
 }

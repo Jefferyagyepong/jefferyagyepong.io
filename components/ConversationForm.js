@@ -30,12 +30,12 @@ function ConversationForm() {
               field="email"
               errors={state.errors}
             />
-            <textarea id="message" name="message" />
+            <textarea id="message" name="message" rows={6} />
             <ValidationError
               prefix="Message"
               field="message"
               errors={state.errors}
-            />
+            /><br/> <br/>
             <button type="submit" disabled={state.submitting}>
               Submit
             </button>

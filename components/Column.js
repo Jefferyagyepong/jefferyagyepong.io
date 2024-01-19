@@ -2,6 +2,7 @@ import Image from "next/image";
 export default function Column() {
   return (
     <section className="columns">
+
       <div className="column">
         <Image
           src="static/devicon.svg"
@@ -26,9 +27,10 @@ export default function Column() {
         <h6>Terminal</h6>
         <h6>PostMan</h6>
       </div>
-      <hr />
+      
 
       <div className="column">
+        <hr/>
         <Image
           src="static/designericon.svg"
           width={190}

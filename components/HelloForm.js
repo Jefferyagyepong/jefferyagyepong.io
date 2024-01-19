@@ -7,7 +7,7 @@ function HelloForm() {
     return <p>Thanks for joining!</p>;
   }
   return (
-     <div>
+    <div>
       <div className="jeffery">
         <div id="display">
           <Image
@@ -19,22 +19,48 @@ function HelloForm() {
 
           <p> Want to say hello 👋🏿 I&apos;m most definitely game.</p>
 
-    <form onSubmit={handleSubmit}>
-       <label htmlFor="name">Name</label>
-      <input id="name" type="text" name="name" />
-      <ValidationError prefix="Name" field="name" errors={state.errors} />
-      <label htmlFor="email">Email Address</label>
-      <input id="email" type="email" name="email" />
-      <ValidationError prefix="Email" field="email" errors={state.errors} />
-      <textarea id="message" name="message" />
-      <ValidationError prefix="Message" field="message" errors={state.errors} />
-      <button type="submit" disabled={state.submitting}>
-        Submit
-      </button>
-    </form>
+          <form onSubmit={handleSubmit}>
+            <section className="left">
+              <div className="input-container">
+                <label htmlFor="name">Name</label>
+                <input id="name" type="text" name="name" />
+                <ValidationError
+                  prefix="Name"
+                  field="name"
+                  errors={state.errors}
+                />
+              </div>
+              <div className="input-container">
+                <label htmlFor="email">Email Address</label>
+                <input id="email" type="email" name="email" />
+                <ValidationError
+                  prefix="Email"
+                  field="email"
+                  errors={state.errors}
+                />
+              </div>
+              <div className="input-container">
+                <label htmlFor="message">Message</label>
+                <textarea id="message" name="message" rows={6} />
+                <ValidationError
+                  prefix="Message"
+                  field="message"
+                  errors={state.errors}
+                />
+              </div>
+
+              <br />
+              <br />
+              <div className="send-container">
+                <button type="submit" disabled={state.submitting}>
+                  Submit
+                </button>
+              </div>
+            </section>
+          </form>
         </div>
       </div>
-      </div>
+    </div>
   );
 }
 export default HelloForm

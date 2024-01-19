@@ -52,6 +52,7 @@
     margin: 2rem;
     flex-grow: 0;
     height: 45vh;
+    padding: 10px 12px;
     transition: 0.3s ease-in;
     border: none;
     border-radius: 4px;
@@ -129,7 +130,7 @@
     justify-content: center;
     gap: 3rem;
     padding: 12px;
-    width: 40%;
+    width: auto;
     color: white;
     padding: 12px;
 
@@ -167,8 +168,9 @@
 
     .image {
         object-fit: contain;
-        width: 88% !important;
+        width: auto !important;
         max-width: 100%;
+        height: auto;
     }
 }
 
@@ -190,11 +192,89 @@
 .feature {
 
     width: 100%;
+  
 }
 
 .feature-title {
+    width: 100%;
     padding-top: 4%;
-    text-align: start;
+    text-align: center;
     padding: 12px;
     color: #141c3a;
+// -moz-transform: translateX(100%);
+//     -webkit-transform: translateX(100%);
+//     transform: translateX(100%);
+
+//     -moz-animation: my-animation 15s linear infinite;
+//     -webkit-animation: my-animation 15s linear infinite;
+//     animation: my-animation 15s linear infinite;
 }
+// #scroll-container {
+//     border: 3px solid black;
+//     border-radius: 5px;
+//     overflow: hidden;
+// }
+
+// #scroll-text {
+//     /* animation properties */
+//     -moz-transform: translateX(100%);
+//     -webkit-transform: translateX(100%);
+//     transform: translateX(100%);
+
+//     -moz-animation: my-animation 15s linear infinite;
+//     -webkit-animation: my-animation 15s linear infinite;
+//     animation: my-animation 15s linear infinite;
+// }
+
+// /* for Firefox */
+// @-moz-keyframes my-animation {
+//     from {
+//         -moz-transform: translateX(100%);
+//     }
+
+//     to {
+//         -moz-transform: translateX(-100%);
+//     }
+// }
+
+// /* for Chrome */
+// @-webkit-keyframes my-animation {
+//     from {
+//         -webkit-transform: translateX(100%);
+//     }
+
+//     to {
+//         -webkit-transform: translateX(-100%);
+//     }
+// }
+
+// @keyframes my-animation {
+//     from {
+//         -moz-transform: translateX(100%);
+//         -webkit-transform: translateX(100%);
+//         transform: translateX(100%);
+//     }
+
+//     to {
+//         -moz-transform: translateX(-100%);
+//         -webkit-transform: translateX(-100%);
+//         transform: translateX(-100%);
+//     }
+// }
+
+.check{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+    
+   
+}
+.check-align-two{
+    padding-top: 20px;
+}
+.green{
+    color: green;
+}
+

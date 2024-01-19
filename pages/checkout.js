@@ -1,13 +1,15 @@
 import FootBottom from "@/components/FootBottom";
+import Link from "next/link";
 import React, { useState } from "react";
 import { PaystackButton } from "react-paystack";
 const App = () => {
-  const publicKey = "sk_live_91abb369709adbf19dd2a3076ff6f4b5f8e032ba";
+  const publicKey = "pk_test_08f5b6bc08cd0fecf5e74b48240a4fc110570e1f";
   const amount = 800;
   const currency = "GHS";
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
+    const [check, setCheck] = useState("");
 
   const componentProps = {
     email,
@@ -18,7 +20,7 @@ const App = () => {
       phone,
     },
     publicKey,
-    text: "Proceed to Pay",
+    text: "Pay",
     onSuccess: () =>
       alert("Thanks for doing business with us! Come back soon!!"),
     onClose: () => alert("Wait! Don't leave :("),
@@ -28,7 +30,13 @@ const App = () => {
     <main>
       <div className="text-align">
         <p>You&apos;re about to make payment for mentorship program</p>
-        <br />
+        <p>
+          Please kindly go through our mentorship program to read benefits{" "}
+          <Link href={"/mentorship"} className="green">
+            here.
+          </Link>
+        
+        </p>
         <h4>Amount to Pay: &#8373; 800</h4>
         <br />
       </div>
@@ -42,6 +50,7 @@ const App = () => {
               type="text"
               id="name"
               onChange={e => setName(e.target.value)}
+              required
             />
           </div>
           <br />
@@ -51,6 +60,7 @@ const App = () => {
               type="text"
               id="email"
               onChange={e => setEmail(e.target.value)}
+              required
             />
           </div>
           <br />
@@ -60,7 +70,18 @@ const App = () => {
               type="text"
               id="phone"
               onChange={e => setPhone(e.target.value)}
+              required
             />
+          </div>
+          <div className="check">
+            <div className="check-align">
+              <input
+                type="checkbox"
+                required
+                onChange={e => setCheck(e.target.value)}
+              />
+            </div>
+            <div className="check-align-two">Accept Terms & Conditions</div>
           </div>
           <br />
           <div className="send-container">

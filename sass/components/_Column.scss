@@ -3,14 +3,13 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-
   border-radius: 15px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-top: -3rem;
   margin-bottom: 4rem;
   background-color: #f5f5f5;
-  flex-wrap: wrap;
+ flex-wrap: wrap;
 
 }
 
@@ -45,6 +44,12 @@ p {
   flex-grow: 0;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+
+}
+.img{
+  width: auto;
+  height: auto;
 }
 
 
@@ -114,6 +119,7 @@ p {
   background-color: #808080;
 
 }
-.color-primary{
+
+.color-primary {
   color: #141c3a;
 }
