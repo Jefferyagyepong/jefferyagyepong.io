@@ -9,6 +9,7 @@ export default function Column() {
           width={190}
           height={190}
           alt="Icon developer"
+         
         />
         <h2>Front-end Developer</h2>
         <p>
