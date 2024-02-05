@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1122.5197"
+   height="793.70081"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (b8e25be8, 2022-02-05)"
+   sodipodi:docname="jeffery.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="0.39108446"
+     inkscape:cx="525.46195"
+     inkscape:cy="479.43608"
+     inkscape:window-width="1280"
+     inkscape:window-height="703"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g5343">
+      <path
+         d="m 111.51865,47.504296 v 91.411414 q 0,15.11527 -5.69277,20.87347 -5.69276,5.7582 -13.47942,5.7582 -1.832154,0 -4.253215,-0.26173 l -0.654341,-6.67428 q 2.224759,0.52347 4.187781,0.52347 12.825085,0 12.825085,-18.32154 V 47.504296 Z"
+         id="path3252"
+         style="font-weight:300;font-size:134.009px;line-height:1.25;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans, Light';stroke-width:2.141;fill:#000000;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
+      <path
+         d="m 168.11913,46.849955 42.20498,92.065755 h -7.39405 l -14.46093,-31.60466 h -44.62605 l -14.46093,31.60466 h -7.39405 l 42.20498,-92.065755 z m 17.6672,54.572025 -19.69566,-43.055626 -19.56479,43.055626 z"
+         id="path3254"
+         style="font-weight:300;font-size:134.009px;line-height:1.25;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans, Light';stroke-width:2.141;fill:#000000;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
+    </g>
+  </g>
+</svg>

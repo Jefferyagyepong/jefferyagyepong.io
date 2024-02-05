@@ -5,17 +5,18 @@ export default function Work() {
       <div className="flex-item" id="CoastRepublic">
         <Image
           className="hide-image"
-          src="static/crlogo.svg"
+          src="/logo.svg"
           alt="Coast Republic"
           width={380}
           height={400}
         />
         <div className="hide">
-          <span>
-            T-Shirt Company curated for the community. Established in 2023 by
-            Jeffery Agyepong and its Scheduled to launch on 08-04-23
-          </span>
-          <a className="hide-link" href="https://coast-republic.vercel.app">
+          <span>Clothing Store launched in Ghana 🇬🇭 2023.</span>
+          <a
+            className="hide-link"
+            href="https://coast-republic.vercel.app"
+            target={"_blank"}
+          >
             Visit Website
           </a>
         </div>
@@ -57,7 +58,11 @@ export default function Work() {
             Restaurant loacated at Backsaw ST Dompoase. Serves Continental
             dishes
           </span>
-          <a className="hide-link" href="https://yocho.vercel.app/">
+          <a
+            className="hide-link"
+            href="https://yocho.vercel.app/"
+            target={"_blank"}
+          >
             Visit Website
           </a>
         </div>

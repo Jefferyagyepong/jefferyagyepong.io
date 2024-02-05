@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { PaystackButton } from "react-paystack";
 const App = () => {
   const publicKey = "pk_test_08f5b6bc08cd0fecf5e74b48240a4fc110570e1f";
-  const amount = 800;
+  const amount = 80000;
   const currency = "GHS";
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
@@ -21,8 +21,7 @@ const App = () => {
     },
     publicKey,
     text: "Pay",
-    onSuccess: () =>
-      alert("Thanks for doing business with us! Come back soon!!"),
+    onSuccess: () => alert("Payment succesfull for mentorship program"),
     onClose: () => alert("Wait! Don't leave :("),
   };
 
@@ -73,16 +72,7 @@ const App = () => {
               required
             />
           </div>
-          <div className="check">
-            <div className="check-align">
-              <input
-                type="checkbox"
-                required
-                onChange={e => setCheck(e.target.value)}
-              />
-            </div>
-            <div className="check-align-two">Accept Terms & Conditions</div>
-          </div>
+        
           <br />
           <div className="send-container">
             <PaystackButton {...componentProps} />

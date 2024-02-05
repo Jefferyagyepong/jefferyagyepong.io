@@ -1,12 +1,12 @@
 import Link from "next/link";
+import Image from 'next/image';
 export default function Header() {
   return (
-    <div className="Header">
-      <div>
-        <a href="./" className="ja">
-          Jeffery Agyepong
-        </a>
-      </div>
+    <header>
+      <Link href={"./"}>
+        <Image src={"/jeffery.svg"} width={60} height={80} alt="logo"/>
+      </Link>
+
       <section className="top-nav">
         <input id="menu-toggle" type="checkbox" />
 
@@ -15,17 +15,17 @@ export default function Header() {
         </label>
         <ul className="menu">
           <li>
-            <Link href={"/mentorship"} className="salmon-mobile">
+            <Link href={"/mentorship"} className="header-nav-link">
               Mentorship
             </Link>
           </li>
           <li>
-            <Link href={"/sayhello"} className="salmon-mobile">
+            <Link href={"/sayhello"} className="header-nav-link">
               Say Hello
             </Link>
           </li>
         </ul>
       </section>
-    </div>
+    </header>
   );
 }

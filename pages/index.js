@@ -29,18 +29,18 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Jeffery Agyepong | Front-End Developer</title>
-           <meta property="og:title" content="Jeffery Agyepong | Front-End Developer" />
+        <title>Jeffery Agyepong | Web Developer</title>
+           <meta property="og:title" content="Jeffery Agyepong | Web Developer" />
 <meta property="og:type" content="Portfolio website" />
 <meta property="og:url" content="https://jefferyagyepong-io.vercel.app"/>
 <meta property="og:image" content="/favicon.ico" />
              
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="author" content="Jeffery Agyepong" />
-        <meta name="description" content="Designer, Front-end Developer, Website development Agency" />
+        <meta name="description" content="Designer, Web Developer, Website development Agency" />
          <meta
       name="keywords"
-      content="web designer, front-end developer, SEO expert, Engineer, Web Master,Website development Agency "
+      content="web designer, Web developer, SEO expert, Web Engineer, Web Master Tools, Website development Agency, Software Application Developer, Website management "
     />
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
@@ -56,12 +56,11 @@ export default function Home() {
         <Introduction />
         <Column />
         <RecentWork />
-       
         <Work />
-         <SeeMore />
+        <SeeMore />
         <Collaboration />
         <Testimonial />
-            <Last />
+        <Last />
         <Footer />
     
         

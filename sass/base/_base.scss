@@ -30,7 +30,7 @@
 
 html {
   // This defines what 1rem is
-  font-size: 78.5%;
+  font-size: 88.5%;
   scroll-behavior: smooth;
   transition: 0.3s ease;
     text-rendering: optimizeLegibility;
@@ -45,14 +45,19 @@ body {
   margin: 0;
   padding: 0;
   background-color: #fff;
-font-family: sans-serif;
+font-family: 'Oswald',  sans-serif;
 
 }
 
 a {
   text-decoration: none;
+  transition: 0.5s ease;
+  color: #141c3a;
 }
+img{
 
+  object-fit: contain;
+}
 
 
 
@@ -78,37 +83,130 @@ html {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  color: #141c3a;
 }
 
 footer {
   margin-top: auto;
 }
 
-li {
-  list-style: none;
+
+
+button {
+  background: none;
+  font: inherit;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s ease;
+  background-color: whitesmoke;
+  color: black;
+  padding: 0.9rem 2rem;
+  border-radius: 3px;
+  margin: 0.6rem;
+  -webkit-appearance: button important;
+  -moz-appearance: button;
+  -o-appearance: button;
+  appearance: button;
+
+
+
 }
 
-button{
-  padding: 8px 99px;
-  border: none;
-  background-color: #141c3a;
-  color: #fff;
-  text-align: center;
-  transition: 0.5s ease;
+button:hover {
+  opacity: 0.6;
+}
+
+input {
+  display: block;
+  max-width: 400px;
+  font: inherit;
+  padding: 0.6rem 4.62em;
+  border-radius: 3px;
+  border: 1px solid gray;
+  margin: 0 auto;
+  margin-top: 1rem;
+
+}
+
+input[type=submit] {
+  display: block;
+  max-width: 400px;
+  font: inherit;
+  padding: 0.6rem 4.2rem;
+  border-radius: 3px;
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+  margin: 0 auto;
+  margin-top: 1rem;
   cursor: pointer;
 
 }
-button:hover {
 
- color: black;
-opacity: .9;
+textarea {
+  display: block;
+  max-width: 400px;
+  font: inherit;
+  padding: 0.6rem 4.2rem;
+  border-radius: 3px;
+  border: 1px solid gray;
+  margin: 0 auto;
+  margin-top: 1rem;
+  -webkit-appearance: textarea;
+  -moz-appearance: textarea;
+  -o-appearance: textarea;
+  appearance: textarea;
+
+
 }
 
 label {
-  margin-bottom: 20px;
-  display: block;
+  margin: 20px;
 }
 
+input::-webkit-input-placeholder {
+  font: inherit;
+}
+
+input::-moz-placeholder {
+  font: inherit;
+}
+
+input:-ms-input-placeholder {
+  font: inherit;
+}
+
+input::-ms-input-placeholder {
+  font: inherit;
+}
+
+input::placeholder {
+  font: inherit;
+}
+
+footer {
+  margin-top: auto;
+}
+
+ul {
+  display: block;
+  transition: 0.5s ease;
+  text-decoration: none;
+  margin: 0 auto;
+  list-style: none;
+  text-align: center;
+}
+
+li {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  transition: 0.5s ease;
+  cursor: pointer;
+  padding: 15px;
+  
+
+}
 .paystack-button {
   cursor: pointer;
   text-align: center;
@@ -126,4 +224,27 @@ label {
 
 .paystack-button:hover {
   background-color: #45a049;
+}
+h1{
+  font-weight: 600;
+}
+h2{
+    font-weight: 400;
+}
+h3{
+    font-weight: 200;
+}
+h4{
+    font-weight: 100;
+}
+h5{
+    font-weight: 88;
+}
+h6{
+    font-weight: 60;
+}
+p, span{
+  font-weight: 100;
+  width: 77%;
+  margin: $margin;
 }

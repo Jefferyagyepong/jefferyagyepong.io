@@ -1,64 +1,29 @@
-.test1 {
-
-    color: #141c3a;
-}
-
-.test2 {
-    padding-top: 3rem;
-    color: #141c3a;
-}
+@import "../abstracts/variables";
 
 .flex-box {
-    width: 100%;
+    width: $width-full;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-
-
-
-}
-
-.see-more {
-
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    margin-top: 3rem;
-    color: #141c3aff;
+    gap: 0.6rem;
     justify-content: center;
-
-
-}
-
-.see-mores {
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    margin-top: 3rem;
-    color: #141c3aff;
+   
 
 }
+
 
 .flex-item {
 
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 2rem;
-    flex-grow: 0;
-    height: 45vh;
-    padding: 10px 12px;
-    transition: 0.3s ease-in;
     border: none;
     border-radius: 4px;
-
-
-
+    cursor: pointer;
+ 
+    
 
 }
 
@@ -66,7 +31,7 @@
 #Beelydrop:hover,
 #CoastRepublic:hover,
 #YoCho:hover {
-    background-color: #141c3a;
+    background-color: white;
 }
 
 #CoastRepublic:hover,
@@ -78,25 +43,33 @@
 #Beelydrop {
     background-color: goldenrod;
 
+    background-image: url("/");
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+
 }
 
 #YoCho {
     background-color: greenyellow;
+
+    background-image: url("/");
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
 }
 
 .hide a {
-    border: 1px solid #bafdce;
+    border: none;
+    background-color: #141c3aff;
+    padding: 0.5rem 1rem;
     color: #fff;
-    border-radius: 15px;
-    padding: 12px 14px;
-
-
-
+    border-radius: 5px;
+    transition: 0.5s;
 }
 
 .hide a:hover {
-    background-color: #bafdce;
-    color: #141c3aff;
+    opacity: 0.6;
 
 }
 
@@ -107,15 +80,17 @@
 
 .hide span {
     text-align: start;
-
-
-
+    color: #141c3aff;
 }
 
 #CoastRepublic {
 
     background-color: skyblue;
-    opacity: 2;
+    background-image: url("/");
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+
 
 }
 
@@ -127,12 +102,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 3rem;
-    padding: 12px;
-    width: auto;
-    color: white;
-    padding: 12px;
+    width: 100%;
+    padding: 10px;
+    gap: 1.2rem;
+
+
 
 }
 
@@ -141,140 +115,36 @@
     margin: 0 auto;
 }
 
-
-
-
-
-#display {
-
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-
-
-}
-
-#display2 {
-    width: 100%;
-    margin-top: -6rem;
-
-
-    >div {
-        position: unset !important;
-    }
-
-    .image {
-        object-fit: contain;
-        width: auto !important;
-        max-width: 100%;
-        height: auto;
-    }
-}
-
-
-
-.container span {
-
-    display: block;
-
-}
-
 .container {
     text-align: center;
-    width: 100%;
-    margin-top: 15rem;
+    width: $width-full;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+
+
 }
 
 
-.feature {
+.check {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 
-    width: 100%;
-  
+
+
 }
 
-.feature-title {
-    width: 100%;
-    padding-top: 4%;
-    text-align: center;
-    padding: 12px;
-    color: #141c3a;
-// -moz-transform: translateX(100%);
-//     -webkit-transform: translateX(100%);
-//     transform: translateX(100%);
-
-//     -moz-animation: my-animation 15s linear infinite;
-//     -webkit-animation: my-animation 15s linear infinite;
-//     animation: my-animation 15s linear infinite;
-}
-// #scroll-container {
-//     border: 3px solid black;
-//     border-radius: 5px;
-//     overflow: hidden;
-// }
-
-// #scroll-text {
-//     /* animation properties */
-//     -moz-transform: translateX(100%);
-//     -webkit-transform: translateX(100%);
-//     transform: translateX(100%);
-
-//     -moz-animation: my-animation 15s linear infinite;
-//     -webkit-animation: my-animation 15s linear infinite;
-//     animation: my-animation 15s linear infinite;
-// }
-
-// /* for Firefox */
-// @-moz-keyframes my-animation {
-//     from {
-//         -moz-transform: translateX(100%);
-//     }
-
-//     to {
-//         -moz-transform: translateX(-100%);
-//     }
-// }
-
-// /* for Chrome */
-// @-webkit-keyframes my-animation {
-//     from {
-//         -webkit-transform: translateX(100%);
-//     }
-
-//     to {
-//         -webkit-transform: translateX(-100%);
-//     }
-// }
-
-// @keyframes my-animation {
-//     from {
-//         -moz-transform: translateX(100%);
-//         -webkit-transform: translateX(100%);
-//         transform: translateX(100%);
-//     }
-
-//     to {
-//         -moz-transform: translateX(-100%);
-//         -webkit-transform: translateX(-100%);
-//         transform: translateX(-100%);
-//     }
-// }
-
-.check{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  padding: 8px 12px;
-    
-   
-}
-.check-align-two{
+.check-align-two {
     padding-top: 20px;
 }
-.green{
+
+.green {
     color: green;
 }
-

@@ -1,20 +1,19 @@
-import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import Link from "next/link";
 export default function RecentWork() {
     return (
      
-    <div className="feature ">
-      <h2 className="feature-title">My Recent Work</h2>
+    <div className="container">
+      <h2>My Recent Work</h2>
       <p >
         Here are a few design projects I&apos;ve worked on recently. Want to see
         more?
 
         </p>
-        <div className="center-link">
-           <Link href={"mailto:agyepong9jeff@icloud.com"}  className="anchor"><FontAwesomeIcon icon={faEnvelope} width="20" ></FontAwesomeIcon>Email me</Link>
+    
+           <Link href={"mailto:agyepong9jeff@icloud.com"} className="container-link">📧 Email me</Link>
 
-        </div>
+        
                
     </div>
 

@@ -7,9 +7,9 @@ function ConversationForm() {
     return <p>Thanks for joining!</p>;
   }
   return (
-    <div>
-      <div className="jeffery">
-        <div id="display">
+    <div className="container">
+   
+     
           <Image
             src="static/jeffery.svg"
             width={150}
@@ -41,8 +41,8 @@ function ConversationForm() {
             </button>
           </form>
         </div>
-      </div>
-    </div>
+    
+   
   );
 }
 export default ConversationForm;
