@@ -18,8 +18,8 @@ export default function Introduction() {
       <div id="display2">
         <Image
           src="/static/profile.svg"
-          width={290}
-          height={390}
+          width={490}
+          height={590}
           alt="Web developer toolset"
         />
       </div>

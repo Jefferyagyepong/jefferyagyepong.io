@@ -23,7 +23,7 @@ export default function Sayhello() {
         <meta name="description" content="Designer, Front-end Developer" />
          <meta
       name="keywords"
-      content="web designer, front-end developer, html5, css3, javascript, nexjs, Sass"
+      content="enquiry, website development, questions, ask, project work, assistant"
     />
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>

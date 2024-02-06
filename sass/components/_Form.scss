@@ -1,36 +1,17 @@
-
-select {
-    display: inline-block;
-
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 0.9rem;
+    background-color: hsl(0, 0, 92%);
+    border-radius: 5px;
+    padding: 20px  50px;
+    text-align: start;
 }
-
-.inline {
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.submit {
-    border:none;
-    text-align: center;
-    border-radius: 9px;
-    transition: 0.3s;
-    background-color: #141414;
-    color: floralwhite;
-
-
-}
-
-.submit:hover {
-  opacity: 0.7;
-  color: #f2f2f2;
-
-}
-
-.jeffery {
-   
-    width: auto;
-    height: auto;
-
+.form-button{
+    border: none;
+    transition: 0.5s;
+    background: hsl(0, 0, 33%);
+    color: white;
 }

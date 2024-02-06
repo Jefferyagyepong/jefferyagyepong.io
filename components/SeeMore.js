@@ -2,10 +2,13 @@ import Link from "next/link";
 export default function SeeMore() {
   return (
     <div className="container">
-      <Link href="" target="blank" >
+      <br />
+      <br />{" "}
+      <Link href="" target="blank">
         {" "}
         <span className="container-link">🌐 See more on Dribbble</span>
       </Link>
+    
     </div>
   );
 }

@@ -8,12 +8,12 @@ export default function Collaboration() {
         I&apos;m always open to discussing product design work or partnership
         opportunities.
       </p>
-      <div>
+  
         <Link href={"/conversation"} className='container-link'>
           ✍🏼
           Start a conversation
         </Link>
       </div>
-    </div>
+    
   );
 }

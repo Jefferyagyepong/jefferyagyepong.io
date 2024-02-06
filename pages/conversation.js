@@ -16,7 +16,7 @@ export default function Conversation() {
         <meta name="description" content="Designer, Front-end Developer" />
         <meta
           name="keywords"
-          content="web designer, front-end developer, html5, css3, javascript, nexjs, Sass"
+          content="enquiry, website development, questions, ask, project work, assistant, message"
         />
         <link rel="icon" href="/favicon.ico" />
         <link

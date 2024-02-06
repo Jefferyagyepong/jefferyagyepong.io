@@ -35,7 +35,8 @@ footer {
 
 
 }
-.footer-link{
+
+.footer-link {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -86,4 +87,18 @@ footer {
   align-items: center;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+.footer-box-link {
+  padding: 20px;
+  cursor: pointer;
+
+}
+
+.footer-box-link:hover {
+  background: linear-gradient(red, gold, green, black);
+  border-radius: 5px;
+  padding: 0;
+ 
+
 }

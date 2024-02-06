@@ -7,8 +7,11 @@ export default function MentorInfo() {
           Schedule a free consultation to ask questions, discuss details, and
           decide if it&apos;s a fit.
         </p>
-        <Link href={"/"}> Introduce yourself</Link>
-        <div>
+        <Link href={"/"} className="container-link">
+          {" "}
+          🗣 Introduce yourself
+        </Link>
+       
           <h2>Benefits of Mentorship</h2>
           <p>
             I know a thing or two because I&apos;ve done a thing or two in my
@@ -16,6 +19,6 @@ export default function MentorInfo() {
             that knowledge.
           </p>
         </div>
-      </div>
+    
     );
 }

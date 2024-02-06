@@ -1,15 +1,15 @@
 import Image from "next/image";
 export default function MentorQuality() {
   return (
-    <div className="container">
-      <div>
+    <div className="column-box">
+      <div className="column  column-one">
+        {" "}
         <Image
           src="static/authenticity.svg"
           alt="icon authenticity"
           width={190}
           height={190}
         />
-
         <h3>Authenticity</h3>
         <p>
           No sugar-coated critiques here. I care about your growth too much to
@@ -18,7 +18,8 @@ export default function MentorQuality() {
         </p>
       </div>
 
-      <div>
+      <div className="column  column-one">
+        {" "}
         <Image
           src="static/humility.svg"
           alt="icon humility"
@@ -32,8 +33,7 @@ export default function MentorQuality() {
           moving target I&apos;m hunting every day.
         </p>
       </div>
-
-      <div>
+      <div className="column  column-one">
         <Image
           src="static/equality.svg"
           alt="icon equality"
@@ -47,8 +47,7 @@ export default function MentorQuality() {
           not the only one learning.
         </p>
       </div>
-
-      <div>
+      <div className="column  column-one">
         <Image
           src="static/transparency.svg"
           alt="icon transparency"

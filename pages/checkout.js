@@ -1,4 +1,5 @@
 import FootBottom from "@/components/FootBottom";
+import Header from "@/components/Header";
 import Link from "next/link";
 import React, { useState } from "react";
 import { PaystackButton } from "react-paystack";
@@ -9,7 +10,6 @@ const App = () => {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
-    const [check, setCheck] = useState("");
 
   const componentProps = {
     email,
@@ -27,58 +27,49 @@ const App = () => {
 
   return (
     <main>
-      <div className="text-align">
-        <p>You&apos;re about to make payment for mentorship program</p>
+      <Header/>
+      <div className="container">
+        <p>You have selected to be a Mantee of spot mentorship program</p>
+        <p>You&apos;re about to make payment for the mentorship program</p>
         <p>
           Please kindly go through our mentorship program to read benefits{" "}
           <Link href={"/mentorship"} className="green">
             here.
           </Link>
-        
         </p>
         <h4>Amount to Pay: &#8373; 800</h4>
-        <br />
+   
+
+        <form>
+          <h4>Fill in the form to verify your payment credentials</h4>
+
+          <label>Name</label>
+          <input
+            type="text"
+            id="name"
+            onChange={e => setName(e.target.value)}
+            required
+          />
+
+          <label>Email</label>
+          <input
+            type="text"
+            id="email"
+            onChange={e => setEmail(e.target.value)}
+            required
+          />
+
+          <label>Phone</label>
+          <input
+            type="text"
+            id="phone"
+            onChange={e => setPhone(e.target.value)}
+            required
+          />
+
+          <PaystackButton {...componentProps} />
+        </form>
       </div>
-      <form>
-        <h4>Fill in the form to verify your payment credentials</h4>
-        <br />
-        <section className="left">
-          <div className="input-container">
-            <label>Name</label>
-            <input
-              type="text"
-              id="name"
-              onChange={e => setName(e.target.value)}
-              required
-            />
-          </div>
-          <br />
-          <div className="input-container">
-            <label>Email</label>
-            <input
-              type="text"
-              id="email"
-              onChange={e => setEmail(e.target.value)}
-              required
-            />
-          </div>
-          <br />
-          <div className="input-container">
-            <label>Phone</label>
-            <input
-              type="text"
-              id="phone"
-              onChange={e => setPhone(e.target.value)}
-              required
-            />
-          </div>
-        
-          <br />
-          <div className="send-container">
-            <PaystackButton {...componentProps} />
-          </div>
-        </section>
-      </form>
       <FootBottom />
     </main>
   );

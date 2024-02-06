@@ -122,7 +122,7 @@ input {
   font: inherit;
   padding: 0.6rem 4.62em;
   border-radius: 3px;
-  border: 1px solid gray;
+  border: none;
   margin: 0 auto;
   margin-top: 1rem;
 
@@ -149,7 +149,7 @@ textarea {
   font: inherit;
   padding: 0.6rem 4.2rem;
   border-radius: 3px;
-  border: 1px solid gray;
+  border: none;
   margin: 0 auto;
   margin-top: 1rem;
   -webkit-appearance: textarea;
@@ -161,7 +161,7 @@ textarea {
 }
 
 label {
-  margin: 20px;
+ padding-left: 0.9rem;
 }
 
 input::-webkit-input-placeholder {
@@ -247,4 +247,8 @@ p, span{
   font-weight: 100;
   width: 77%;
   margin: $margin;
+}
+h1,h2,h3,h4,h5,h6,p,span{
+  padding-top: 20px;
+  padding-bottom: 20px;
 }

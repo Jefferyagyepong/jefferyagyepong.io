@@ -11,7 +11,7 @@ export default function RecentWork() {
 
         </p>
     
-           <Link href={"mailto:agyepong9jeff@icloud.com"} className="container-link">📧 Email me</Link>
+           <Link href={"mailto:agyepong9jeff@icloud.com"} className="container-link">📧 Email me</Link><br/><br/>
 
         
                

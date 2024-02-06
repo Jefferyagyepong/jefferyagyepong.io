@@ -20,7 +20,7 @@ export default function FootBottom() {
         />
       </div>
       &copy; {new Date().getFullYear()}<br/>
-      <span> Jeffery Agyepong</span>
+      <span> Powered by Paystack</span>
     </div>
   );
 }

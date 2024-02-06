@@ -37,7 +37,7 @@ export default function Mentorship() {
         />
         <meta
           name="keywords"
-          content="mentorship, Learn Web development, Production support, SEO expert, Front-end-engineer "
+          content="mentorship, Learn Web development, Production support, SEO expert, Mantee, teaching assistant, role model, professional, software developer "
         />
         <link rel="icon" href="/favicon.ico" />
         <link
