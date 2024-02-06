@@ -7,19 +7,29 @@ header{
   flex-direction: row;
   
 }
-
-
-.menu {
-  display: none;
+.right{
+display: flex;
+ align-items: center;
+ flex-direction: row;
+ justify-content: center;
+ padding: 0;
 }
+ 
 
-
+/* nav*/
 .top-nav {
   display: flex;
   justify-content: center;
   align-items: center;
   color: #fff;
-  height: 50px;
+  height: 20px;
+  right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  left: 0;
+  z-index: 50;
+
+
 
 }
 
@@ -32,8 +42,10 @@ header{
 }
 
 .menu>li {
-  margin: 0 1rem;
+  margin: 0;
   overflow: hidden;
+  left: 0;
+  right: 0;
 }
 
 .menu-button-container {
@@ -44,6 +56,7 @@ header{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0;
 }
 
 #menu-toggle {
@@ -54,10 +67,9 @@ header{
 .menu-button::before,
 .menu-button::after {
   display: block;
-  background-color: gray;
-  color: #fff;
+  background-color: black;
   position: absolute;
-  height: 1px;
+  height: 1.5px;
   width: 20px;
   transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
   border-radius: 2px;
@@ -74,7 +86,7 @@ header{
 }
 
 #menu-toggle:checked+.menu-button-container .menu-button::before {
-  margin-top: 0px;
+  margin-top: 0;
   transform: rotate(405deg);
 }
 
@@ -83,7 +95,7 @@ header{
 }
 
 #menu-toggle:checked+.menu-button-container .menu-button::after {
-  margin-top: 0px;
+  margin-top: 0;
   transform: rotate(-405deg);
 }
 
@@ -92,10 +104,23 @@ header{
     display: flex;
   }
 
+  .top-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 20px;
+    right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    left: 0;
+
+  }
+
   .menu {
     position: absolute;
     top: 0;
-    margin-top:0;
+    margin-top: 90px;
     right: 0;
     flex-direction: column;
     width: 100%;
@@ -110,12 +135,13 @@ header{
     padding: 0;
     border: 0;
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
-    background-color: #141c3aff;
+    background-color: whitesmoke;
+
   }
 
   #menu-toggle:checked~.menu li {
     height: 2.5em;
-    padding: 0.8em;
+    padding: 0;
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
   }
 
@@ -123,7 +149,7 @@ header{
     display: flex;
     justify-content: center;
     margin: 0;
-    padding: 0.9em 0;
+    padding: 0;
     width: 100%;
 
   }
