@@ -6,25 +6,22 @@ export default function Introduction() {
       <br />
       <h1>Web Developer</h1>
       <span>I code and design beautiful things, and I love what I do</span>
-      <div id="display">
+      
         <Image
           src="/static/jefferymacbook.svg"
           width={290}
           height={290}
           alt="Jeffery Agyepong"
         />
-      </div>
-
-      <div id="display2">
+    
+ 
         <Image
           src="/static/profile.svg"
-          width={490}
-          height={590}
+          width={290}
+          height={390}
           alt="Web developer toolset"
         />
-      </div>
-
-      <div>
+   
         <h2>
           I&apos;m Jeffery.
           <br />
@@ -42,6 +39,6 @@ export default function Introduction() {
 
         <p>I design and code beautifully simple things, and I love what I do</p>
       </div>
-    </div>
+  
   );
 }
