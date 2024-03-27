@@ -3,6 +3,7 @@ import Image from "next/image";
 export default function Header() {
   return (
     <header>
+    
       <Link href={"./"}>
         <Image src={"/jeffery.svg"} width={60} height={80} alt="logo" />
       </Link>
