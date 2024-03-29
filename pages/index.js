@@ -11,7 +11,6 @@ import RecentWork from '../components/RecentWork'
 import Work from '../components/Work'
 import Collaboration from '../components/Collaboration'
 import Footer from '../components/Footer'
-import Last from '../components/Last'
 import SeeMore from '../components/SeeMore'
 import Testimonial from '../components/Testimonial'
 
@@ -60,7 +59,7 @@ export default function Home() {
         <SeeMore />
         <Collaboration />
         <Testimonial />
-        <Last />
+    
         <Footer />
     
         
