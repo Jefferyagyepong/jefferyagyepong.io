@@ -17,7 +17,7 @@ export default function Footer() {
       </div>
       <div className="footer-row">
         {" "}
-        <div>
+        <div className="footer-link">
            <Link href="/conversation"> Start a Project Conversation</Link>{" "}
         <Link href="/mentorship"> Mentorship</Link>{" "}
         </div>
