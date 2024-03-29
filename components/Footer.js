@@ -18,10 +18,9 @@ export default function Footer() {
       <div className="footer-row">
         {" "}
         <div className="footer-link">
-           <Link href="/conversation"> Start a Project Conversation</Link>{" "}
-        <Link href="/mentorship"> Mentorship</Link>{" "}
+          <Link href="/conversation"> Start a Project Conversation</Link>{" "}
+          <Link href="/mentorship"> Mentorship</Link>{" "}
         </div>
-       
         <div>
           <Link href="https://twitter.com/jeffagyepong" target="_blank">
             <Image
@@ -30,9 +29,11 @@ export default function Footer() {
               height={20}
               alt="icon"
             />
+            |{" "}
           </Link>{" "}
           <Link href="https://github.com/Jefferyagyepong" target="_blank">
             <Image src={"/logo-github.svg"} width={20} height={20} alt="icon" />
+            | |{" "}
           </Link>{" "}
           <Link
             href="https://www.linkedin.com/in/jeffery-agyepong-943ba0234"
@@ -44,6 +45,7 @@ export default function Footer() {
               height={20}
               alt="icon"
             />
+            |{" "}
           </Link>{" "}
           <Link
             href="https://www.instagram.com/jefferyagyepong_/"
@@ -55,6 +57,7 @@ export default function Footer() {
               height={20}
               alt="icon"
             />
+            |{" "}
           </Link>
           <Link
             href="https://www.open.whatsapp.com/0244736420/"
