@@ -11,15 +11,15 @@ export default function MentorColumn() {
           width={190}
           height={190}
         />
-        <h2>Spot Mentoring</h2>
-        <h3>GHS500</h3>
-        <p>
-          72 hours of candid conversation and advice as needed with no long term,
-          ongoing commitment required.
+        <h2 className="footer-head">Spot Mentoring</h2>
+        <h3 className="footer-head">GHS500</h3>
+        <p className="footer-head">
+          72 hours of candid conversation and advice as needed with no long
+          term, ongoing commitment required.
         </p>
-        <h4>Good for:</h4>
-        <p>All designers</p>
-        <Link className="container-link" href={"/checkout"}>
+        <h4 className="footer-head">Good for:</h4>
+        <p className="footer-head">All designers</p>
+        <Link className="container-link-bg" href={"/checkout"}>
           {" "}
           📑 Book a session
         </Link>
@@ -32,15 +32,15 @@ export default function MentorColumn() {
           width={190}
           height={190}
         />
-        <h2>Production Support</h2>
-        <h3>GHS800</h3>
-        <p>
-          4 hours  a week of targeted feedback and design critique to help you focus on
-          delivering your best work.
+        <h2 className="footer-head">Production Support</h2>
+        <h3 className="footer-head">GHS800</h3>
+        <p className="footer-head">
+          4 hours a week of targeted feedback and design critique to help you
+          focus on delivering your best work.
         </p>
-        <h4>Great for:</h4>
-        <p>Experienced designers</p>
-        <Link className="container-link" href={"/checkout"}>
+        <h4 className="footer-head">Great for:</h4>
+        <p className="footer-head">Experienced designers</p>
+        <Link className="container-link-bg" href={"/checkout"}>
           {" "}
           🔗 Improve your chops
         </Link>
@@ -48,15 +48,15 @@ export default function MentorColumn() {
 
       <div className="column  column-one">
         <Image src="static/gem.svg" alt="icon gem" width={190} height={190} />
-        <h2>Tailored Learning</h2>
-        <h3>GHS1200</h3>
-        <p>
+        <h2 className="footer-head">Tailored Learning</h2>
+        <h3 className="footer-head">GHS1200</h3>
+        <p className="footer-head">
           12 hours a week of professional coaching and collaboration to help you
           achieve long term goals and ambitions.
         </p>
-        <h4>Best for:</h4>
-        <p>New designers</p>
-        <Link href={"/checkout"} className="container-link">
+        <h4 className="footer-head">Best for:</h4>
+        <p className="footer-head">New designers</p>
+        <Link href={"/checkout"} className="container-link-bg">
           {" "}
           👨🏿‍💻 Start your journey
         </Link>

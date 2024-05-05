@@ -6,6 +6,8 @@ import Benefits from "../components/Benefits";
 import MentorStyle from "../components/MentorStyle";
 import MentorColumn from "../components/MentorColumn";
 import MentorQuality from "../components/MentorQuality";
+import Link from "next/link";
+import Image from "next/image";
 
 import Footer from "../components/Footer";
 
@@ -67,6 +69,9 @@ export default function Mentorship() {
         <Benefits />
         <MentorStyle />
         <MentorQuality />
+        <Link href={"./"}>
+          <Image src={"/jeffery.svg"} width={160} height={180} alt="logo" />
+        </Link>
 
         <Footer />
       </main>

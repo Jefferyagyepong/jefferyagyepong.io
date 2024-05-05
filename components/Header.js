@@ -5,7 +5,7 @@ export default function Header() {
     <header>
     
       <Link href={"./"}>
-        <Image src={"/jeffery.svg"} width={60} height={80} alt="logo" />
+        <Image src={"/jeffery.svg"} width={160} height={180} alt="logo" />
       </Link>
       <div className="right">
         <section className="top-nav">

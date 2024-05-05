@@ -7,14 +7,10 @@
   align-items: center;
   justify-content: center;
   margin: $margin;
-  padding: 10px;
-  background-color: hsl(0, 0, 90%);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgb(224, 224, 227);
   border-radius: 5px;
-
-
-
-
-
 }
 
 .column {
@@ -25,8 +21,4 @@
   text-align: center;
   margin: $margin;
   justify-content: center;
-
-
-
-
 }

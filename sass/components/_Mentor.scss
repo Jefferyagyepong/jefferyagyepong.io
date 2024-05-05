@@ -1,13 +1,20 @@
 
 .container-link{
-    background-color:  #141c3a;
-    color: white;
+background-color: rgb(224, 224, 227);
+color: rgb(48, 49, 52);
     padding: 0.8rem 1rem;
     border-radius: 5px;
     transition: 0.5s ease;
 }
 .container-link:hover {
    opacity: 0.6;
+}
+.container-link-bg {
+  color: rgb(224, 224, 227);
+    background-color: rgb(48, 49, 52);
+    padding: 0.8rem 1rem;
+    border-radius: 5px;
+    transition: 0.5s ease;
 }
 
 .container-grid{

@@ -22,27 +22,6 @@ export default function Work() {
         </div>
       </div>
 
-      <div className="flex-item" id="Beelydrop">
-        <Image
-          className="hide-image"
-          src="static/Beelydrop.svg"
-          alt="Beelydrop"
-          width={380}
-          height={400}
-        />
-        <div className="hide">
-          <span>
-            We are here to provide a place special for electronic devices.
-          </span>
-          <a
-            className="hide-link"
-            href="https://beelydrop.com"
-            target={"_blank"}
-          >
-            Visit Website
-          </a>
-        </div>
-      </div>
 
       <div className="flex-item" id="YoCho">
         <Image

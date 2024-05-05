@@ -5,7 +5,7 @@ export default function Introduction() {
     <div className="container">
       <br />
       <h1>Web Developer</h1>
-      <span>I code and design beautiful things, and I love what I do</span>
+      <p>I code and design beautiful things, and I love what I do</p>
       
         <Image
           src="/static/jefferymacbook.svg"
