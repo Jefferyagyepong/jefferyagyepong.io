@@ -9,11 +9,11 @@ export default function Header() {
         </Link>
       </div>
       <div className="links">
-        <Link href={"/mentorship"} className="link-item">
+        <Link href={"/blog"} className="link-item">
           BLOG
         </Link>
 
-        <Link href={"/sayhello"} className="link-item">
+        <Link href={"#"} className="link-item">
           TOOLS
         </Link>
       </div>

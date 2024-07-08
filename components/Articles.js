@@ -41,7 +41,7 @@ export default function Articles() {
                 Learning web development can be an exciting journey. This
                 article will guide you from beginner.
               </p>
-              <Link href="#" className="slate-blue">
+              <Link href="/blog" className="slate-blue">
                 Read
                 <Image
                   src={"/arrow-forward-sharp.svg"}
