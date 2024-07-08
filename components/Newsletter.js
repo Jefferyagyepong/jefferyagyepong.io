@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Newsletter() {
   return (
     <div className="background-whitesmoke">
-      <h3>Join the newsletter.</h3>
+      <h3 className="font-weight">Join the newsletter.</h3>
       <p>
         Useful tech tips,directly to your inbox. No spam, unsubscribe at any
         time.

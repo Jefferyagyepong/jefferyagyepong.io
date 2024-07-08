@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header>
       <div>
-        <Link href={"./"}>
+        <Link href={"/"}>
           <h3 className="header-title">Jeffery</h3>
         </Link>
       </div>

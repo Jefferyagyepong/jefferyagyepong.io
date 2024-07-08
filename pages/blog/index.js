@@ -1,11 +1,8 @@
 import Head from "next/head";
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import One from "@/components/blog/One";
-import Two from "@/components/blog/Two";
-import Three from "@/components/blog/Three";
-import Four from "@/components/blog/Four";
+import Image from "next/image";
+import Link from "next/link";
 import Newsletter from "@/components/Newsletter";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -29,7 +26,7 @@ export default function Blog() {
         <meta name="description" content="Blogger" />
         <meta
           name="keywords"
-          content="Blogger, Technology, News, Web Development, Ghana,"
+          content="Blogger, Technology, News, web development, Ghana, web design, Learn, Biginner, fundamentals"
         />
         <link rel="icon" href="/favicon.ico" />
         <link
@@ -57,31 +54,41 @@ export default function Blog() {
       </Head>
       <main>
         <Header />
+        <div className="container">
+          <ul className="list">
+            <li className="item">
+              <div className="content">
+                <Image
+                  id={"image-1"}
+                  src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=2669&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="engineering"
+                  width={380}
+                  height={200}
+                />
+              </div>
+              <div>
+                <h4>Learn Web Developement</h4>
+                <p>
+                  Learning web development can be an exciting journey. This
+                  article will guide you from beginner.
+                </p>
+                <Link href="/blog/One" className="slate-blue">
+                  Read
+                  <Image
+                    src={"/arrow-forward-sharp.svg"}
+                    width={20}
+                    height={20}
+                    alt="forward arrow"
+                  />
+                </Link>5 mins
+              </div>
 
-        <div>
-          <ul className="list-blog">
-            <li className="item-blog">
-              <div className="content-blog">
-                <One />
-              </div>
-            </li>
-            <li className="item-blog">
-              <div className="content-blog">
-                <Two />
-              </div>
-            </li>
-            <li className="item-blog">
-              <div className="content-blog">
-                <Three />
-              </div>
-            </li>
-            <li className="item-blog">
-              <div className="content-blog">
-                <Four />
-              </div>
+              <hr />
+           
             </li>
           </ul>
         </div>
+
         <Newsletter />
       </main>
     </>

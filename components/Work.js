@@ -34,17 +34,17 @@ export default function Work() {
                 id={"img-1"}
                 src="/backgroundcr1.png"
                 alt="Coast Republic"
-                width={380}
-                height={400}
+                width={280}
+                height={200}
               />
             </div>
-            <div>
-              <h3>Coast Republic inc.</h3>
+          
+              <h3 className="font-weight">Coast Republic inc.</h3>
               <p>
                 Clothing store located in Ghana delivering items to all 16
                 regions 🇬🇭
               </p>
-            </div>
+          
             <Link href={"#"} className="mail-link">
               Visit Website
             </Link>
@@ -56,8 +56,8 @@ export default function Work() {
                 id={"img-2"}
                 src="/yo.png"
                 alt="Yo Cho"
-                width={380}
-                height={400}
+                width={280}
+                height={200}
               />
             </div>
             <div>

@@ -1,7 +1,12 @@
 import React from "react";
-import Link from "next/link";
+import Head from "next/head";
+import { Inter } from "next/font/google";
+import Header from "@/components/Header";
 import Image from "next/image";
+import Link from "next/link";
+import Newsletter from "@/components/Newsletter";
 import Post from "./Post";
+
 const One = () => {
   const blogPosts = [
     {
@@ -15,34 +20,83 @@ const One = () => {
     },
   ];
   return (
-    <div id="webdev">
-      {blogPosts.map((post, index) => (
-        <Post key={index} index={index} post={post} />
-      ))}
+    <>
+      <Head>
+        <title>Jeffery Agyeong | blog</title>
+        <meta property="og:title" content="Tech blog" />
+        <meta property="og:type" content="blog website" />
+        <meta
+          property="og:url"
+          content="https://jefferyagyepong-io.vercel.app/blog"
+        />
+        <meta property="og:image" content="/favicon.ico" />
+        <meta name="google-adsense-account" content="ca-pub-2474265697377160" />
 
-      <nav>
-        <div className="blog-footer">
-          {" "}
-          <Link href={"#webdev"}>
-            <Image
-              src="/arrow-back-circle-outline.svg"
-              alt="Coast Republic"
-              width={40}
-              height={40}
-            />
-          </Link>
-          <Link href={"#html"}>
-            next
-            <Image
-              src="/arrow-forward-circle-outline.svg"
-              alt="Coast Republic"
-              width={40}
-              height={40}
-            />
-          </Link>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="author" content="Jeffery Agyepong" />
+        <meta name="description" content="Blogger" />
+        <meta
+          name="keywords"
+          content="Blogger, Technology, News, Web Development, Ghana,"
+        />
+        <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+        <meta
+          name="google-site-verification"
+          content="HIhs3rvT7a6WD274_Txl6lfu3opycY_McRAFvT2-oBw"
+        />
+      </Head>
+      <main>
+        <Header />
+
+        <div id="webdev">
+          {blogPosts.map((post, index) => (
+            <Post key={index} index={index} post={post} />
+          ))}
+
+          <nav>
+            <div className="blog-footer">
+              {" "}
+              <Link href={"/blog/index"}>
+                <Image
+                  src="/arrow-back-circle-outline.svg"
+                  alt="Coast Republic"
+                  width={40}
+                  height={40}
+                />
+              </Link>
+              <Link href={"/blog/Two"}>
+                next
+                <Image
+                  src="/arrow-forward-circle-outline.svg"
+                  alt="Coast Republic"
+                  width={40}
+                  height={40}
+                />
+              </Link>
+            </div>
+          </nav>
         </div>
-      </nav>
-    </div>
+        <Newsletter/>
+      </main>
+    </>
   );
 };
 export default One;
