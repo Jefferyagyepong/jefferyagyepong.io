@@ -40,7 +40,7 @@ export default function Work() {
             <Image
               className="gallery-img"
               id={"image-2"}
-              src="/logo.svg"
+              src="/yo.png"
               alt="Yo Cho"
               width={380}
               height={400}
