@@ -4,27 +4,11 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <footer>
-      <h2 className="footer-head">start a project</h2>
-      <p className="footer-para">
-        Interested in working together? We should queue up a chat. I&apos;ll buy
-        the coffee.
-      </p>
-      <Link href={"/conversation"} className="project-link">
-        🤝 Lets do this
-      </Link>{" "}
-      <br />
       <div>
-        {" "}
-        <Link href="/conversation" className="footer-link-item">
-          {" "}
-          Start a Project Conversation
-        </Link>{" "}
-        <Link href="/mentorship" className="footer-link-item">
-          {" "}
-          Mentorship
-        </Link>{" "}
+        <Link href={"./"}>
+          <h3 className="header-title">Jeffery</h3>
+        </Link>
       </div>
-      <br /> <br />
       <div>
         <Link
           href="https://twitter.com/jeffagyepong"
@@ -67,11 +51,10 @@ export default function Footer() {
           <Image src={"/logo-whatsapp.svg"} width={20} height={20} alt="icon" />
         </Link>
       </div>
-      <div>
-        <h6 className="footer-para">
-          All rights Reserved &copy; JA 🇬🇭 {new Date().getFullYear()}
-        </h6>
-      </div>
+
+      <h6 className="footer-para">
+        &copy; {new Date().getFullYear()} Jeffery Agyepong All rights Reserved
+      </h6>
     </footer>
   );
 }

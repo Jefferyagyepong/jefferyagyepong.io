@@ -17,10 +17,10 @@ function HelloForm() {
 
       <p> Want to say hello 👋🏿 I&apos;m most definitely game.</p>
 
-      <form onSubmit={handleSubmit}>
+      <form method="post" action="http://localhost:3000/api/forms" target="_blank">
         <label htmlFor="name">Name</label>
         <input id="name" type="text" name="name" required />
-        <ValidationError prefix="Name" field="name" errors={state.errors}/>
+        <ValidationError prefix="Name" field="name" errors={state.errors} />
 
         <label htmlFor="email">Email</label>
         <input id="email" type="email" name="email" required />

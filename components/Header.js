@@ -3,30 +3,19 @@ import Image from "next/image";
 export default function Header() {
   return (
     <header>
-    
-      <Link href={"./"}>
-        <Image src={"/jeffery.svg"} width={160} height={180} alt="logo" />
-      </Link>
-      <div className="right">
-        <section className="top-nav">
-          <input id="menu-toggle" type="checkbox" />
+      <div>
+        <Link href={"./"}>
+          <h3 className="header-title">Jeffery</h3>
+        </Link>
+      </div>
+      <div className="links">
+        <Link href={"/mentorship"} className="link-item">
+          BLOG
+        </Link>
 
-          <label className="menu-button-container" htmlFor="menu-toggle">
-            <div className="menu-button"></div>
-          </label>
-          <ul className="menu">
-            <li>
-              <Link href={"/mentorship"} className="header-nav-link">
-                Mentorship
-              </Link>
-            </li>
-            <li>
-              <Link href={"/sayhello"} className="header-nav-link">
-                Say Hello
-              </Link>
-            </li>
-          </ul>
-        </section>
+        <Link href={"/sayhello"} className="link-item">
+          TOOLS
+        </Link>
       </div>
     </header>
   );

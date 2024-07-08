@@ -1,51 +1,53 @@
 import Image from "next/image";
+import Link from "next/link";
 export default function Work() {
   return (
-    <section className="flex-box ">
-      <div className="flex-item" id="CoastRepublic">
+    <div className="wrapper-container">
+      <h3 className="myself-header">Projects</h3>
+      <p>Projects I have worked on and link is available</p>
+      <nav>
         <Image
-          className="hide-image"
-          src="/logo.svg"
+          src="/arrow-back-circle-outline.svg"
           alt="Coast Republic"
-          width={380}
-          height={400}
+          width={20}
+          height={20}
         />
-        <div className="hide">
-          <span>Clothing Store launched in Ghana 🇬🇭 2023.</span>
-          <a
-            className="hide-link"
-            href="https://coast-republic.vercel.app"
-            target={"_blank"}
-          >
-            Visit Website
-          </a>
-        </div>
-      </div>
 
-
-      <div className="flex-item" id="YoCho">
         <Image
-          className="hide-image"
-          src="static/YoCho.svg"
-          alt="Yo Cho"
-          width={380}
-          height={400}
+          src="/arrow-forward-circle-outline.svg"
+          alt="Coast Republic"
+          width={20}
+          height={20}
         />
+      </nav>
 
-        <div className="hide">
-          <span>
-            Restaurant loacated at Backsaw ST Dompoase. Serves Continental
-            dishes
-          </span>
-          <a
-            className="hide-link"
-            href="https://yocho.vercel.app/"
-            target={"_blank"}
-          >
-            Visit Website
-          </a>
-        </div>
-      </div>
-    </section>
+      <ul className="list">
+        <li className="item">
+          <div className="content">
+            <Image
+              className="gallery-img"
+              id={"image-1"}
+              src="/backgroundcr1.png"
+              alt="Coast Republic"
+              width={380}
+              height={400}
+            />
+          </div>
+        </li>
+        <li className="item">
+          <div className="content">
+            {" "}
+            <Image
+              className="gallery-img"
+              id={"image-2"}
+              src="/logo.svg"
+              alt="Yo Cho"
+              width={380}
+              height={400}
+            />
+          </div>
+        </li>
+      </ul>
+    </div>
   );
 }
