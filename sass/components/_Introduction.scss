@@ -15,8 +15,10 @@
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
     gap: 0;
+    width: 100%;
     scrollbar-width: none;
     -ms-overflow-style: none;
+    flex-direction: row;
 }
 .list::-webkit-scrollbar{
     display: none;
@@ -32,8 +34,16 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    margin-left: 7rem;
  
 
+}
+.list-wrapper{
+    padding-top:  1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .flex-column{
     display: flex;
