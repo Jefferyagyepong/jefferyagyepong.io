@@ -6,9 +6,7 @@ import One from "@/components/blog/One";
 import Two from "@/components/blog/Two";
 import Three from "@/components/blog/Three";
 import Four from "@/components/blog/Four";
-
-
-
+import Newsletter from "@/components/Newsletter";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -61,7 +59,6 @@ export default function Blog() {
         <Header />
 
         <div>
-          
           <ul className="list-blog">
             <li className="item-blog">
               <div className="content-blog">
@@ -80,14 +77,12 @@ export default function Blog() {
             </li>
             <li className="item-blog">
               <div className="content-blog">
-               <Four/>
+                <Four />
               </div>
-            
             </li>
           </ul>
         </div>
-
-        <Footer />
+        <Newsletter />
       </main>
     </>
   );

@@ -1,1 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><path d="M384,224V408a40,40,0,0,1-40,40H104a40,40,0,0,1-40-40V168a40,40,0,0,1,40-40H271.48" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><polyline points="336 64 448 64 448 176" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><line x1="224" y1="288" x2="440" y2="72" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1122.5197"
+   height="793.70081"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (b8e25be8, 2022-02-05)"
+   sodipodi:docname="open-outline.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="0.39108446"
+     inkscape:cx="397.61233"
+     inkscape:cy="561.25984"
+     inkscape:window-width="1280"
+     inkscape:window-height="703"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       d="m 183.38147,92.337434 v 48.683336 a 10.583333,10.583333 0 0 1 -10.58333,10.58333 h -63.5 A 10.583333,10.583333 0 0 1 98.714807,141.02077 V 77.520767 A 10.583333,10.583333 0 0 1 109.29814,66.937434 h 44.31242"
+       style="fill:#800080;stroke:#ffffff;stroke-width:8.46667px;stroke-linecap:round;stroke-linejoin:round"
+       id="path824" />
+    <polyline
+       points="336 64 448 64 448 176"
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:32px;stroke-linecap:round;stroke-linejoin:round"
+       id="polyline826"
+       transform="matrix(0.26458333,0,0,0.26458333,81.781474,33.070768)" />
+    <line
+       x1="141.04814"
+       y1="109.27077"
+       x2="198.19814"
+       y2="52.12077"
+       style="fill:#000000;stroke:#ffffff;stroke-width:8.46667px;stroke-linecap:round;stroke-linejoin:round"
+       id="line828" />
+  </g>
+</svg>

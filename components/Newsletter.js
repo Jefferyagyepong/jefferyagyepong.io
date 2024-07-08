@@ -11,8 +11,8 @@ export default function Newsletter() {
       <Link href="#" className="purple">
         <Image
           src={"/open-outline.svg"}
-          width={15}
-          height={15}
+          width={35}
+          height={35}
           alt="open svg"
         />
         Subscribe

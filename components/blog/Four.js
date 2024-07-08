@@ -44,6 +44,49 @@ const Four = () => {
         <span className="blog-footer-text">By: Jeffery Agyepong</span>
         <span className="blog-footer-text">February 03, 2024</span>
       </div>
+      <div>
+        <h5>share on social media</h5>
+        <Link
+          href="https://twitter.com/jeffagyepong"
+          target="_blank"
+          className="footer-link-item"
+        >
+          <Image src={"/logo-twitter.svg"} width={20} height={20} alt="icon" />{" "}
+        </Link>{" "}
+        <Link
+          href="https://github.com/Jefferyagyepong"
+          target="_blank"
+          className="footer-link-item"
+        >
+          <Image src={"/logo-github.svg"} width={20} height={20} alt="icon" />{" "}
+        </Link>{" "}
+        <Link
+          href="https://www.linkedin.com/in/jeffery-agyepong-943ba0234"
+          target="_blank"
+          className="footer-link-item"
+        >
+          <Image src={"/logo-linkedin.svg"} width={20} height={20} alt="icon" />{" "}
+        </Link>{" "}
+        <Link
+          href="https://www.instagram.com/jefferyagyepong_/"
+          target="_blank"
+          className="footer-link-item"
+        >
+          <Image
+            src={"/logo-instagram.svg"}
+            width={20}
+            height={20}
+            alt="icon"
+          />{" "}
+        </Link>
+        <Link
+          href="https://www.open.whatsapp.com/0244736420/"
+          target="_blank"
+          className="footer-link-item"
+        >
+          <Image src={"/logo-whatsapp.svg"} width={20} height={20} alt="icon" />
+        </Link>
+      </div>
     </div>
   );
 };
