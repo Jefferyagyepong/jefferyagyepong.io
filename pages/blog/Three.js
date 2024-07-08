@@ -33,7 +33,7 @@ const Three = () => {
         <meta name="description" content="Blogger" />
         <meta
           name="keywords"
-          content="Blogger, Technology, News, Web Development, Ghana,"
+          content="Blogging, web, Sass, learn, basics, practice,  coding, Technology, News, Web Development, Ghana,"
         />
         <link rel="icon" href="/favicon.ico" />
         <link

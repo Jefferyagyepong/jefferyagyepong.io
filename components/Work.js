@@ -35,7 +35,7 @@ export default function Work() {
                 src="/backgroundcr1.png"
                 alt="Coast Republic"
                 width={280}
-                height={200}
+                height={250}
               />
             </div>
           
@@ -57,7 +57,8 @@ export default function Work() {
                 src="/yo.png"
                 alt="Yo Cho"
                 width={280}
-                height={200}
+                height={250}
+                
               />
             </div>
             <div>
