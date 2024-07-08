@@ -6,6 +6,7 @@ import Introduction from "../components/Introduction";
 import { Inter } from "next/font/google";
 import Myself from "@/components/Myself";
 import Articles from "@/components/Articles";
+import Newsletter from "@/components/Newsletter";
 const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
@@ -60,6 +61,7 @@ export default function Home() {
         <Myself />
         <Articles/>
         <Work />
+        <Newsletter/>
         <Footer />
       </main>
     </>

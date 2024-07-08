@@ -4,9 +4,12 @@ export default function Work() {
   return (
     <div className="wrapper-container">
       <h3 className="myself-header">Projects</h3>
-      <p>Projects I have worked on and link is available</p>
+      <p>
+        I&apos;m open to discussing partnership and colaboration projects. Here
+        are a few projects I&apos;m managing.
+      </p>
       <nav>
-        <Link href={"#image-2"}>
+        <Link href={"#img-2"}>
           <Image
             src="/arrow-back-circle-outline.svg"
             alt="Coast Republic"
@@ -14,7 +17,7 @@ export default function Work() {
             height={20}
           />
         </Link>
-        <Link href={"#image-1"}>
+        <Link href={"#img-1"}>
           <Image
             src="/arrow-forward-circle-outline.svg"
             alt="Coast Republic"
@@ -28,12 +31,19 @@ export default function Work() {
           <li className="item">
             <div className="content">
               <Image
-                id={"image-1"}
+                id={"img-1"}
                 src="/backgroundcr1.png"
                 alt="Coast Republic"
                 width={380}
                 height={400}
               />
+            </div>
+            <div>
+              <h3>Coast Republic inc.</h3>
+              <p>
+                Clothing store located in Ghana delivering items to all 16
+                regions 🇬🇭
+              </p>
             </div>
             <Link href={"#"} className="mail-link">
               Visit Website
@@ -43,12 +53,16 @@ export default function Work() {
             <div className="content">
               {" "}
               <Image
-                id={"image-2"}
+                id={"img-2"}
                 src="/yo.png"
                 alt="Yo Cho"
                 width={380}
                 height={400}
               />
+            </div>
+            <div>
+              <h3>Yo Cho inc.</h3>
+              <p>Continental restaurant serving local dishes and beverages.</p>
             </div>
             <Link href={"#"} className="mail-link">
               Visit Website

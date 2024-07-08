@@ -10,79 +10,20 @@ footer {
   padding-top: 40px;
   padding-bottom: 40px;
   text-align: center;
-  color: rgb(48, 49, 52);
+  color:#000;
 
 
 }
-.footer-head, .footer-para{
- color: rgb(48, 49, 52);   
-
-}
-.testimonial-head{
-  color: rgb(164, 168, 172);
-}
-.testimonial-para {
-  color: rgb(94, 97, 102);
+.color-black{
+  color: black;
+  font-weight: 100;
 }
 
-  .footer-link-item{
-    padding: 0.5rem;
-    color: #141c3a;
-    opacity: 0.7;
-  }
-  .project-link{
-    background-color: #f0f0f0;
-    color:#141c3a;
-    border-radius: 5px;
-    padding: 5px 9px;
-    transition: 0.3s ease;
-  }
-    .project-link:hover{
-      opacity: 0.8;
-    }
+.flex-align-right{
+text-align: start;
+}
 
 
-
-
-
-  .black {
-    color: black;
-    transition: 0.5s;
-  }
-
-  .black:hover {
-    opacity: 0.3;
-  }
-
-  .payment-container {
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .payment-logo {
-    width: auto;
-    height: auto;
-    padding: 0.5rem;
-    margin: 0.5rem;
-    border-radius: 2px;
-
-  }
-
-  .social-box {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
-
-  .footer-box-link {
-    padding: 20px;
-    cursor: pointer;
-
-  }
 
   @media (max-width: 700px) {
 
@@ -98,6 +39,25 @@ footer {
 
 
     }
+        footer {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+          justify-content: space-between;
+          background-color: aliceblue;
+          padding-top: 30px;
+          padding-bottom: 10px;
+          text-align: center;
+          color: #000;
+          padding-left: 20px;
+    
+    
+        }
+        .footer-para{
+          text-align: center;
+          margin: 0 auto;
+        }
 
  
    

@@ -5,11 +5,11 @@ export default function Footer() {
   return (
     <footer>
       <div>
-        <Link href={"./"}>
-          <h3 className="header-title">Jeffery</h3>
-        </Link>
-      </div>
-      <div>
+        <div className="flex-align-right">
+          <Link href={"./"}>
+            <h3 className="header-title">Jeffery</h3>
+          </Link>
+        </div>
         <Link
           href="https://twitter.com/jeffagyepong"
           target="_blank"
@@ -50,6 +50,26 @@ export default function Footer() {
         >
           <Image src={"/logo-whatsapp.svg"} width={20} height={20} alt="icon" />
         </Link>
+      </div>
+      <div>
+        <h4 className="font-weight">Quick Links</h4>
+        <ul>
+          <Link href={"/contact"} className="color-black">
+            {" "}
+            <li>Contact</li>
+          </Link>
+          <Link href={"#"} className="color-black">
+            <li>Newsletter</li>
+          </Link>
+          <Link href={"#"} className="color-black">
+            {" "}
+            <li>Privacy Policy</li>
+          </Link>
+          <Link href={"#"} className="color-black">
+            {" "}
+            <li>Terms of Use</li>
+          </Link>
+        </ul>
       </div>
 
       <h6 className="footer-para">
