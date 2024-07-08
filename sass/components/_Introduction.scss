@@ -1,12 +1,13 @@
 @import "../abstracts/variables";
 
-.wrapper-container{
+.wrapper-container {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.list{
+
+.list {
     display: flex;
     align-items: center;
     list-style: none;
@@ -16,62 +17,85 @@
     scrollbar-width: none;
     -ms-overflow-style: none;
     flex-direction: row;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
-.list::-webkit-scrollbar{
+
+.list::-webkit-scrollbar {
     display: none;
 }
-.item{
+
+.item {
     flex-shrink: 0;
     width: 100%;
-    height: 89vh;
+    height: 58vh;
     scroll-snap-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
-.content{
+.item-work {
+    flex-shrink: 0;
+    width: 100%;
+    height: 75vh;
+    scroll-snap-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.content {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 
 }
-hr{
-    margin-top: 6rem;
+
+hr {
     opacity: 0.2;
 }
-.blog-footer{
-    margin-top: 2rem;
+
+.blog-footer {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
 }
-.blog-footer-text{
+
+.blog-footer-text {
     opacity: 0.4;
 }
-.font-weight{
+
+.font-weight {
     font-weight: 600;
 }
-.list-wrapper{
-    padding-top:  1rem;
+
+.list-wrapper {
+    padding-top: 0.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-background-color: whitesmoke;
+    background-color: whitesmoke;
     text-align: center;
     padding: 5px 30px;
     max-width: 500px;
     margin: 0 auto;
-    box-shadow:5px 5px 5px 5px #fff;
+    box-shadow: 5px 5px 5px 5px #fff;
 }
-.flex-column{
+
+.flex-column {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.mail-link{
+.mail-link {
     background-color: blue;
     color: #fff;
     padding: 0.3rem 0.8rem;
@@ -79,44 +103,50 @@ background-color: whitesmoke;
     cursor: pointer;
     transition: 0.3s ease;
 }
-.myself{
-    margin-top: 2rem;
-background-color: whitesmoke;
+
+.myself {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: whitesmoke;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    margin-bottom: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
 }
-.intro-message{
+
+.intro-message {
     padding: 1.4rem;
-   background:linear-gradient(to right, blue, crimson, navy, blue,
-    crimson,
-    navy,
-    blue,
-        crimson,
-        navy,
-        ) ;
-   -webkit-text-fill-color: transparent;
-   -webkit-background-clip: text;
-   background-clip: text;
-   line-height: 28px;
+    background: linear-gradient(to right, blue, crimson, navy, blue,
+            crimson,
+            navy,
+            blue,
+            crimson,
+            navy,
+        );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    line-height: 28px;
 }
-.myself-header{
+
+.myself-header {
     color: navy;
     line-height: 28px;
     font-size: 25px;
     padding: 1.9rem;
 }
-.slate-blue{
-    color:blue;
+
+.slate-blue {
+    color: blue;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
+
 .purple {
     color: white;
     background-color: purple;
@@ -128,60 +158,83 @@ background-color: whitesmoke;
     align-items: center;
     justify-content: center;
 }
-.articles{margin-top: 2rem;
+
+.articles {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 
 
 }
-.background-whitesmoke{
+
+.background-whitesmoke {
     background-color: whitesmoke;
     box-shadow: 5px 5px 5px 5px #fff;
     max-width: 400px;
     padding: 20px;
     border-radius: 8px;
     margin: 0 auto;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 @media (max-width: 700px) {
-    
+    .articles {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+
+
+    }
+
 
     .list-wrapper {
-            padding-top: 1rem;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            background-color: whitesmoke;
-            text-align: start;
-            padding: 5px 10px;
-            max-width: 300px;
-            margin: 0 auto;
-            box-shadow: 5px 5px 5px 5px #fff;
-        }
-                .background-whitesmoke {
-                    background-color: whitesmoke;
-                box-shadow: 5px 5px 5px 5px #fff;
-                    max-width: 270px;
-                    padding: 20px;
-                    margin: 0 auto;
-                    margin-top: 2rem;
-                    margin-bottom: 1rem;
-                }
+        padding-top: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: whitesmoke;
+        text-align: start;
+        padding: 5px 10px;
+        max-width: 300px;
+        margin: 0 auto;
+        box-shadow: 5px 5px 5px 5px #fff;
+    }
+
+    .background-whitesmoke {
+        background-color: whitesmoke;
+        box-shadow: 5px 5px 5px 5px #fff;
+        max-width: 270px;
+        padding: 20px;
+        margin: 0 auto;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    hr {
+
+        opacity: 0.2;
+    }
+
+    .blog-footer {
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+    }
 
 
 
 }
-
-
-
-
-
-
-

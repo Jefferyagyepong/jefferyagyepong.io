@@ -28,7 +28,7 @@ export default function Work() {
       </nav>
       <div className="list-wrapper">
         <ul className="list">
-          <li className="item">
+          <li className="item-work">
             <div className="content">
               <Image
                 id={"img-1"}
@@ -39,7 +39,7 @@ export default function Work() {
               />
             </div>
             <div>
-              <h3>Coast Republic inc.</h3>
+              <h3 className="font-weight">Coast Republic inc.</h3>
               <p>
                 Clothing store located in Ghana delivering items to all 16
                 regions 🇬🇭
@@ -49,7 +49,7 @@ export default function Work() {
               Visit Website
             </Link>
           </li>
-          <li className="item">
+          <li className="item-work">
             <div className="content">
               {" "}
               <Image
@@ -61,7 +61,7 @@ export default function Work() {
               />
             </div>
             <div>
-              <h3>Yo Cho inc.</h3>
+              <h3 className="font-weight">Yo Cho inc.</h3>
               <p>Continental restaurant serving local dishes and beverages.</p>
             </div>
             <Link href={"#"} className="mail-link">
