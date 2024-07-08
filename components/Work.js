@@ -25,7 +25,7 @@ export default function Work() {
         <li className="item">
           <div className="content">
             <Image
-              className="gallery-img"
+        
               id={"image-1"}
               src="/backgroundcr1.png"
               alt="Coast Republic"
@@ -38,7 +38,6 @@ export default function Work() {
           <div className="content">
             {" "}
             <Image
-              className="gallery-img"
               id={"image-2"}
               src="/yo.png"
               alt="Yo Cho"
