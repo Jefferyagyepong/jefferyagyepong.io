@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 export default function Work() {
   return (
-    <div className="wrapper-container">
+    <div className="articles">
       <h3 className="myself-header">Projects</h3>
       <p>
         I&apos;m open to discussing partnership and colaboration projects. Here
@@ -39,7 +39,7 @@ export default function Work() {
               />
             </div>
             <div>
-              <h3 className="font-weight">Coast Republic inc.</h3>
+              <h3>Coast Republic inc.</h3>
               <p>
                 Clothing store located in Ghana delivering items to all 16
                 regions 🇬🇭

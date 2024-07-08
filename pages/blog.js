@@ -61,24 +61,25 @@ export default function Blog() {
         <Header />
 
         <div>
-          <ul className="list">
-            <li className="item">
-              <div className="content">
+          
+          <ul className="list-blog">
+            <li className="item-blog">
+              <div className="content-blog">
                 <One />
               </div>
             </li>
-            <li className="item">
-              <div className="content">
+            <li className="item-blog">
+              <div className="content-blog">
                 <Two />
               </div>
             </li>
-            <li className="item">
-              <div className="content">
+            <li className="item-blog">
+              <div className="content-blog">
                 <Three />
               </div>
             </li>
-            <li className="item">
-              <div className="content">
+            <li className="item-blog">
+              <div className="content-blog">
                <Four/>
               </div>
             

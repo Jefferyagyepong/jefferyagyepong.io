@@ -17,22 +17,27 @@ const Two = () => {
         <Post key={index} index={index} post={post} />
       ))}
       <nav>
-        <Link href={"#webdev"}>
-          <Image
-            src="/arrow-back-circle-outline.svg"
-            alt="Coast Republic"
-            width={40}
-            height={40}
-          />
-        </Link>
-        <Link href={"#sass"}>
-          <Image
-            src="/arrow-forward-circle-outline.svg"
-            alt="Coast Republic"
-            width={40}
-            height={40}
-          />
-        </Link>
+        <div className="blog-footer">
+          <Link href={"#webdev"}>
+            previous
+            <Image
+              src="/arrow-back-circle-outline.svg"
+              alt="Coast Republic"
+              width={40}
+              height={40}
+            />
+          </Link>
+          <Link href={"#sass"}>
+            {" "}
+            next
+            <Image
+              src="/arrow-forward-circle-outline.svg"
+              alt="Coast Republic"
+              width={40}
+              height={40}
+            />
+          </Link>
+        </div>
       </nav>
     </div>
   );

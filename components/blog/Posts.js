@@ -31,6 +31,7 @@ const Posts = () => {
       title: "Nodejs",
       body: "",
       author: "Jeffery Agyepong",
+      date: "February 03, 2024"
       imgUrl: "/",
     },
   ];

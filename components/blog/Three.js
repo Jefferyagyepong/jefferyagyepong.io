@@ -17,22 +17,28 @@ const Three = () => {
         <Post key={index} index={index} post={post} />
       ))}
       <nav>
-        <Link href={"#sass"}>
-          <Image
-            src="/arrow-back-circle-outline.svg"
-            alt="Coast Republic"
-            width={20}
-            height={20}
-          />
-        </Link>
-        <Link href={"#javascript"}>
-          <Image
-            src="/arrow-forward-circle-outline.svg"
-            alt="Coast Republic"
-            width={20}
-            height={20}
-          />
-        </Link>
+        <div className="blog-footer">
+          <Link href={"#sass"}>
+            previous
+            <Image
+              src="/arrow-back-circle-outline.svg"
+              alt="Coast Republic"
+              width={40}
+              height={40}
+            />
+          </Link>
+
+          <Link href={"#javascript"}>
+            {" "}
+            next
+            <Image
+              src="/arrow-forward-circle-outline.svg"
+              alt="Coast Republic"
+              width={40}
+              height={40}
+            />
+          </Link>
+        </div>
       </nav>
     </div>
   );

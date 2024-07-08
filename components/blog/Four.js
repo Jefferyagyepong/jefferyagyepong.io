@@ -18,23 +18,32 @@ const Four = () => {
       ))}
 
       <nav>
-        <Link href={"#webdev"}>
-          <Image
-            src="/arrow-back-circle-outline.svg"
-            alt="Coast Republic"
-            width={20}
-            height={20}
-          />
-        </Link>
-        <Link href={"#html"}>
-          <Image
-            src="/arrow-forward-circle-outline.svg"
-            alt="Coast Republic"
-            width={20}
-            height={20}
-          />
-        </Link>
+        <div className="blog-footer">
+          <Link href={"#webdev"}>
+            previous
+            <Image
+              src="/arrow-back-circle-outline.svg"
+              alt="Coast Republic"
+              width={40}
+              height={40}
+            />
+          </Link>
+          <Link href={"#html"}>
+            {" "}
+            next
+            <Image
+              src="/arrow-forward-circle-outline.svg"
+              alt="Coast Republic"
+              width={40}
+              height={40}
+            />
+          </Link>
+        </div>
       </nav>
+      <div className="blog-footer">
+        <span className="blog-footer-text">By: Jeffery Agyepong</span>
+        <span className="blog-footer-text">February 03, 2024</span>
+      </div>
     </div>
   );
 };
