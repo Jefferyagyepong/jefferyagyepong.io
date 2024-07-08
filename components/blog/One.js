@@ -1,6 +1,8 @@
 import React from "react";
+import Link from "next/link";
+import Image from "next/image";
 import Post from "./Post";
-const Webdev = () => {
+const One = () => {
   const blogPosts = [
     {
       title: "Learn Web Developement",
@@ -16,7 +18,25 @@ const Webdev = () => {
         <Post key={index} index={index} post={post} />
       ))}
 
+      <nav>
+        <Link href={"#webdev"}>
+          <Image
+            src="/arrow-back-circle-outline.svg"
+            alt="Coast Republic"
+            width={20}
+            height={20}
+          />
+        </Link>
+        <Link href={"#html"}>
+          <Image
+            src="/arrow-forward-circle-outline.svg"
+            alt="Coast Republic"
+            width={20}
+            height={20}
+          />
+        </Link>
+      </nav>
     </div>
   );
 };
-export default Webdev;
+export default One;

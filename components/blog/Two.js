@@ -1,6 +1,8 @@
 import React from "react";
 import Post from "./Post";
-const Webdev2 = () => {
+import Link from "next/link";
+import Image from "next/image";
+const Two = () => {
   const blogPosts = [
     {
       title: "HTML 5",
@@ -14,7 +16,25 @@ const Webdev2 = () => {
       {blogPosts.map((post, index) => (
         <Post key={index} index={index} post={post} />
       ))}
+      <nav>
+        <Link href={"#webdev"}>
+          <Image
+            src="/arrow-back-circle-outline.svg"
+            alt="Coast Republic"
+            width={40}
+            height={40}
+          />
+        </Link>
+        <Link href={"#sass"}>
+          <Image
+            src="/arrow-forward-circle-outline.svg"
+            alt="Coast Republic"
+            width={40}
+            height={40}
+          />
+        </Link>
+      </nav>
     </div>
   );
 };
-export default Webdev2;
+export default Two;

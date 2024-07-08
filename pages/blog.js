@@ -1,11 +1,12 @@
 import Head from "next/head";
-import Link from "next/link";
-import Image from "next/image";
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import Webdev from "@/components/blog/webdev";
-import Webdev2 from "@/components/blog/Webdev2";
+import One from "@/components/blog/One";
+import Two from "@/components/blog/Two";
+import Three from "@/components/blog/Three";
+import Four from "@/components/blog/Four";
+
 
 
 
@@ -58,42 +59,32 @@ export default function Blog() {
       </Head>
       <main>
         <Header />
-              <nav>
-        <Link href={"#html"}>
-          <Image
-            src="/arrow-back-circle-outline.svg"
-            alt="Coast Republic"
-            width={20}
-            height={20}
-          />
-        </Link>
-        <Link href={"#html"}>
-          <Image
-            src="/arrow-forward-circle-outline.svg"
-            alt="Coast Republic"
-            width={20}
-            height={20}
-          />
-        </Link>
-      </nav>
-      <div className="list-wrapper">
-        <ul className="list">
-          <li className="item">
-            <div className="content">
-               <Webdev/>
-            </div>
 
-          </li>
-          <li className="item">
-            <div className="content">
-            <Webdev2/>
+        <div>
+          <ul className="list">
+            <li className="item">
+              <div className="content">
+                <One />
               </div>
             </li>
-          </ul>
-          </div>
+            <li className="item">
+              <div className="content">
+                <Two />
+              </div>
+            </li>
+            <li className="item">
+              <div className="content">
+                <Three />
+              </div>
+            </li>
+            <li className="item">
+              <div className="content">
+               <Four/>
+              </div>
             
-
-      
+            </li>
+          </ul>
+        </div>
 
         <Footer />
       </main>
