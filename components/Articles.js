@@ -4,7 +4,7 @@ export default function Articles() {
   return (
     <div className="articles">
       <h3 className="myself-header">Latest articles</h3>
-      <p className="article-para">I write articles on web development, including links to resources checkout my latest article..</p>
+      <p className="article-para">I write articles on web development, including links to resources. Check out my latest article..</p>
       <nav>
         <Link href={"#image-2"}>
           <Image
