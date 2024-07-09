@@ -18,12 +18,12 @@ const Two = () => {
     <>
       <Head>
         <title>Jeffery Agyeong | blog</title>
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:site"
-          content="https://jefferyagyepong-io.vercel.app/blog/Two"
+          content="@jeffagyepong"
         />
-        <meta name="twitter:creator" content="Jeffery Agyepong" />
+        <meta name="twitter:creator" content="@jeffagyepong" />
         <meta name="twitter:title" content="Hypertext mark-up language " />
         <meta
           name="twitter:description"
@@ -31,7 +31,7 @@ const Two = () => {
         />
         <meta
           name="twitter:image"
-          content="/public/card.png"
+          content="https://jefferyagyepong-io.vercel.app/public/card.png"
         />
         <meta property="og:title" content="HTML 5 article" />
         <meta property="og:type" content="blog website" />
@@ -39,7 +39,7 @@ const Two = () => {
           property="og:url"
           content="https://jefferyagyepong-io.vercel.app/blog/Two"
         />
-        <meta property="og:image" content="/favicon.ico" />
+        <meta property="og:image" content="https://jefferyagyepong-io.vercel.app/public/card.png" />
         <meta name="google-adsense-account" content="ca-pub-2474265697377160" />
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
