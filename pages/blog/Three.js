@@ -5,7 +5,7 @@ import Header from "@/components/Header";
 import Image from "next/image";
 import Link from "next/link";
 import Newsletter from "@/components/Newsletter";
-import Post from "./Post";
+import Post from "../../components/Post";
 const Three = () => {
   const blogPosts = [
     {
