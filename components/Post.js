@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-const Post = ({ post: { title, body, imgUrl, author }, index }) => {
+const Post = ({ post: { title, body, imgUrl }, index }) => {
   return (
     <div >
       <h1 >{title}</h1>
