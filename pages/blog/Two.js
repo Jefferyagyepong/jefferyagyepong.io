@@ -31,7 +31,8 @@ const Two = () => {
         />
         <meta
           name="twitter:image"
-          content="https://jefferyagyepong-io.vercel.app/public/card.png"
+          content="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=2669&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              
         />
         <meta property="og:title" content="HTML 5 article" />
         <meta property="og:type" content="blog website" />
@@ -39,7 +40,8 @@ const Two = () => {
           property="og:url"
           content="https://jefferyagyepong-io.vercel.app/blog/Two"
         />
-        <meta property="og:image" content="https://jefferyagyepong-io.vercel.app/public/card.png" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=2669&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              />
         <meta name="google-adsense-account" content="ca-pub-2474265697377160" />
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
