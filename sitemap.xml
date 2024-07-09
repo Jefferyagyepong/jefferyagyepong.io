@@ -1,17 +1,42 @@
+
+
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>https://jefferyagyepong-io.vercel.app/</loc>
-<loc>https://jefferyagyepong-io.vercel.app/blog</loc>
-<loc>https://jefferyagyepong-io.vercel.app/contact</loc>
-<loc>https://jefferyagyepong-io.vercel.app/blog/One</loc>
-<loc>https://jefferyagyepong-io.vercel.app/blog/Two</loc>
-<loc>https://jefferyagyepong-io.vercel.app/blog/Three</loc>
-<loc>https://jefferyagyepong-io.vercel.app/blog/Four</loc>
-<loc>https://jefferyagyepong-io.vercel.app/aboutme</loc>
-<loc>https://jefferyagyepong-io.vercel.app/newsletter</loc>
-<loc>https://jefferyagyepong-io.vercel.app/privacy</loc>
-<loc>https://jefferyagyepong-io.vercel.app/policy</loc>
-<priority>0.7</priority>
-</url>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+
+      <loc>https://jefferyagyepong-io.vercel.app</loc>
+
+      <lastmod>2024-07-09</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.8</priority>
+
+   </url>
+
+   <url>
+
+      <loc>http://jefferyagyepong-io.vercel.app/blog</loc>
+
+      <changefreq>weekly</changefreq>
+
+   </url>
+
+
+   <url>
+
+      <loc>https://jefferyagyepong-io.vercel.app/contact</loc>
+
+      <lastmod>2024-07-07T18:00:15+00:00</lastmod>
+
+      <priority>0.3</priority>
+
+   </url>
+
+
+
 </urlset>
+
+
