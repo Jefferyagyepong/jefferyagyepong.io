@@ -19,17 +19,17 @@ const Four = () => {
     <>
       <Head>
         <title>Jeffery Agyeong | blog</title>
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:site"
-          content="https://jefferyagyepong-io.vercel.app/blog/Four"
+          content="@jeffagyepong"
         />
-        <meta name="twitter:creator" content="Jeffery Agyepong" />
+        <meta name="twitter:creator" content="@jeffagyepong" />
         <meta name="twitter:title" content="Javascript " />
         <meta name="twitter:description" content="Javascript basics" />
         <meta
           name="twitter:image"
-          content="/public/card.png"
+          content="https://jefferyagyepong-io.vercel.app/public/card.png"
         />
         <meta property="og:title" content="Javascript article" />
         <meta property="og:type" content="blog website" />
@@ -37,7 +37,7 @@ const Four = () => {
           property="og:url"
           content="https://jefferyagyepong-io.vercel.app/blog/Four"
         />
-        <meta property="og:image" content="/favicon.ico" />
+        <meta property="og:image" content="https://jefferyagyepong-io.vercel.app/public/card.png" />
         <meta name="google-adsense-account" content="ca-pub-2474265697377160" />
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
