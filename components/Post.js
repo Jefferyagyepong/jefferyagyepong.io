@@ -11,7 +11,7 @@ const Post = ({ post: { title, body, imgUrl, author }, index }) => {
         width={100}
         height={120}
       />
-      <p>{body}</p>
+      <p className="article-para">{body}</p>
       <div >
         <h4> by: {author}</h4>
       </div>
