@@ -27,7 +27,7 @@ export default function Home() {
         <meta
           name="twitter:image"
           content="/public/lee.JPG"
-        /
+        />
         <meta property="og:title" content="Jeffery Agyepong | Web Developer" />
         <meta property="og:type" content="Portfolio website" />
         <meta
