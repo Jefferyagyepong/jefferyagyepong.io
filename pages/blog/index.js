@@ -12,12 +12,12 @@ export default function Blog() {
     <>
       <Head>
         <title>Jeffery Agyeong | blog</title>
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:site"
-          content="https://jefferyagyepong-io.vercel.app/blog"
+          content="@jeffagyepong"
         />
-        <meta name="twitter:creator" content="Jeffery Agyepong" />
+        <meta name="twitter:creator" content="@jeffagyepong" />
         <meta name="twitter:title" content="Learn Web development " />
         <meta
           name="twitter:description"
@@ -25,16 +25,16 @@ export default function Blog() {
         />
         <meta
           name="twitter:image"
-          content="/public/card.png"
+          content="https://jefferyagyepong-io.vercel.app/public/card.png"
         />
 
-        <meta property="og:title" content="web development blog" />
+        <meta property="og:title" content="Web development" />
         <meta property="og:type" content="blog website" />
         <meta
           property="og:url"
           content="https://jefferyagyepong-io.vercel.app/blog/"
         />
-        <meta property="og:image" content="/favicon.ico" />
+        <meta property="og:image" content="https://jefferyagyepong-io.vercel.app/public/card.png" />
         <meta name="google-adsense-account" content="ca-pub-2474265697377160" />
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
