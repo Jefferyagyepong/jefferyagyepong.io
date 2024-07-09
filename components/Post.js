@@ -13,7 +13,7 @@ const Post = ({ post: { title, body, imgUrl }, index }) => {
       />
       <p className="article-para">{body}</p>
       <div >
-        <h4> by: {author}</h4>
+
       </div>
     </div>
   );
