@@ -4,7 +4,7 @@ export default function Work() {
   return (
     <div className="articles">
       <h3 className="myself-header">Projects</h3>
-      <p>
+      <p className="article-para">
         I&apos;m open to discussing partnership and colaboration projects. Here
         are a few projects I&apos;m managing.
       </p>
@@ -40,7 +40,7 @@ export default function Work() {
             </div>
           
               <h3 className="font-weight">Coast Republic inc.</h3>
-              <p>
+              <p className="article-para">
                 Clothing store located in Ghana delivering items to all 16
                 regions 🇬🇭
               </p>
@@ -63,7 +63,7 @@ export default function Work() {
             </div>
             <div>
               <h3 className="font-weight">Yo Cho inc.</h3>
-              <p>Continental restaurant serving local dishes and beverages.</p>
+              <p className="article-para">Continental restaurant serving local dishes and beverages.</p>
             </div>
             <Link href={"#"} className="mail-link">
               Visit Website
