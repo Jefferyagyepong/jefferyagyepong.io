@@ -13,12 +13,12 @@ export default function Home() {
     <>
       <Head>
         <title>Jeffery Agyepong | Web Developer</title>
-           <meta name="twitter:card" content="summary_large_image" />
+           <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:site"
-          content="https://jefferyagyepong-io.vercel.app/"
+          content="@jeffagyepong"
         />
-        <meta name="twitter:creator" content="Jeffery Agyepong" />
+        <meta name="twitter:creator" content="@jeffagyepong" />
         <meta name="twitter:title" content="portfolio" />
         <meta
           name="twitter:description"
@@ -26,15 +26,15 @@ export default function Home() {
         />
         <meta
           name="twitter:image"
-          content="/public/lee.JPG"
+          content="https://jefferyagyepong-io.vercel.app/public/lee.JPG"
         />
         <meta property="og:title" content="Jeffery Agyepong | Web Developer" />
         <meta property="og:type" content="Portfolio website" />
         <meta
           property="og:url"
-          content="https://jefferyagyepong-io.vercel.app"
+          content="https://jefferyagyepong-io.vercel.app/"
         />
-        <meta property="og:image" content="/favicon.ico" />
+        <meta property="og:image" content="https://jefferyagyepong-io.vercel.app/public/lee.JPG" />
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="author" content="Jeffery Agyepong" />
