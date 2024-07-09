@@ -27,7 +27,7 @@ const One = () => {
           name="twitter:site"
           content="@jeffagyepong"
         />
-        <meta name="twitter:creator" content="Jeffery Agyepong" />
+        <meta name="twitter:creator" content="@jeffagyepong" />
         <meta name="twitter:title" content="Hypertext Markup Languange " />
         <meta
           name="twitter:description"
