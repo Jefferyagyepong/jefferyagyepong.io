@@ -12,7 +12,7 @@ export default function Blog() {
     <>
       <Head>
         <title>Jeffery Agyeong | blog</title>
-        <meta name="twitter:card" content="Web development article" />
+        <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:site"
           content="https://jefferyagyepong-io.vercel.app/blog"

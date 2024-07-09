@@ -18,7 +18,7 @@ const Two = () => {
     <>
       <Head>
         <title>Jeffery Agyeong | blog</title>
-        <meta name="twitter:card" content="HTML 5 article" />
+        <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:site"
           content="https://jefferyagyepong-io.vercel.app/blog/Two"

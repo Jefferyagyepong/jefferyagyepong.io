@@ -19,7 +19,7 @@ const Four = () => {
     <>
       <Head>
         <title>Jeffery Agyeong | blog</title>
-        <meta name="twitter:card" content="Javascript article" />
+        <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:site"
           content="https://jefferyagyepong-io.vercel.app/blog/Four"
