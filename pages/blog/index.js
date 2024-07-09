@@ -87,7 +87,7 @@ export default function Blog() {
               </div>
               <div>
                 <h4>Learn Web Developement</h4>
-                <p>
+                <p className="article-para">
                   Learning web development can be an exciting journey. This
                   article will guide you from beginner.
                 </p>
