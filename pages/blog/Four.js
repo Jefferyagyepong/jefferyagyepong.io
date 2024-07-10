@@ -104,7 +104,7 @@ const Four = () => {
             </div>
           </nav>
           <div className="blog-footer">
-            <span className="blog-footer-text">By: Jeffery Agyepong <Image src={"/lee.png"} width={44} height ={44} alt="jeffery agyepong"/></span>
+            <span>By: Jeffery Agyepong | <Image src={"/lee.png"} width={44} height ={44} alt="jeffery agyepong"/></span>
             <span className="blog-footer-text">February 03, 2024</span>
           </div>
           <div>
