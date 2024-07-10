@@ -35,7 +35,7 @@ export default function Home() {
           content="https://jefferyagyepong-io.vercel.app/"
         />
         <meta property="og:image" content= "https://i.postimg.cc/DzR6JLQL/lee.png"/>
-          <meta property="fb:app_id" content= "Jeff Agyepong"/>
+          
             <meta property="og:type" content= "Portfolio"/>
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
