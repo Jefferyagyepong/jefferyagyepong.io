@@ -47,7 +47,7 @@ export default function Home() {
           name="keywords"
           content="web designer, Web developer, SEO expert, Web Engineer, Web Master Tools, Website development Agency, Software Application Developer, Website management, Hire, careers, information technology, recruitment, ghana, Africa, Europe, America, talent "
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/lee.ico" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
