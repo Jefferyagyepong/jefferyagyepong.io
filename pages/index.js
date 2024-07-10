@@ -19,7 +19,7 @@ export default function Home() {
           content="@jeffagyepong"
         />
         <meta name="twitter:creator" content="@jeffagyepong" />
-        <meta name="twitter:title" content="portfolio" />
+        <meta name="twitter:title" content="Web Developer " />
         <meta
           name="twitter:description"
           content="Web developer"
