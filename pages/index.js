@@ -28,13 +28,13 @@ export default function Home() {
           name="twitter:image"
           content="https://jefferyagyepong-io.vercel.app/public/lee.JPG"
         />
-        <meta property="og:title" content="Jeffery Agyepong | Web Developer" />
-        <meta property="og:type" content="Portfolio website" />
+        <meta property="og:title" content="Jeffery Agyepong's portfolio " />
+        <meta property="og:description" content="Portfolio site highlights skills and projects details" />
         <meta
           property="og:url"
           content="https://jefferyagyepong-io.vercel.app/"
         />
-        <meta property="og:image" content="https://jefferyagyepong-io.vercel.app/public/lee.png" />
+        <meta property="og:image" content= "https://i.postimg.cc/DzR6JLQL/lee.png"/>
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="author" content="Jeffery Agyepong" />
