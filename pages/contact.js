@@ -16,7 +16,7 @@ export default function Contact() {
           property="og:url"
           content="https://jefferyagyepong-io.vercel.app"
         />
-        <meta property="og:image" content="https://i.postimg.cc/DzR6JLQL/lee.png"   />
+        <meta property="og:image" content="https://i.postimg.cc/Bv2qz8cs/IMG-0568.jpg"/>
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="author" content="Jeffery Agyepong" />
