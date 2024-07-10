@@ -33,7 +33,7 @@ export default function Home() {
           property="og:url"
           content="https://jefferyagyepong-io.vercel.app/"
         />
-        <meta property="og:image" content= "https://photos.app.goo.gl/yBfhrU49q6XbsmWh6"/>
+        <meta property="og:image" content= "https://i.postimg.cc/DzR6JLQL/lee.png"/>
           
             <meta property="og:type" content= "Portfolio"/>
 
