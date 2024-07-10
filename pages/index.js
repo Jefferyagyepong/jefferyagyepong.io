@@ -13,6 +13,8 @@ export default function Home() {
     <>
       <Head>
         <title>Jeffery Agyepong | Web Developer</title>
+        
+        <meta name="facebook-domain-verification" content="gged1ddqn5robpt1evadltfbahaanv" />
            <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:site"
