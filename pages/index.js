@@ -25,8 +25,7 @@ export default function Home() {
           content="Web developer"
         />
         <meta
-          name="twitter:image"
-          content="https://jefferyagyepong-io.vercel.app/public/lee.JPG"
+          name="twitter:image" content= "https://i.postimg.cc/DzR6JLQL/lee.png"
         />
         <meta property="og:title" content="Jeffery Agyepong's portfolio " />
         <meta property="og:description" content="Portfolio site highlights skills and projects details" />
