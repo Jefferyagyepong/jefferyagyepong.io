@@ -5,7 +5,7 @@ export default function Articles() {
     <div className="articles">
       <h3 className="myself-header">Latest articles</h3>
       <p className="article-para">I write articles on web development, including links to resources. Check out my latest article..</p>
-      <nav>
+      <nav className="nav-arrows">
         <Link href={"#image-1"}>
           <Image
             src="/arrow-back-circle-outline.svg"
@@ -22,7 +22,7 @@ export default function Articles() {
             height={20}
           />
         </Link>
-      </nav className="nav-arrows">
+      </nav>
       <div className="list-wrapper">
         <ul className="list">
           <li className="item">
