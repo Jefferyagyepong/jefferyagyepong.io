@@ -108,7 +108,7 @@ const One = () => {
         </div>
         <div>
           <h4>Resources</h4>
-          <Link href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web">Getting started with the web</Link>
+          <Link href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web" target="_blank">Getting started with the web</Link>
             
           </div>
         <Newsletter />
