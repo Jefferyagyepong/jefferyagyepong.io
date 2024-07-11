@@ -41,7 +41,7 @@ export default function Blog() {
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="author" content="Jeffery Agyepong" />
-        <meta name="description" content="Blogger" />
+        <meta name="description" content="Blog" />
         <meta
           name="keywords"
           content="Blogger, Technology, News, web development, Ghana, web design, Learn, Biginner, fundamentals"
