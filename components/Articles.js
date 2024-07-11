@@ -22,7 +22,7 @@ export default function Articles() {
             height={20}
           />
         </Link>
-      </nav>
+      </nav className="nav-arrows">
       <div className="list-wrapper">
         <ul className="list">
           <li className="item">
