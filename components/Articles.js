@@ -5,8 +5,8 @@ export default function Articles() {
     <div className="articles">
       <h3 className="myself-header">Latest articles</h3>
       <p className="article-para">I write articles on web development, including links to resources. Check out my latest article..</p>
-      <nav className="nav-arrows">
-        <Link href={"#image-1"}>
+      <nav>
+        <Link href={"#image-1"} className="nav-arrows">
           <Image
             src="/arrow-back-circle-outline.svg"
             alt="Coast Republic"
