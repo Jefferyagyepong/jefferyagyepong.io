@@ -6,8 +6,8 @@ export default function Articles() {
       <h3 className="myself-header">Latest articles</h3>
       <p className="article-para">I write articles on web development, including links to resources. Check out my latest article..</p>
       <nav>
-        <div className="nav-arrow">
-        <Link href={"#image-1"}>
+        
+        <Link href={"#image-1"} className="nav-arrow">
           <Image
             src="/arrow-back-circle-outline.svg"
             alt="Coast Republic"
@@ -15,7 +15,7 @@ export default function Articles() {
             height={20}
           />
         </Link>
-        <Link href={"#image-2"}>
+        <Link href={"#image-2"} className="nav-arrow">
           <Image
             src="/arrow-forward-circle-outline.svg"
             alt="Coast Republic"
@@ -23,7 +23,7 @@ export default function Articles() {
             height={20}
           />
         </Link>
-        </div>
+      
       </nav>
       <div className="list-wrapper">
         <ul className="list">
