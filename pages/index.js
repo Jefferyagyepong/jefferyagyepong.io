@@ -36,6 +36,8 @@ export default function Home() {
           content="https://jefferyagyepong-io.vercel.app/"
         />
         <meta property="og:image" content= "https://i.postimg.cc/Bv2qz8cs/IMG-0568.jpg"/>
+        <meta property="og:image:width" content="600">
+          <meta property="og:image:height" content="336">
           
             <meta property="og:type" content= "Portfolio"/>
 
