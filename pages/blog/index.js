@@ -88,8 +88,7 @@ export default function Blog() {
               <div>
                 <h4>Learn Web Developement</h4>
                 <p className="article-para">
-                  Learning web development can be an exciting journey. This
-                  article will guide you from beginner.
+                  If you are a complete beginner, web development can be challenging. This article will provide enough detail for to learn the topics properly. Enjoy your exciting journey.
                 </p>
                 <Link href="/blog/One" className="slate-blue">
                   Read
