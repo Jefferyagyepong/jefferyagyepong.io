@@ -15,7 +15,7 @@ export default function Blog() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:site"
-          content="https://jefferyagyepong-io.vercel.app/blog"
+          content="https://jefferyagyepong-io.vercel.app/blog/"
         />
         <meta name="twitter:creator" content="Jeffery Agyepong" />
         <meta name="twitter:title" content="Learn Web development " />
@@ -25,7 +25,7 @@ export default function Blog() {
         />
         <meta
           name="twitter:image"
-          content="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=2669&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          content="/public/card.png"
         />
 
         <meta property="og:title" content="web development blog" />
