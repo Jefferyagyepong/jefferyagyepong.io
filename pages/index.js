@@ -13,33 +13,37 @@ export default function Home() {
     <>
       <Head>
         <title>Jeffery Agyepong | Web Developer</title>
-        
-        <meta name="facebook-domain-verification" content="gged1ddqn5robpt1evadltfbahaanv" />
-           <meta name="twitter:card" content="summary" />
+
         <meta
-          name="twitter:site"
-          content="@jeffagyepong"
+          name="facebook-domain-verification"
+          content="gged1ddqn5robpt1evadltfbahaanv"
         />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@jeffagyepong" />
         <meta name="twitter:creator" content="@jeffagyepong" />
         <meta name="twitter:title" content="Web Developer " />
+        <meta name="twitter:description" content="Web developer" />
         <meta
-          name="twitter:description"
-          content="Web developer"
-        />
-        <meta
-          name="twitter:image" content= "https://i.postimg.cc/DzR6JLQL/lee.png"
+          name="twitter:image"
+          content="https://i.postimg.cc/DzR6JLQL/lee.png"
         />
         <meta property="og:title" content="Web Developer " />
-        <meta property="og:description" content="Portfolio site highlights skills and projects details" />
+        <meta
+          property="og:description"
+          content="Portfolio site highlights skills and projects details"
+        />
         <meta
           property="og:url"
           content="https://jefferyagyepong-io.vercel.app/"
         />
-        <meta property="og:image" content= "https://i.postimg.cc/Bv2qz8cs/IMG-0568.jpg"/>
+        <meta
+          property="og:image"
+          content="https://i.postimg.cc/Bv2qz8cs/IMG-0568.jpg"
+        />
         <meta property="og:image:width" content="600" />
-          <meta property="og:image:height" content="336" />
-          
-            <meta property="og:type" content= "Portfolio"/>
+        <meta property="og:image:height" content="336" />
+
+        <meta property="og:type" content="Portfolio" />
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="author" content="Jeffery Agyepong" />
@@ -79,9 +83,9 @@ export default function Home() {
         <Header />
         <Introduction />
         <Myself />
-        <Articles/>
+        <Articles />
         <Work />
-        <Newsletter/>
+        <Newsletter />
         <Footer />
       </main>
     </>

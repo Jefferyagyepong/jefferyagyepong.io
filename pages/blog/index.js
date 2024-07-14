@@ -13,14 +13,7 @@ export default function Blog() {
       <Head>
         <title>Jeffery Agyeong | blog</title>
         <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:site"
-<<<<<<< HEAD
-          content="https://jefferyagyepong-io.vercel.app/blog/"
-=======
-          content="@jeffagyepong"
->>>>>>> bee42546c5c21f394159db0cb331a7ca8fa2bb63
-        />
+        <meta name="twitter:site" content="@jeffagyepong" />
         <meta name="twitter:creator" content="@jeffagyepong" />
         <meta name="twitter:title" content="Learn Web development " />
         <meta
@@ -29,12 +22,7 @@ export default function Blog() {
         />
         <meta
           name="twitter:image"
-<<<<<<< HEAD
-          content="/public/card.png"
-=======
           content="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=2669&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              
->>>>>>> bee42546c5c21f394159db0cb331a7ca8fa2bb63
         />
 
         <meta property="og:title" content="Web development" />
@@ -43,8 +31,10 @@ export default function Blog() {
           property="og:url"
           content="https://jefferyagyepong-io.vercel.app/blog/"
         />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=2669&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              />
+        <meta
+          property="og:image"
+          content="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=2669&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        />
         <meta name="google-adsense-account" content="ca-pub-2474265697377160" />
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -87,7 +77,6 @@ export default function Blog() {
                 <Image
                   id={"image-1"}
                   src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=2669&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              
                   alt="engineering"
                   width={380}
                   height={200}
@@ -96,7 +85,9 @@ export default function Blog() {
               <div>
                 <h4>Learn Web Developement</h4>
                 <p className="article-para">
-                  If you are a complete beginner, web development can be challenging. This article will provide enough detail for to learn the topics properly. Enjoy your exciting journey.
+                  If you are a complete beginner, web development can be
+                  challenging. This article will provide enough detail for to
+                  learn the topics properly. Enjoy your exciting journey.
                 </p>
                 <Link href="/blog/One" className="slate-blue">
                   Read

@@ -10,13 +10,25 @@ export default function Contact() {
     <>
       <Head>
         <title>Jeffery Agyepong | contact</title>
-        <meta property="og:title" content="Jeffery Agyepong | Web Developer" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@jeffagyepong" />
+        <meta name="twitter:creator" content="@jeffagyepong" />
+        <meta name="twitter:title" content="Web Developer " />
+        <meta name="twitter:description" content="Web developer" />
+        <meta
+          name="twitter:image"
+          content="https://i.postimg.cc/DzR6JLQL/lee.png"
+        />
+        <meta property="og:title" content="Web Developer" />
         <meta property="og:type" content="Portfolio website" />
         <meta
           property="og:url"
-          content="https://jefferyagyepong-io.vercel.app"
+          content="https://jefferyagyepong-io.vercel.app/"
         />
-        <meta property="og:image" content="https://i.postimg.cc/Bv2qz8cs/IMG-0568.jpg"/>
+        <meta
+          property="og:image"
+          content="https://i.postimg.cc/Bv2qz8cs/IMG-0568.jpg"
+        />
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="author" content="Jeffery Agyepong" />
@@ -56,7 +68,7 @@ export default function Contact() {
         <Header />
         <div className="background-whitesmoke">
           <div>
-            <Image src={"/lee.png"} width={55} height={55} alt="jeffery"/>
+            <Image src={"/lee.png"} width={55} height={55} alt="jeffery" />
             <Link href={"./"}>
               <h3 className="header-title">Jeffery Agyepong</h3>
             </Link>
@@ -118,7 +130,6 @@ export default function Contact() {
           </Link>
         </div>
         <Newsletter />
-       
       </main>
     </>
   );
