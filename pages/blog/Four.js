@@ -20,17 +20,13 @@ const Four = () => {
       <Head>
         <title>Jeffery Agyeong | blog</title>
         <meta name="twitter:card" content="summary" />
-        <meta
-          name="twitter:site"
-          content="@jeffagyepong"
-        />
+        <meta name="twitter:site" content="@jeffagyepong" />
         <meta name="twitter:creator" content="@jeffagyepong" />
         <meta name="twitter:title" content="Javascript " />
         <meta name="twitter:description" content="Javascript basics" />
         <meta
           name="twitter:image"
           content="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=2669&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              
         />
         <meta property="og:title" content="Javascript article" />
         <meta property="og:type" content="blog website" />
@@ -38,8 +34,10 @@ const Four = () => {
           property="og:url"
           content="https://jefferyagyepong-io.vercel.app/blog/Four"
         />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=2669&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              />
+        <meta
+          property="og:image"
+          content="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=2669&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        />
         <meta name="google-adsense-account" content="ca-pub-2474265697377160" />
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -104,7 +102,15 @@ const Four = () => {
             </div>
           </nav>
           <div className="blog-footer">
-            <span>By: Jeffery Agyepong | <Image src={"/lee.png"} width={44} height ={44} alt="jeffery agyepong"/></span>
+            <span>
+              By: Jeffery Agyepong |{" "}
+              <Image
+                src={"/lee.png"}
+                width={44}
+                height={44}
+                alt="jeffery agyepong"
+              />
+            </span>
             <span className="blog-footer-text">February 03, 2024</span>
           </div>
           <div>
