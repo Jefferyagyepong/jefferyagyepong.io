@@ -1,6 +1,5 @@
 @import "../abstracts/variables";
 
-
 .list {
     display: flex;
     align-items: center;
@@ -11,8 +10,12 @@
     scrollbar-width: none;
     -ms-overflow-style: none;
     flex-direction: row;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.article-para{
+text-align: left;
+line-height:2.1;
 }
 
 .list::-webkit-scrollbar {
@@ -26,14 +29,20 @@
     scroll-snap-align: center;
 
 }
+.nav-arrows{ 
+display: flex;
+flex-direction:row;
+align-items:center;
+justify-content:space-evenly;
+}
 
 .item-work {
     flex-shrink: 0;
     width: 100%;
     height: 75vh;
     scroll-snap-align: center;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .content {
@@ -78,8 +87,8 @@
     width: 100%;
     height: 50vh;
     scroll-snap-align: center;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
     display: block;
     margin: 0 auto;
 }
@@ -89,8 +98,8 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 
 }
 
@@ -118,9 +127,7 @@ hr {
     font-weight: 600;
 }
 
-.container {
-    width: 100%;
-}
+
 
 .list-wrapper {
     padding-top: 0.5rem;
@@ -129,7 +136,6 @@ hr {
     align-items: center;
     justify-content: center;
     background-color: whitesmoke;
-    text-align: center;
     max-width: 500px;
     margin: 0 auto;
     box-shadow: 15px white;
@@ -152,15 +158,15 @@ hr {
 }
 
 .myself {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
     background-color: whitesmoke;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 
 }
 
@@ -207,15 +213,14 @@ hr {
 }
 
 .articles {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    text-align: center;
     justify-content: center;
 
 
@@ -225,11 +230,12 @@ hr {
     background-color: whitesmoke;
     box-shadow: 5px 5px 5px 5px #fff;
     max-width: 400px;
-    padding: 20px;
     border-radius: 8px;
     margin: 0 auto;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+      padding-top: 20px;
+     padding-bottom: 20px;
 }
 
 @media (max-width: 700px) {
@@ -239,8 +245,8 @@ hr {
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        margin-top: 0.5rem;
-        margin-bottom: 0.5rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
 
 
     }
@@ -253,7 +259,6 @@ hr {
         align-items: center;
         justify-content: center;
         background-color: whitesmoke;
-        text-align: start;
         max-width: 350px;
         margin: 0 auto;
         box-shadow: 5px 5px 5px 5px #fff;
@@ -262,11 +267,10 @@ hr {
     .background-whitesmoke {
         background-color: whitesmoke;
         box-shadow: 5px 5px 5px 5px #fff;
-        max-width: 270px;
-        padding: 20px;
+        max-width: 390px;
         margin: 0 auto;
-        margin-top: 0.5rem;
-        margin-bottom: 0.5rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
     }
 
     hr {
@@ -288,8 +292,8 @@ hr {
         width: 100%;
         height: 58vh;
         scroll-snap-align: center;
-        margin-top: 0.5rem;
-        margin-bottom: 0.5rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
     }
 
     .item-work {
@@ -297,8 +301,8 @@ hr {
         width: 100%;
         height: 50vh;
         scroll-snap-align: center;
-        margin-top: 0.5rem;
-        margin-bottom: 0.5rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
     }
 
 

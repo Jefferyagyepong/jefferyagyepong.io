@@ -16,7 +16,7 @@ export default function Contact() {
           property="og:url"
           content="https://jefferyagyepong-io.vercel.app"
         />
-        <meta property="og:image" content="/favicon.ico" />
+        <meta property="og:image" content="https://i.postimg.cc/Bv2qz8cs/IMG-0568.jpg"/>
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="author" content="Jeffery Agyepong" />
@@ -56,6 +56,7 @@ export default function Contact() {
         <Header />
         <div className="background-whitesmoke">
           <div>
+            <Image src={"/lee.png"} width={55} height={55} alt="jeffery"/>
             <Link href={"./"}>
               <h3 className="header-title">Jeffery Agyepong</h3>
             </Link>

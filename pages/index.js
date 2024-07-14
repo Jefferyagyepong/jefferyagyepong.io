@@ -13,28 +13,33 @@ export default function Home() {
     <>
       <Head>
         <title>Jeffery Agyepong | Web Developer</title>
-           <meta name="twitter:card" content="summary_large_image" />
+        
+        <meta name="facebook-domain-verification" content="gged1ddqn5robpt1evadltfbahaanv" />
+           <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:site"
-          content="https://jefferyagyepong-io.vercel.app/"
+          content="@jeffagyepong"
         />
-        <meta name="twitter:creator" content="Jeffery Agyepong" />
-        <meta name="twitter:title" content="portfolio" />
+        <meta name="twitter:creator" content="@jeffagyepong" />
+        <meta name="twitter:title" content="Web Developer " />
         <meta
           name="twitter:description"
           content="Web developer"
         />
         <meta
-          name="twitter:image"
-          content="/public/lee.JPG"
-        /
-        <meta property="og:title" content="Jeffery Agyepong | Web Developer" />
-        <meta property="og:type" content="Portfolio website" />
+          name="twitter:image" content= "https://i.postimg.cc/DzR6JLQL/lee.png"
+        />
+        <meta property="og:title" content="Web Developer " />
+        <meta property="og:description" content="Portfolio site highlights skills and projects details" />
         <meta
           property="og:url"
-          content="https://jefferyagyepong-io.vercel.app"
+          content="https://jefferyagyepong-io.vercel.app/"
         />
-        <meta property="og:image" content="/favicon.ico" />
+        <meta property="og:image" content= "https://i.postimg.cc/Bv2qz8cs/IMG-0568.jpg"/>
+        <meta property="og:image:width" content="600" />
+          <meta property="og:image:height" content="336" />
+          
+            <meta property="og:type" content= "Portfolio"/>
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="author" content="Jeffery Agyepong" />
@@ -46,7 +51,7 @@ export default function Home() {
           name="keywords"
           content="web designer, Web developer, SEO expert, Web Engineer, Web Master Tools, Website development Agency, Software Application Developer, Website management, Hire, careers, information technology, recruitment, ghana, Africa, Europe, America, talent "
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/lee.ico" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"

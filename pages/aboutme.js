@@ -54,7 +54,7 @@ export default function About() {
       </Head>
       <main>
         <Header />
-        <p>
+        <p className="article-para">
           As a web developer, my expertise spans both professional experience
           and academic training. I have a strong foundation in front-end
           development, proficient in HTML, CSS, and JavaScript, with a keen eye

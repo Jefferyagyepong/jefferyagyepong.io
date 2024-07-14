@@ -4,9 +4,10 @@ export default function Articles() {
   return (
     <div className="articles">
       <h3 className="myself-header">Latest articles</h3>
-      <p>I write articles on web development, including links to resources.</p>
+      <p className="article-para">I write articles on web development, including links to resources. Check out my latest article..</p>
       <nav>
-        <Link href={"#image-2"}>
+        
+        <Link href={"#image-1"} className="nav-arrow">
           <Image
             src="/arrow-back-circle-outline.svg"
             alt="Coast Republic"
@@ -14,7 +15,7 @@ export default function Articles() {
             height={20}
           />
         </Link>
-        <Link href={"#image-1"}>
+        <Link href={"#image-2"} className="nav-arrow">
           <Image
             src="/arrow-forward-circle-outline.svg"
             alt="Coast Republic"
@@ -22,6 +23,7 @@ export default function Articles() {
             height={20}
           />
         </Link>
+      
       </nav>
       <div className="list-wrapper">
         <ul className="list">
@@ -37,7 +39,7 @@ export default function Articles() {
             </div>
             <div>
               <h4>Learn Web Developement</h4>
-              <p>
+              <p className="article-para">
                 Learning web development can be an exciting journey. This
                 article will guide you from beginner.
               </p>
@@ -71,7 +73,7 @@ export default function Articles() {
             </div>
             <div>
               <h4>HTML 5</h4>
-              <p>HTML (HyperText Markup Language). Everything you need to know about the struct of the web technology languages</p>
+              <p className="article-para">HTML (HyperText Markup Language). Everything you need to know about the struct of the web technology languages</p>
               <Link href="#" className="slate-blue">
                 Read
                 <Image
