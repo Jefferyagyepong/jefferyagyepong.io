@@ -38,14 +38,17 @@ export default function Work() {
                 height={250}
               />
             </div>
-          
-              <h3 className="font-weight">Coast Republic inc.</h3>
-              <p className="article-para">
-                Clothing store located in Ghana delivering items to all 16
-                regions 🇬🇭
-              </p>
-          
-            <Link href={"#"} className="mail-link">
+
+            <h3 className="font-weight">Coast Republic inc.</h3>
+            <p className="article-para">
+              Clothing store located in Ghana delivering items to all 16 regions
+              🇬🇭
+            </p>
+
+            <Link
+              href={"https://coast-republic.vercel.app/"}
+              className="mail-link"
+            >
               Visit Website
             </Link>
           </li>
@@ -58,12 +61,13 @@ export default function Work() {
                 alt="Yo Cho"
                 width={280}
                 height={250}
-                
               />
             </div>
             <div>
               <h3 className="font-weight">Yo Cho inc.</h3>
-              <p className="article-para">Continental restaurant serving local dishes and beverages.</p>
+              <p className="article-para">
+                Continental restaurant serving local dishes and beverages.
+              </p>
             </div>
             <Link href={"#"} className="mail-link">
               Visit Website
