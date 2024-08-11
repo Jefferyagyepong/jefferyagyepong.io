@@ -32,7 +32,7 @@ export default function Work() {
             <div className="content">
               <Image
                 id={"img-1"}
-                src="/backgroundcr1.png"
+                src="/IMG_0962.png"
                 alt="Coast Republic"
                 width={280}
                 height={250}
