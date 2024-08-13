@@ -38,17 +38,6 @@ html {
 
 
 
-
-body {
-  text-rendering: optimizeLegibility;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  background-color: #fff;
-
-
-}
-
 a {
   text-decoration: none;
   transition: 0.5s ease;
@@ -85,7 +74,6 @@ html {
   min-height: 100vh;
   text-rendering: optimizeLegibility;
     text-align: center;
-    line-height: 25px;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -114,55 +102,6 @@ button:hover {
   opacity: 0.6;
 }
 
-input {
-  display: block;
-  max-width: 400px;
-  font: inherit;
-  padding: 0.6rem 4.62em;
-  border-radius: 3px;
-  border: none;
-  margin: 0 auto;
-  margin-top: 1rem;
-
-}
-
-
-input[type=submit] {
-  display: block;
-  max-width: 400px;
-  font: inherit;
-  padding: 0.6rem 4.2rem;
-  border-radius: 3px;
-  background-color: black;
-  color: white;
-  transition: 0.5s;
-  margin: 0 auto;
-  margin-top: 1rem;
-  cursor: pointer;
-
-}
-
-textarea {
-  display: block;
-  max-width: 400px;
-  font: inherit;
-  padding: 0.6rem 4.2rem;
-  border-radius: 3px;
-  border: none;
-  margin: 0 auto;
-  margin-top: 1rem;
-  -webkit-appearance: textarea;
-  -moz-appearance: textarea;
-  -o-appearance: textarea;
-  appearance: textarea;
-
-
-}
-
-label {
- padding-left: 0.9rem;
- color: #222;
-}
 
 input::-webkit-input-placeholder {
   font: inherit;
@@ -190,20 +129,18 @@ footer {
 
 ul {
   display: block;
-  transition: 0.5s ease;
   text-decoration: none;
   margin: 0 auto;
   list-style: none;
-  text-align: center;
+  
 }
 
 li {
   margin: 0 auto;
   text-align: center;
   display: block;
-  transition: 0.5s ease;
   cursor: pointer;
-  padding: 15px;
+
   
 
 }
