@@ -9,8 +9,7 @@ import Image from "next/image";
 <div id="frame">
         <input type="radio" name="frame" id="frame1" checked />
         <input type="radio" name="frame" id="frame2" />
-        <input type="radio" name="frame" id="frame3" />
-        <input type="radio" name="frame" id="frame4" />
+
         <div id="slides">
             <div id="overflow">
                 <div className="inner">
@@ -85,14 +84,12 @@ import Image from "next/image";
         <div id="controls">
             <label for="frame1"></label>
             <label for="frame2"></label>
-            <label for="frame3"></label>
-            <label for="frame4"></label>
+   
         </div>
         <div id="bullets">
             <label for="frame1"></label>
             <label for="frame2"></label>
-            <label for="frame3"></label>
-            <label for="frame4"></label>
+      
         </div>
     </div>
           </div>
