@@ -45,7 +45,7 @@ export default function Home() {
 
         <meta property="og:type" content="Portfolio" />
 
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+       <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
         <meta name="author" content="Jeffery Agyepong" />
         <meta
           name="description"
