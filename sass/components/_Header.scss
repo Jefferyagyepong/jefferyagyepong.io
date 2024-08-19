@@ -14,7 +14,16 @@ width:100%;
 padding-top:20px;
 padding-bottom:20px;
 }
+.fluid-container-align-left{
+width:100%;
+padding-top:20px;
+padding-bottom:20px;
+}
+.fluid-container-align-left p{
+text-align:left;
+padding-left:12px;
 
+}
 .links {
   display: flex;
   align-items: center;
