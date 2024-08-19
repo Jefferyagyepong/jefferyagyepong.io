@@ -39,7 +39,7 @@ import Image from "next/image";
             </div>
             <div>
               <h4>Learn Web Developement</h4>
-              <p className="article-para">
+              <p>
                 Learning web development can be an exciting journey. This
                 article will guide you from beginner.
               </p>
@@ -67,13 +67,13 @@ import Image from "next/image";
                 id={"image-2"}
                 src="logo-html5.svg"
                 alt="html logo"
-                width={280}
-                height={200}
+                width={180}
+                height={100}
               />
             </div>
             <div>
               <h4>HTML 5</h4>
-              <p className="article-para">HTML (HyperText Markup Language). Everything you need to know about the struct of the web technology languages</p>
+              <p>HTML (HyperText Markup Language). Everything you need to know about the struct of the web technology languages</p>
               <Link href="#" className="slate-blue">
                 Read
                 <Image
