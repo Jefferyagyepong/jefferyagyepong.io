@@ -1,6 +1,6 @@
 
 import Link from "next/link";
-export default function RecentWork() {
+ function RecentWork() {
     return (
      
     <div className="container">
@@ -8,16 +8,9 @@ export default function RecentWork() {
       <p >
         Here are a few design projects I&apos;ve worked on recently. Want to see
         more?
-
         </p>
-    
-           <Link href={"mailto:agyepong9jeff@icloud.com"} className="container-link">📧 Email me</Link><br/><br/>
-
-        
-               
-    </div>
-
-   
-
+           <Link href={"mailto:agyepong9jeff@icloud.com"} className="container-link">📧 Email me</Link>                      
+    </div>   
   );
 }
+export default RecentWork;
