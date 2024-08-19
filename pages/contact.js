@@ -29,8 +29,7 @@ export default function Contact() {
           property="og:image"
           content="https://i.postimg.cc/Bv2qz8cs/IMG-0568.jpg"
         />
-
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
         <meta name="author" content="Jeffery Agyepong" />
         <meta
           name="description"
