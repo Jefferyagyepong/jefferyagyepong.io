@@ -3,7 +3,7 @@ import Link from "next/link";
  function RecentWork() {
     return (
      
-    <div className="container">
+    <div className="fluid-container">
       <h2>My Recent Work</h2>
       <p >
         Here are a few design projects I&apos;ve worked on recently. Want to see
