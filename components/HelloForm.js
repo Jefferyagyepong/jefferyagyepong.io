@@ -7,7 +7,7 @@ function HelloForm() {
     return <p>Thanks for joining!</p>;
   }
   return (
-    <div className="container">
+    <div className="fluid-container">
   
 
       <p> Want to say hello 👋🏿 I&apos;m most definitely game.</p>
