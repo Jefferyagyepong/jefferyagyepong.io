@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-export default function Footer() {
+ function Footer() {
   return (
     <footer>
       <div>
@@ -78,3 +78,4 @@ export default function Footer() {
     </footer>
   );
 }
+export default Footer;
