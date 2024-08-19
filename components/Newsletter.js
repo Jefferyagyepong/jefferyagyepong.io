@@ -3,11 +3,12 @@ import Image from "next/image";
  function Newsletter() {
   return (
     <div className="fluid-container">
-      <h3 className="font-weight">Join the newsletter.</h3>
+      <h3>Join the newsletter.</h3>
       <p>
         Useful tech tips,directly to your inbox. No spam, unsubscribe at any
         time.
       </p>
+      <input type="email" name="email" placeholder="enter your email" />
       <Link href="#" className="purple">
         <Image
           src={"/open-outline.svg"}
