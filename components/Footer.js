@@ -3,7 +3,7 @@ import Image from "next/image";
 
  function Footer() {
   return (
-    <footer>
+    <footer className="fluid-container">
       <div>
         <div className="flex-align-right">
           <Link href={"./"}>
