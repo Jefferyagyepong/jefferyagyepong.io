@@ -10,7 +10,9 @@ import Image from "next/image";
       </p>
       <form>
          <input type="email" name="email" placeholder="enter your email" />
-           <Link href="#" className="purple">
+           
+         </form>
+        <Link href="#" className="purple">
         <Image
           src={"/open-outline.svg"}
           width={35}
@@ -19,8 +21,6 @@ import Image from "next/image";
         />
         Subscribe
       </Link>
-        
-         </form>
      
   
     </div>
