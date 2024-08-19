@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-export default function Newsletter() {
+ function Newsletter() {
   return (
     <div className="background-whitesmoke">
       <h3 className="font-weight">Join the newsletter.</h3>
@@ -20,3 +20,4 @@ export default function Newsletter() {
     </div>
   );
 }
+export default Newsletter;
