@@ -3,8 +3,8 @@ import Link from "next/link";
  function Work() {
   return (
     <div className="fluid-container">
-      <h3 className="myself-header">Projects</h3>
-      <p className="article-para">
+      <h3>Projects</h3>
+      <p>
         I&apos;m open to discussing partnership and colaboration projects. Here
         are a few projects I&apos;m managing.
       </p>
