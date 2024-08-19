@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
  function Newsletter() {
   return (
-    <div className="background-whitesmoke">
+    <div className="fluid-container">
       <h3 className="font-weight">Join the newsletter.</h3>
       <p>
         Useful tech tips,directly to your inbox. No spam, unsubscribe at any
