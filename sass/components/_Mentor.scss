@@ -139,9 +139,7 @@
         #frame4:checked~#bullets label:nth-child(4) {
             background: #444;
         }
- 
-        @media screen and (max-width: 900px) {
- 
+ @media (max-width: 700px)   {
             #frame1:checked~#controls label:nth-child(2),
             #frame2:checked~#controls label:nth-child(3),
             #frame3:checked~#controls label:nth-child(4),
