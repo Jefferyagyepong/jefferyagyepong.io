@@ -1,7 +1,7 @@
 
 import Link from "next/link";
 
-export default function Introduction() {
+ function Introduction() {
   return (
     <div className="container">
       <h2 className="intro-message">I design and code beautifully simple things, and I love what I do</h2>
@@ -10,3 +10,4 @@ export default function Introduction() {
     </div>
   );
 }
+export default Introduction;
