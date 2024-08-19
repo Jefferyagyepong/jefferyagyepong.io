@@ -2,9 +2,9 @@ import Link from "next/link";
 import Image from "next/image";
  function Articles() {
   return (
-    <div className="articles">
-      <h3 className="myself-header">Latest articles</h3>
-      <p className="article-para">I write articles on web development, including links to resources. Check out my latest article..</p>
+    <div className="fluid-container">
+      <h3>Latest articles</h3>
+      <p>I write articles on web development, including links to resources. Check out my latest article..</p>
       <nav>
         
         <Link href={"#image-1"} className="nav-arrow">
