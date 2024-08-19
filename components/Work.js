@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-export default function Work() {
+ function Work() {
   return (
     <div className="articles">
       <h3 className="myself-header">Projects</h3>
@@ -78,3 +78,4 @@ export default function Work() {
     </div>
   );
 }
+export default Work;
