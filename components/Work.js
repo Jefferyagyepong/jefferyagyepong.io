@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
  function Work() {
   return (
-    <div className="articles">
+    <div className="fluid-container">
       <h3 className="myself-header">Projects</h3>
       <p className="article-para">
         I&apos;m open to discussing partnership and colaboration projects. Here
