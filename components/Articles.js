@@ -26,8 +26,8 @@ import Image from "next/image";
       
       </nav>
       <div className="list-wrapper">
-        <ul className="list">
-          <li className="item">
+        <div className="list">
+          <div className="item">
             <div className="content">
               <Image
                 id={"image-1"}
@@ -59,8 +59,8 @@ import Image from "next/image";
               <span className="blog-footer-text"> Jeffery Agyepong</span>
               <span className="blog-footer-text">February 03, 2024</span>
             </div>
-          </li>
-          <li className="item">
+          </div>
+          <div className="item">
             <div className="content">
               {" "}
               <Image
@@ -90,8 +90,8 @@ import Image from "next/image";
               <span className="blog-footer-text"> Jeffery Agyepong</span>
               <span className="blog-footer-text">February 03, 2024</span>
             </div>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
     </div>
   );
