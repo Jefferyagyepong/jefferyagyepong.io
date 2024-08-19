@@ -52,7 +52,7 @@ import Link from "next/link";
               <p className="article-para">
                 Continental restaurant serving local dishes and beverages.
               </p>
-            </div>
+        
             <Link href={"#"} className="mail-link">
               Visit Website
             </Link>
