@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-export default function Articles() {
+ function Articles() {
   return (
     <div className="articles">
       <h3 className="myself-header">Latest articles</h3>
@@ -96,3 +96,4 @@ export default function Articles() {
     </div>
   );
 }
+export default Articles;
