@@ -15,7 +15,7 @@ function HelloForm() {
       <form>
         
         <input id="name" type="text" name="name" placeholder="enter your name" />
-        <ValidationError prefix="Name" field="name" errors={state.} />
+        <ValidationError prefix="Name" field="name" errors={state.errors} />
         <input id="email" type="email" name="email" required />
         <ValidationError prefix="Email" field="email" errors={state.errors} />
       
