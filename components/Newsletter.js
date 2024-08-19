@@ -8,7 +8,10 @@ import Image from "next/image";
         Useful tech tips,directly to your inbox. No spam, unsubscribe at any
         time.
       </p>
-      <input type="email" name="email" placeholder="enter your email" />
+      <form>
+         <input type="email" name="email" placeholder="enter your email" />
+        </form>
+     
       <Link href="#" className="purple">
         <Image
           src={"/open-outline.svg"}
