@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-export default function Myself() {
+ function Myself() {
   return (
     <div className="myself">
       <h4 className="myself-header">I am a Web Developer</h4>
@@ -10,3 +10,4 @@ export default function Myself() {
     </div>
   );
 }
+export default Myself;
