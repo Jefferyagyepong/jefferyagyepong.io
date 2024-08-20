@@ -6,16 +6,11 @@ import Image from "next/image";
       <h3>Latest articles</h3>
       <p>I write articles on web development, including links to resources. Check out my latest article..</p>
  
-<div id="frame">
-        <input type="radio" name="frame" id="frame1" checked />
-        <input type="radio" name="frame" id="frame2" />
-
-        <div id="slides">
-            <div id="overflow">
-                <div className="inner">
-                    <div className="frame frame_1">
-                        <div className="frame-content">
-                            
+<div className="slider-container">
+  <div className="slider">
+    <div className="slides">
+      <div id="slides__1" className="slide">
+                           
               <Image
                 id={"image-1"}
                 src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=2669&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -45,10 +40,9 @@ import Image from "next/image";
               <span className="blog-footer-text">February 03, 2024</span>
      
               </div>
-                        </div>
-                    </div>
-                    <div className="frame frame_2">
-                        <div className="frame-content">
+      </div>
+      <div id="slides__2" className="slide">
+                     
                             
               <Image
                 id={"image-2"}
@@ -75,23 +69,17 @@ import Image from "next/image";
               <span className="blog-footer-text"> Jeffery Agyepong</span>
               <span className="blog-footer-text">February 03, 2024</span>
             </div>
-                        </div>
-                    </div>
-             
-                </div>
-            </div>
-        </div>
-        <div id="controls">
-            <label for="frame1"></label>
-            <label for="frame2"></label>
-   
-        </div>
-        <div id="bullets">
-            <label for="frame1"></label>
-            <label for="frame2"></label>
-      
-        </div>
-    </div>
+      </div>
+   
+    </div>
+  </div>
+</div>
+
+     
+    
+                    
+       
+    
           </div>
           
   );
