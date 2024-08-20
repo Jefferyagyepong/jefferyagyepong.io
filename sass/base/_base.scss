@@ -55,16 +55,7 @@ img{
   min-height: 100vh;
 }
 
-button {
-  outline: 0 !important;
-  transition: all 0.25s;
 
-  &:active,
-  &:hover {
-    transition: all 0.25s;
-
-  }
-}
 
 body,
 html {
@@ -95,6 +86,7 @@ button {
   -moz-appearance: button;
   -o-appearance: button;
   appearance: button;
+ outline: 0 !important;
 }
 
 button:hover {
