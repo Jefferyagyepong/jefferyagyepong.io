@@ -58,6 +58,20 @@ import Link from "next/link";
   </div>
 </div>
 
+
+
+
+     <div id="controls">
+            <label for="frame1"></label>
+            <label for="frame2"></label>
+            
+        </div>
+        <div id="bullets">
+            <label for="frame1"></label>
+            <label for="frame2"></label>
+         
+        </div>
+
     
 
               
