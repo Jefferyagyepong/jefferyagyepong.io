@@ -8,16 +8,12 @@ import Link from "next/link";
         I&apos;m open to discussing partnership and colaboration projects. Here
         are a few projects I&apos;m managing.
       </p>
-    
-  <div id="frame">
-        <input type="radio" name="frame" id="frame1" checked />
-        <input type="radio" name="frame" id="frame2" />
-     
-        <div id="slides">
-            <div id="overflow">
-                <div className="inner">
-                    <div className="frame frame_1">
-                        <div className="frame-content">
+      
+      <div classmate="slider-container">
+  <div className="slider">
+    <div className="slides">
+      <div id="slides__1" class="slide">
+      
                  <Image          
                 src="/IMG_0968.png"
                 alt="Coast Republic"
@@ -35,10 +31,10 @@ import Link from "next/link";
               className="mail-link">
               Visit Website
             </Link>
-                    </div>
-                    </div>
-                    <div className="frame frame_2">
-                     <div className="frame-content">
+      </div>
+      <div id="slides__2" class="slide">
+     
+                
                    
                 <Image
                 src="/yo.png"
@@ -55,23 +51,14 @@ import Link from "next/link";
             <Link href={"#"} className="mail-link">
               Visit Website
             </Link>
-                        </div>
-                    </div>
-             
-                </div>
-            </div>
-        </div>
-        <div id="controls">
-            <label for="frame1"></label>
-            <label for="frame2"></label>
-    
-        </div>
-        <div id="bullets">
-            <label for="frame1"></label>
-            <label for="frame2"></label>
-    
-        </div>
-    </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+              
          </div>
         );
   
