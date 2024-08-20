@@ -23,8 +23,8 @@ import Link from "next/link";
                 height={250}
               />
             
-            <h3 className="font-weight">Coast Republic inc.</h3>
-            <p className="article-para">
+            <h3>Coast Republic inc.</h3>
+            <p>
               Clothing store located in Ghana delivering items to all 16 regions
               🇬🇭
             </p>
