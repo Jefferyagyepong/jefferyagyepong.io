@@ -7,7 +7,7 @@ import Image from "next/image";
       <div>
         <div className="flex-align-right">
           <Link href={"./"}>
-            <h3 className="header-title">Jeffery</h3>
+            <h3>Jeffery</h3>
           </Link>
         </div>
         <Link
@@ -43,16 +43,10 @@ import Image from "next/image";
             alt="icon"
           />{" "}
         </Link>
-        <Link
-          href="https://www.open.whatsapp.com/0244736420/"
-          target="_blank"
-          className="footer-link-item"
-        >
-          <Image src={"/logo-whatsapp.svg"} width={20} height={20} alt="icon" />
-        </Link>
+     
       </div>
       <div>
-        <h4 className="font-weight">Quick Links</h4>
+        <h4>Quick Links</h4>
         <ul>
           <Link href={"/contact"} className="color-black">
             {" "}
@@ -61,14 +55,7 @@ import Image from "next/image";
           <Link href={"#"} className="color-black">
             <li>Newsletter</li>
           </Link>
-          <Link href={"#"} className="color-black">
-            {" "}
-            <li>Privacy Policy</li>
-          </Link>
-          <Link href={"#"} className="color-black">
-            {" "}
-            <li>Terms of Use</li>
-          </Link>
+        
         </ul>
       </div>
 
