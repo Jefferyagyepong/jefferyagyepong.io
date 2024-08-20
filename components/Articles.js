@@ -76,6 +76,27 @@ import Image from "next/image";
   </div>
 </div>
 
+
+
+
+
+
+
+
+
+     <div id="controls">
+            <label for="frame1"></label>
+            <label for="frame2"></label>
+            <label for="frame3"></label>
+            <label for="frame4"></label>
+        </div>
+        <div id="bullets">
+            <label for="frame1"></label>
+            <label for="frame2"></label>
+            <label for="frame3"></label>
+            <label for="frame4"></label>
+        </div>
+
      
     
                     
