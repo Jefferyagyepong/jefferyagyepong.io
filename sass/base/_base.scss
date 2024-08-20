@@ -5,12 +5,11 @@
 *::before {
   margin: 0;
   padding: 0;
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
 
 ::-webkit-scrollbar {
   height: 6px;
-  /* height of horizontal scrollbar ← You're missing this */
   width: 4px;
   border: 1px solid #141c3a;
   scroll-behavior: smooth;
@@ -35,8 +34,6 @@ html {
     text-rendering: optimizeLegibility;
 }
 
-
-
 a {
   text-decoration: none;
   transition: 0.5s ease;
@@ -55,11 +52,9 @@ img{
   min-height: 100vh;
 }
 
-
-
 body,
 html {
-width:100%;
+width: 100%;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -86,7 +81,7 @@ button {
   -moz-appearance: button;
   -o-appearance: button;
   appearance: button;
- outline: 0 !important;
+ 
 }
 
 button:hover {
@@ -118,24 +113,7 @@ padding-bottom:10px;
   
 
 }
-.paystack-button {
-  cursor: pointer;
-  text-align: center;
-  font-size: 17px;
-  letter-spacing: 0.1rem;
-  text-transform: uppercase;
-  background-color: #04aa6d;
-  font-weight: bold;
-  color: white;
-  border: none;
-  border-radius: 3px;
-  width: 100%;
-  margin: 10px 0;
-}
 
-.paystack-button:hover {
-  background-color: #45a049;
-}
 
 input[type=text],input[type=email] {
   width: 100%;
