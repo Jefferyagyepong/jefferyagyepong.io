@@ -14,7 +14,7 @@ import Link from "next/link";
       <div classmate="slider-container">
   <div className="slider">
     <div className="slides">
-      <div id="slides__1" class="slide">
+      <div id="slides__1" className="slide">
       
                  <Image          
                 src="/IMG_0968.png"
@@ -34,7 +34,7 @@ import Link from "next/link";
               Visit Website
             </Link>
       </div>
-      <div id="slides__2" class="slide">
+      <div id="slides__2" className="slide">
      
                 
                    
