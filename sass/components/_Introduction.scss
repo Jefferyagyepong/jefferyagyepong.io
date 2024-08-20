@@ -1,103 +1,5 @@
 @import "../abstracts/variables";
 
-.list {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
-    width: 100%;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-    flex-direction: row;
-padding:7px 14px;
- 
-}
-.article-para{
-text-align: left;
-line-height:2.1;
-}
-
-.list::-webkit-scrollbar {
-    display: none;
-}
-
-.item {
-    flex-shrink: 0;
-    width: 100%;
-    height: 50vh;
-    scroll-snap-align: center;
-
-}
-.nav-arrows{ 
-display: flex;
-flex-direction:row;
-align-items:center;
-justify-content:space-between;
-width:100;
-}
-
-.item-work {
-    flex-shrink: 0;
-    width: 100%;
-    height: 70vh;
-    scroll-snap-align: center;
-
-}
-
-.content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-
-
-}
-
-/* blog */
-.list-blog {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
-    width: 100%;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-    flex-direction: row;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-}
-
-.list::-webkit-scrollbar {
-    display: none;
-}
-
-.item-blog {
-    flex-shrink: 0;
-    width: 100%;
-    height: 99vh;
-    scroll-snap-align: center;
-
-}
-
-.item-work {
-    flex-shrink: 0;
-    width: 100%;
-    height: 50vh;
-    scroll-snap-align: center;
-    display: block;
-    margin: 0 auto;
-}
-
-.content-blog {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-
-
-}
 
 hr {
     opacity: 0.2;
@@ -116,26 +18,6 @@ hr {
     opacity: 0.4;
 }
 
-.font-weight {
-    font-weight: 600;
-}
-
-
-
-.list-wrapper {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: whitesmoke;
-    max-width: 100%;
-    margin: 0 auto;
-    box-shadow: 15px white;
-padding:12px 20px;
-padding-top:20px;
-padding-bottom:20px;
-}
 
 .flex-column {
     display: flex;
@@ -167,13 +49,13 @@ padding-bottom:20px;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-    line-height: 28px;
+    line-height: 2.1;
 }
 
 .myself-header {
-    color: navy;
-    line-height: 28px;
-    font-size: 25px;
+    
+    line-height: 2.1;
+
 }
 
 .slate-blue {
