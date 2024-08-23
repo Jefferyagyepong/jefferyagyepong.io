@@ -19,6 +19,7 @@ margin:0 auto;
     position: relative;
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
+padding-bottom:40px;
 
 }
 #slides__1{
@@ -42,7 +43,9 @@ color:white;
 opacity:0.7;
 font-weight:500;
 }
-
+#slides__1, #slides__2 p{
+padding-left:10px;
+}
 
 
 .slide {
