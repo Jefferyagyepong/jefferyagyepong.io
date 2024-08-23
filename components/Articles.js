@@ -10,7 +10,7 @@ import Image from "next/image";
 <div className="slider-container">
   <div className="slider">
     <div className="slides">
-      <div id="slides__1" className="slide">
+      <div  className="slide">
                            
               <Image
                 id={"image-1"}
@@ -42,7 +42,7 @@ import Image from "next/image";
      
               </div>
       </div>
-      <div id="slides__2" className="slide">
+      <div className="slide">
                      
                             
               <Image
