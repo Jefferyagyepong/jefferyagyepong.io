@@ -20,6 +20,7 @@ import Link from "next/link";
                 alt="Coast Republic"
                 width={280}
                 height={250}
+                className="image-opacity"
               />
             
             <h3>Coast Republic inc.</h3>
