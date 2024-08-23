@@ -15,21 +15,21 @@ import Image from "next/image";
           target="_blank"
           className="footer-link-item"
         >
-          <Image src={"/logo-twitter.svg"} width={40} height={40} alt="icon" />{" "}
+          <Image src={"/logo-twitter.svg"} width={33} height={33} alt="icon" />{" "}
         </Link>{" "}
         <Link
           href="https://github.com/Jefferyagyepong"
           target="_blank"
           className="footer-link-item"
         >
-          <Image src={"/logo-github.svg"} width={40} height={40} alt="icon" />{" "}
+          <Image src={"/logo-github.svg"} width={33} height={33} alt="icon" />{" "}
         </Link>{" "}
         <Link
           href="https://www.linkedin.com/in/jeffery-agyepong-943ba0234"
           target="_blank"
           className="footer-link-item"
         >
-          <Image src={"/logo-linkedin.svg"} width={40} height={40} alt="icon" />{" "}
+          <Image src={"/logo-linkedin.svg"} width={33} height={33} alt="icon" />{" "}
         </Link>{" "}
         <Link
           href="https://www.instagram.com/jefferyagyepong_/"
@@ -38,8 +38,8 @@ import Image from "next/image";
         >
           <Image
             src={"/logo-instagram.svg"}
-            width={40}
-            height={40}
+            width={33}
+            height={33}
             alt="icon"
           />{" "}
         </Link>
