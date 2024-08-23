@@ -51,7 +51,7 @@ import Link from "next/link";
         
             <Link href={"#"} className="mail-link">
               Visit Website
-            </Link>
+            </Link><br/><br/>
       </div>
     </div>
   </div>
