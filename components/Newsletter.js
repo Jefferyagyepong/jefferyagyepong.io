@@ -24,8 +24,8 @@ import Image from "next/image";
              <button   type="submit"
               value="Subscribe" 
               onclick="return true"
-              disabled={state.submitting} className="purple">
-         Submit </button>
+              disabled={state.submitting} >
+         Subscribe </button>
            
          </form>     
   
