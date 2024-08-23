@@ -48,11 +48,11 @@ import Image from "next/image";
       <div>
         <h4>Quick Links</h4>
         <ul>
-          <Link href={"/contact"} className="color-black">
+          <Link href={"/contact"} >
             {" "}
             <li>Contact</li>
           </Link>
-          <Link href={"#"} className="color-black">
+          <Link href={"#"} >
             <li>Newsletter</li>
           </Link>
         
