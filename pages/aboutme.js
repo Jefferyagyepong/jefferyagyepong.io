@@ -53,6 +53,7 @@ export default function About() {
       </Head>
       <main>
         <Header />
+        <div className="fluid-container">
         <p>
           As a web developer, my expertise spans both professional experience
           and academic training. I have a strong foundation in front-end
@@ -85,6 +86,7 @@ export default function About() {
         >
           Click to download my Resume
         </Link>
+        </div>
         <br />
         <br />
         <br />
