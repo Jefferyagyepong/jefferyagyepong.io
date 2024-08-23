@@ -20,7 +20,7 @@ import Image from "next/image";
           alt="open svg"
         />
         Subscribe
-      </Link><br/><br/>
+      </Link>
      
   
     </div>
