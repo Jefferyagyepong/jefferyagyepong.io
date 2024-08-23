@@ -8,8 +8,7 @@ import Link from "next/link";
         I&apos;m open to discussing partnership and colaboration projects. Here
         are a few projects I&apos;m managing.
       </p>
-      <input type="radio" name="frame" id="frame1" checked />
-        <input type="radio" name="frame" id="frame2" />
+      
       
       <div classmate="slider-container">
   <div className="slider">
