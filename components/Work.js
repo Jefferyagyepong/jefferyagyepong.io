@@ -32,7 +32,7 @@ import Link from "next/link";
               href={"https://coast-republic.vercel.app/"}
               className="mail-link">
               Visit Website
-            </Link>
+            </Link><br/><br/>
       </div>
       <div id="slides__2" className="slide">
      
