@@ -1,4 +1,6 @@
 import Link from "next/link";
+import React from "react";
+import { useForm, ValidationError } from "@formspree/react";
 import Image from "next/image";
  function Newsletter() {
   return (
@@ -8,22 +10,29 @@ import Image from "next/image";
         Useful tech tips,directly to your inbox. No spam, unsubscribe at any
         time.
       </p>
-      <form>
+      <form  onSubmit={handleSubmit}>
          <input type="email" name="email" placeholder="enter your email" />
+          <ValidationError
+              prefix="Email"
+              field="email"
+              errors={state.errors}
+            />
+             <button   type="submit"
+              value="Subscribe" 
+              onclick="return true"
+              disabled={state.submitting} className="purple">
+         Submit </button>
            
-         </form>
-        <Link href="#" className="purple">
-        <Image
-          src={"/open-outline.svg"}
-          width={35}
-          height={35}
-          alt="open svg"
-        />
-        Subscribe
-      </Link>
-     
+         </form>     
   
     </div>
   );
 }
 export default Newsletter;
+
+
+
+
+
+ 
+
