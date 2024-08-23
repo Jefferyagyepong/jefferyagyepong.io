@@ -67,7 +67,7 @@ import Image from "next/image";
           
             <hr />
             <div className="blog-footer">
-              <span className="blog-footer-text"> Jeffery Agyepong</span>
+              <span className="blog-footer-text">by: Jeffery Agyepong</span>
               <span className="blog-footer-text">February 03, 2024</span>
             </div>
       </div>
