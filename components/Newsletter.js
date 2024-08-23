@@ -3,6 +3,10 @@ import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import Image from "next/image";
  function Newsletter() {
+  const [state, handleSubmit] = useForm("xzzpgjrb");
+  if (state.succeeded) {
+    return <p>Welcome 👍🏿 you have subscribed to our Newsletter</p>;
+  }
   return (
     <div className="fluid-container">
       <h3>Join the newsletter.</h3>
