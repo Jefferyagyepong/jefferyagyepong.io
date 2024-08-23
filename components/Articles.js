@@ -5,8 +5,8 @@ import Image from "next/image";
     <div className="fluid-container">
       <h3>Latest articles</h3>
       <p>I write articles on web development, including links to resources. Check out my latest article..</p>
- <input type="radio" name="frame" id="frame1" checked />
-        <input type="radio" name="frame" id="frame2" />
+
+
 <div className="slider-container">
   <div className="slider">
     <div className="slides">
