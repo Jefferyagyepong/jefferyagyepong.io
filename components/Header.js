@@ -5,7 +5,7 @@ import Image from "next/image";
     <header>
       <div>
         <Link href={"/"}>
-          <h3 className="header-title">Jeffery</h3>
+          <h3 className="header-title">I love Pima</h3>
         </Link>
       </div>
       <div className="links">
