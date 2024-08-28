@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-const Post = ({ post: { title,imgUrl,
+const Post = ({ post: { title,
 paragraph_1,
 paragraph_2,
 paragraph_3,
@@ -11,7 +11,7 @@ paragraph_7,
 paragraph_8,
 paragraph_9,
 paragraph_10,
-paragraph_11}, index }) => {
+paragraph_11, imgUrl}, index }) => {
   return (
     <div className="fluid-container-align-left">
       <h1 >{title}</h1>
