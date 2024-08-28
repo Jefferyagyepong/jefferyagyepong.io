@@ -4,7 +4,7 @@ const Posts = () => {
   const blogPosts = [
     {
       title: "Learn Web Developement",
-      body: "   ",
+
 paragraph_1:" Certainly! Learning web development can be an exciting journey. Here's a step-by-step guide to help you get started with web development",
 
 paragraph_2:" Understand the Basics HTML (HyperText Markup Language)Learn the fundamentals of HTML, which is the markup language used to structure content on the web.",
