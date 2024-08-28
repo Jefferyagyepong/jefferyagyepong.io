@@ -55,7 +55,7 @@ import Image from "next/image";
        
               <h4>HTML 5</h4>
               <p>HTML (HyperText Markup Language). Everything you need to know about the struct of the web technology languages</p>
-              <Link href="#" className="slate-blue">
+              <Link href="/blog" className="slate-blue">
                 Read
                 <Image
                   src={"/arrow-forward-sharp.svg"}
