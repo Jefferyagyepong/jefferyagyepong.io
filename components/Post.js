@@ -1,17 +1,17 @@
 import React from "react";
 import Image from "next/image";
 const Post = ({ post: { title,
-p1,
-p2,
-p3,
-p4,
-p5,
-p6,
-p7,
-p8,
-p9,
-p10,
-p11, imgUrl}, index }) => {
+pOne,
+pTwo,
+pThree,
+PFour,
+PFive,
+pSix,
+pSeven,
+pEight,
+pNine,
+pTen,
+pEleven, imgUrl}, index }) => {
   return (
     <div className="fluid-container-align-left">
       <h1 >{title}</h1>
@@ -21,18 +21,18 @@ p11, imgUrl}, index }) => {
         width={80}
         height={78}
       />
-      <p className="article-para">{p1}</p>
+      <p className="article-para">{pOne}</p>
   
-  <p className="article-para">{p2}</p>
-  <p className="article-para">{p3}</p>
-  <p className="article-para">{p4}</p>
-  <p className="article-para">{p5}</p>
-  <p className="article-para">{p6}</p>
-  <p className="article-para">{p7}</p>
-  <p className="article-para">{p8}</p>
-  <p className="article-para">{p9}</p>
-  <p className="article-para">{p10}</p>
-  <p className="article-para">{p11}</p>
+  <p className="article-para">{pTwo}</p>
+  <p className="article-para">{pThree}</p>
+  <p className="article-para">{pFour}</p>
+  <p className="article-para">{pFive}</p>
+  <p className="article-para">{pSix}</p>
+  <p className="article-para">{pSeven}</p>
+  <p className="article-para">{pEight}</p>
+  <p className="article-para">{pNine}</p>
+  <p className="article-para">{pTen}</p>
+  <p className="article-para">{pEleven}</p>
     </div>
   );
 };
