@@ -25,7 +25,7 @@ import Image from "next/image";
                 Learning web development can be an exciting journey. This
                 article will guide you from beginner.
               </p>
-              <Link href="/blog" className="slate-blue">
+              <Link href={"/blog"} className="slate-blue">
                 Read
                 <Image
                   src={"/arrow-forward-sharp.svg"}
@@ -55,7 +55,7 @@ import Image from "next/image";
        
               <h4>HTML 5</h4>
               <p>HTML (HyperText Markup Language). Everything you need to know about the struct of the web technology languages</p>
-              <Link href="/blog" className="slate-blue">
+              <Link href={"/blog"} className="slate-blue">
                 Read
                 <Image
                   src={"/arrow-forward-sharp.svg"}
