@@ -30,9 +30,11 @@ gap:2rem;
 .fluid-container-flex {
 width:100%;
 display:flex;
-flex:direction:column;
+flex-direction:column;
 align-items:center;
-justify-content:center;}
+justify-content:center;
+
+}
 
 .mail-link {
     background-color: blue;
