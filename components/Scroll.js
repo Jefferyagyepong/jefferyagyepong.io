@@ -1,6 +1,6 @@
 function Scroll(){
     return(
-    <div className="scroll-watcher">>
+    <div className="scroll-watcher">
         </div>
     );
 }
