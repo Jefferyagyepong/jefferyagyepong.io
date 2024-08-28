@@ -81,7 +81,7 @@ export default function Home() {
         />
       </Head>
       <main>
-        <Scroll/>
+        <Scroll />
         <Header />
         <Introduction />
         <Myself />
