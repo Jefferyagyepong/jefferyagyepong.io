@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-const Post = ({ post: { title, body, imgUrl }, index }) => {
+const Post = ({ post: { title, imgUrl }, index }) => {
   return (
     <div className="fluid-container-align-left">
       <h1 >{title}</h1>
@@ -10,7 +10,7 @@ const Post = ({ post: { title, body, imgUrl }, index }) => {
         width={80}
         height={78}
       />
-      <p className="article-para">{body}</p>
+      <p className="article-para"></p>
 
     </div>
   );
