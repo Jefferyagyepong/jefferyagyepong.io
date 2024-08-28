@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Header from "../components/Header";
 import Work from "../components/Work";
+import Scroll from "../components/Scroll";
 import Footer from "../components/Footer";
 import Introduction from "../components/Introduction";
 import { Inter } from "next/font/google";
@@ -80,6 +81,7 @@ export default function Home() {
         />
       </Head>
       <main>
+        <Scroll/>
         <Header />
         <Introduction />
         <Myself />
