@@ -86,7 +86,7 @@ pTen:"Web Security: Understand common security issues and best practices for sec
       <main>
         <Header />
 
-        <div id="webdev">
+        <div className="fluid-container">
           {blogPosts.map((post, index) => (
             <Post key={index} index={index} post={post} />
           ))}
@@ -114,7 +114,7 @@ pTen:"Web Security: Understand common security issues and best practices for sec
             </div>
           </nav>
         </div>
-        <div>
+        <div className="fluid-container">
           <h4>Resources</h4>
           <Link href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web" target="_blank">Getting started with the web</Link>
             
