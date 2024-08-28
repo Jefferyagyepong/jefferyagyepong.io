@@ -11,7 +11,7 @@ paragraph_7,
 paragraph_8,
 paragraph_9,
 paragraph_10,
-paragraph_11, }, index }) => {
+paragraph_11}, index }) => {
   return (
     <div className="fluid-container-align-left">
       <h1 >{title}</h1>
