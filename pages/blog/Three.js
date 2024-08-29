@@ -79,7 +79,7 @@ const Three = () => {
       <main>
         <Header />
 
-        <div>
+        <div className="fluid-container">
           {blogPosts.map((post, index) => (
             <Post key={index} index={index} post={post} />
           ))}
