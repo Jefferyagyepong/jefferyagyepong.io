@@ -73,7 +73,7 @@ const Four = () => {
       </Head>
       <main>
         <Header />
-        <div>
+        <div className="fluid-container">
           {blogPosts.map((post, index) => (
             <Post key={index} index={index} post={post} />
           ))}
@@ -113,7 +113,7 @@ const Four = () => {
             </span>
             <span className="blog-footer-text">February 03, 2024</span>
           </div>
-          <div>
+          <div className="fluid-container">
             <h5>share on social media</h5>
             <Link
               href="https://twitter.com/intent/tweet?text=http://jefferyagyepong-io.vercel.app/blog/"
