@@ -3,13 +3,13 @@ import Image from "next/image";
 
  function Footer() {
   return (
-    <footer className="fluid-container">
+    <footer>
       <div>
-        <div className="flex-align-right">
-          <Link href={"./"}>
-            <h3>Jeffery</h3>
-          </Link>
-        </div>
+        <Link href={"./"}>
+          <h3 className="white">Jeffery</h3>
+        </Link>
+      </div>
+      <div>
         <Link
           href="https://twitter.com/jeffagyepong"
           target="_blank"
@@ -43,25 +43,7 @@ import Image from "next/image";
             alt="icon"
           />{" "}
         </Link>
-     
       </div>
-      <div>
-        <h4>Quick Links</h4>
-        <ul>
-          <Link href={"/contact"} >
-            {" "}
-            <li>Contact</li>
-          </Link>
-          <Link href={"#"} >
-            <li>Newsletter</li>
-          </Link>
-        
-        </ul>
-      </div>
-
-      <h6 className="footer-para">
-        &copy; {new Date().getFullYear()} Jeffery Agyepong All rights Reserved
-      </h6>
     </footer>
   );
 }

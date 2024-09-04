@@ -17,7 +17,10 @@ export default function About() {
           content="https://jefferyagyepong-io.vercel.app"
         />
         <meta property="og:image" content="/favicon.ico" />
-   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover"
+        />
         <meta name="author" content="Jeffery Agyepong" />
         <meta
           name="description"
@@ -54,38 +57,38 @@ export default function About() {
       <main>
         <Header />
         <div className="fluid-container">
-        <p>
-          As a web developer, my expertise spans both professional experience
-          and academic training. I have a strong foundation in front-end
-          development, proficient in HTML, CSS, and JavaScript, with a keen eye
-          for responsive design and user interface development. My backend
-          skills include working with server-side languages like PHP and
-          Node.js, coupled with experience in database management using SQL and
-          MongoDB. Throughout my career, I&apos;ve successfully delivered
-          projects ranging from simple landing pages to complex web
-          applications, demonstrating a solid understanding of web architecture
-          and best practices. I am adept at version control systems such as Git
-          and have experience working in agile environments, ensuring timely
-          delivery and effective collaboration with cross-functional teams.
-          Academically, I hold a degree in Computer Science from Kwame Nkrumah
-          University of science and Technology, where I focused on web
-          technologies and software development principles. My coursework and
-          projects have equipped me with the ability to solve technical
-          challenges creatively and efficiently, while keeping up with industry
-          trends and emerging technologies. In summary, I bring a blend of
-          technical proficiency, creative problem-solving skills, and a
-          commitment to delivering high-quality web solutions that meet both
-          user needs and business objectives.
-        </p>
-        <br />
-        <Link
-          href="/files/myResume.pdf"
-          className="mail-link"
-          target="_blank"
-          download
-        >
-          Click to download my Resume
-        </Link>
+          <span>About me</span>
+          <h6>Learn more about more</h6>
+          <p>
+            Jeffery is a web developer who is passionate about crafting dynamic
+            web applications. My journey began in university, where my love for
+            technology ignited my path in coding. Driven by a vision to
+            revolutionalize the landscape, I focus on creating intuitive
+            solutions that enhance the world wide web ecxperience. Expore my
+            portfolio to witness the fusion of crativity and functionality that
+            defines my work.
+          </p>
+          <div className="flex-row">
+            <p>4 solo projects </p> | <p>2 Team-based projects</p>
+          </div>
+          <div>
+            <span>Contact me</span>
+            <h6>Lets talk business</h6>
+            <p>
+              Feel free to get in touch with me via mail or connect with me on
+              LinkedIn and GitHub. I am always open to discussing new project,
+              creative ideas, or opportunities to be part of your vision.
+            </p>
+          </div>
+
+          <Link
+            href="/files/myResume.pdf"
+            className="mail-link"
+            target="_blank"
+            download
+          >
+            Click to download my Resume
+          </Link>
         </div>
         <br />
         <br />

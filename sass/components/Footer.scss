@@ -1,49 +1,28 @@
 @import "../abstracts/variables";
 
 
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: #333;
+  margin: 0 auto;
+  padding: 10px 15px;
 
-.color-black {
-  color: #fff;
-  opacity: 0.5;
+
+
+
 }
-footer h3, li, ul{
-color: #fff;
-opacity:0.6;
+.white{
+    color: white;
 }
 
-.flex-align-right {
-  text-align: start;
-}
 
 
 
 @media (max-width: 700px) {
-
-  footer {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: space-between;
- background: #333;
-    padding-bottom: 10px;
-    text-align: center;
-    color: #000;
-    padding-left: 20px;
-color:white;
-font-weight:700;
-
-
-  }
-footer{
-border-radius: 5px 5px 0 0;
-}
-
-  .footer-para {
-    text-align: center;
-    margin: 0 auto;
-  }
-
 
 
 }

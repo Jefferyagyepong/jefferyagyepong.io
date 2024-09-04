@@ -1,7 +1,5 @@
-import Link from "next/link";
 import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
-import Image from "next/image";
  function Newsletter() {
   const [state, handleSubmit] = useForm("xzzpgjrb");
   if (state.succeeded) {

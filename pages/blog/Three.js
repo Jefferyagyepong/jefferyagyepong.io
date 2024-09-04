@@ -1,11 +1,10 @@
 import React from "react";
 import Head from "next/head";
-import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Image from "next/image";
 import Link from "next/link";
-import Newsletter from "@/components/Newsletter";
 import Post from "../../components/Post";
+import Scroll from "@/components/Scroll";
 const Three = () => {
   const blogPosts = [
     {
@@ -77,6 +76,7 @@ const Three = () => {
         />
       </Head>
       <main>
+        <Scroll/>
         <Header />
 
         <div className="fluid-container">
@@ -108,7 +108,7 @@ const Three = () => {
             </div>
           </nav>
         </div>
-        <Newsletter />
+    
       </main>
     </>
   );

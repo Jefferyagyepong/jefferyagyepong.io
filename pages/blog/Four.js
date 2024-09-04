@@ -1,10 +1,8 @@
 import React from "react";
 import Head from "next/head";
-import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Image from "next/image";
 import Link from "next/link";
-import Newsletter from "@/components/Newsletter";
 import Post from "../../components/Post";
 const Four = () => {
   const blogPosts = [
@@ -129,7 +127,7 @@ const Four = () => {
             </Link>{" "}
           </div>
         </div>
-        <Newsletter />
+ 
       </main>
     </>
   );

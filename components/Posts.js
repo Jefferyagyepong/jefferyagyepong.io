@@ -4,9 +4,10 @@ const Posts = () => {
   const blogPosts = [
     {
       title: "Learn Web Developement",
-      body: "Certainly! Learning web development can be an exciting journey. Here's a step-by-step guide to help you get started with web Understand the Basics HTML (HyperText Markup Language)Learn the fundamentals of HTML, which is the markup language used to structure content on the web.
-      CSS (Cascading Style Sheets): Understand how CSS is used for styling and formatting HTML elements, making your web pages visually appealing.
-      Master the Fundamentals:JavaScript: Learn JavaScript to add interactivity and dynamic behavior to your web pages. Understand concepts like variables, functions, loops, and arrays.
+      
+      body: "Certainly! Learning web development can be an exciting journey. Here's a step-by-step guide to help you get started with web Understand the Basics HTML (HyperText Markup Language)Learn the fundamentals of HTML, which is the markup language used to structure content on the web. CSS (Cascading Style Sheets): Understand how CSS is used for styling and formatting HTML elements, making your web pages visually appealing.  Master the Fundamentals:JavaScript: Learn JavaScript to add interactivity and dynamic behavior to your web pages. Understand concepts like variables, functions, loops, and arrays.
+     
+     
       Version Control:Learn version control using tools like Git. This helps you track changes to your code and collaborate with others.
       Responsive Design:Study responsive web design to ensure your websites work well on various devices and screen sizes. Learn about media queries and flexible grid layouts.
       Frameworks and Libraries:Explore popular front-end frameworks like React, Angular, or Vue.js. These can simplify and streamline the development process.

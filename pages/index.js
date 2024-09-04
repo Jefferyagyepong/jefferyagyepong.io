@@ -1,13 +1,11 @@
 import Head from "next/head";
 import Header from "../components/Header";
 import Work from "../components/Work";
-import Scroll from "../components/Scroll";
 import Footer from "../components/Footer";
 import Introduction from "../components/Introduction";
 import { Inter } from "next/font/google";
 import Myself from "@/components/Myself";
 import Articles from "@/components/Articles";
-import Newsletter from "@/components/Newsletter";
 const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
@@ -81,13 +79,12 @@ export default function Home() {
         />
       </Head>
       <main>
-        <Scroll />
+    
         <Header />
         <Introduction />
         <Myself />
         <Articles />
         <Work />
-        <Newsletter />
         <Footer />
       </main>
     </>
