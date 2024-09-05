@@ -61,10 +61,10 @@ export default function About() {
           <h6>Learn more about more</h6>
           <p>
             Jeffery is a web developer who is passionate about crafting dynamic
-            web applications. My journey began in university, where my love for
+            web applications. My journey began at the university, where my love for
             technology ignited my path in coding. Driven by a vision to
             revolutionalize the landscape, I focus on creating intuitive
-            solutions that enhance the world wide web ecxperience. Expore my
+            solutions that enhance the world wide web experience. Expore my
             portfolio to witness the fusion of crativity and functionality that
             defines my work.
           </p>
