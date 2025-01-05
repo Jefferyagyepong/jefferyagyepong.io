@@ -1,20 +1,14 @@
 @import "../abstracts/variables";
 
 header {
-  width: $width-full;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: column;
-  
-
-}
-header-box{
   width: 100%;
   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   flex-direction: row;
-  justify-content: space-between;
+
 }
+
 .scroll-watcher {
   height: 2px;
   position: fixed;

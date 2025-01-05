@@ -82,7 +82,7 @@ export default function About() {
           </div>
 
           <Link
-            href="/files/myResume.pdf"
+            href="/files/cv.pdf"
             className="mail-link"
             target="_blank"
             download
