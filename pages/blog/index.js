@@ -4,7 +4,6 @@ import Header from "@/components/Header";
 import Image from "next/image";
 import Link from "next/link";
 
-
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Blog() {
@@ -36,7 +35,10 @@ export default function Blog() {
           content="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=2669&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         />
         <meta name="google-adsense-account" content="ca-pub-2474265697377160" />
-   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover"
+        />
         <meta name="author" content="Jeffery Agyepong" />
         <meta name="description" content="Blog" />
         <meta
@@ -69,40 +71,30 @@ export default function Blog() {
       </Head>
       <main>
         <Header />
-        <div className="container">
-          <ul className="list">
-            <li className="item">
-              <div className="content">
-                <Image
-                  id={"image-1"}
-                  src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=2669&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                  alt="engineering"
-                  width={380}
-                  height={200}
-                />
-              </div>
-              <div>
-                <h4>Learn Web Developement</h4>
-                <p className="article-para">
-                  If you are a complete beginner, web development can be
-                  challenging. This article will provide enough detail for to
-                  learn the topics properly. Enjoy your exciting journey.
-                </p>
-                <Link href="/blog/One" className="slate-blue">
-                  Read
-                  <Image
-                    src={"/arrow-forward-sharp.svg"}
-                    width={20}
-                    height={20}
-                    alt="forward arrow"
-                  />
-                </Link>
-                5 mins
-              </div>
-
-              <hr />
-            </li>
-          </ul>
+        <div className="fluid-container">
+          <Image
+            id={"image-1"}
+            src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=2669&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="engineering"
+            width={380}
+            height={200}
+          />
+          <h4>Learn Web Developement</h4>
+          <p>
+            If you are a complete beginner, web development can be challenging.
+            This article will provide enough detail for to learn the topics
+            properly. Enjoy your exciting journey.
+          </p>
+          <Link href="/blog/One" className="slate-blue">
+            Read
+            <Image
+              src={"/arrow-forward-sharp.svg"}
+              width={20}
+              height={20}
+              alt="forward arrow"
+            />
+          </Link>
+          5 mins
         </div>
       </main>
     </>

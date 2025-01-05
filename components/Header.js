@@ -8,11 +8,11 @@ function Header() {
       </Link>
 
       <div>
-        <Link href={"/blog"} className="link-item">
+        <Link href={"/blog"} >
           BLOG
         </Link>
 
-        <Link href={"#"} className="link-item">
+        <Link href={"#"} >
           TOOLS
         </Link>
       </div>
