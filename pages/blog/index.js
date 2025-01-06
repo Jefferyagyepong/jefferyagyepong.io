@@ -94,7 +94,7 @@ export default function Blog() {
               alt="forward arrow"
             />
           </Link>
-          5 mins
+          
         </div>
       </main>
     </>
