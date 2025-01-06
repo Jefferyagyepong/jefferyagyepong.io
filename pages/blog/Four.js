@@ -71,7 +71,7 @@ const Four = () => {
       </Head>
       <main>
         <Header />
-        <div className="fluid-container">
+        <div className="fluid-container-flex">
           {blogPosts.map((post, index) => (
             <Post key={index} index={index} post={post} />
           ))}
