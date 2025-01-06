@@ -9,25 +9,8 @@ const Two = () => {
   const blogPosts = [
     {
       title: "Internet Vs Web",
-      p1:" Although we tend
-to imagine the internet as an in-
-visible source of information it is
-actually a physical connection of
-cables, servers, modems, routers,
-and computers. These connec-
-tions form a huge network in
-much the same way phone lines
-have connected the world. The
-world wide web is the digital col-
-lection of websites and webpages
-that can be accessed by using the
-internet. Each website is made up
-of files stored on computers. Us-
-ing web browsers allows us to ac-
-cess these files over the internet.
-Using the internet is commonly
-referred to as being online.",
- p2:"",
+      p1:" Although we tend to imagine the internet as an invisible source of information it is actually a physical connection of cables, servers, modems, routers, and computers. These connections form a huge network in much the same way phone lines have connected the world. The world wide web is the digital collection of websites and webpages that can be accessed by using the internet. Each website is made up of files stored on computers. Using web browsers allows us to access these files over the internet. Using the internet is commonly referred to as being online.",
+      p2:"",
 
       imgUrl: "/logo-html5.svg",
     },
