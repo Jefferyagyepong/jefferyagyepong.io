@@ -10,7 +10,7 @@ const Two = () => {
     {
       title: "Internet Vs Web",
       p1:" Although we tend to imagine the internet as an invisible source of information it is actually a physical connection of cables, servers, modems, routers, and computers. These connections form a huge network in much the same way phone lines have connected the world. The world wide web is the digital collection of websites and webpages that can be accessed by using the internet. Each website is made up of files stored on computers. Using web browsers allows us to access these files over the internet. Using the internet is commonly referred to as being online.",
-      p2:"",
+      p2:" A web browser is software designed to navigate the world wide web via the internet. Web browsers use special transfer protocol (http) to send and receive information. They convert the web markup language, HTML, into a visual display on computer screens. Many software companies have designed different web browsers. Some of the most popular are Google Chrome, Microsoft Edge, Mozilla Firefox, Apple’s Safari and Brave. Each web browser looks a little different but they share many of the same features.",
 
       imgUrl: "/logo-html5.svg",
     },
