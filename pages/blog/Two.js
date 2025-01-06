@@ -88,7 +88,7 @@ p10:" File path: Each page of a website has a file location indicated in the fil
       <main>
         <Scroll />
         <Header />
-        <div className="fluid-container">
+        <div className="fluid-container-flex">
           {blogPosts.map((post, index) => (
             <Post key={index} index={index} post={post} />
           ))}
