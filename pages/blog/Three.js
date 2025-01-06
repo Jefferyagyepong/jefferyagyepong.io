@@ -9,9 +9,10 @@ const Three = () => {
   const blogPosts = [
     {
       title: "Web Design",
-p1:"",
+p1:" User Experience, Interaction, and User Interface design",
+p2:"Often, when we think of design, we think about how something looks. On the web, the first matter of business is designing how the site works. Before you pick colors and fonts, it is important to identify the site’s goals, how it will be used, and how visitors move through it. These tasks fall under the dis- ciplines of User Experience (UX) design, Interaction Design (IxD), and User Interface (UI) design. There is a lot of overlap between these responsibilities, and it is not uncommon for one person or team to handle all three. The User Experience designer takes a holistic view of the design process— ensuring the entire experience with the site is favorable. UX design is based on a solid understanding of users and their needs based on observations and interviews. According to Donald Norman (who coined the term), UX design includes “all aspects of the user’s interaction with the product: how it is perceived, learned, and used.” For a website or application, that includes the visual design, the user interface, the quality and message of the content, and even the overall site performance. The experience must be in line with the organization’s brand and business goals in order to be successful. The goal of the Interaction Designer is to make the site as easy, efficient", p3:"and delightful to use as possible. Closely related to interaction design is User Interface design, which tends to be more narrowly focused on the functional organization of the page as well as the specific tools (buttons, links, menus, and so on) that users use to navigate content or accomplish tasks.",
 
-      imgUrl: "/logo-sass.svg",
+      User Experience, Interaction, and User Interface designimgUrl: "/logo-sass.svg",
     },
   ];
   return (
