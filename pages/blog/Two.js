@@ -116,6 +116,34 @@ p10:" File path: Each page of a website has a file location indicated in the fil
             </div>
           </nav>
         </div>
+           <div className="fluid-container">
+          <h4>Resources</h4>
+          <ul>
+            <li>
+              {" "}
+              <Link href="h#" target="_blank">
+                Getting started with web and internet
+              </Link>
+            </li>
+            <li>
+              {" "}
+              <Link href="h#" target="_blank">
+                Web Design
+              </Link>
+            </li>
+            <li>
+              <Link href="h#" target="_blank">
+                Web Programming
+              </Link>
+            </li>
+            <li>
+              {" "}
+              <Link href="h#" target="_blank">
+                Web Publishing
+              </Link>
+            </li>
+          </ul>
+        </div>
       </main>
     </>
   );
