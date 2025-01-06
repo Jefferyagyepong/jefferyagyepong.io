@@ -8,21 +8,26 @@ import Scroll from "@/components/Scroll";
 const Two = () => {
   const blogPosts = [
     {
-      title: "HTML 5",
-      p1: " Absolutely! HTML (HyperText Markup Language) is the foundation of web development, and it's essential to understand its basics. Here's a beginner's guide to learning HTML:",
-      p2: " Introduction to HTML: HTML Structure: Understand the basic structure of an HTML document. It includes elements like <!DOCTYPE html>, <html>, <head>, and <body>.",
-      p3:
-        " HTML Elements: Tags: Learn about HTML tags, which are used to define elements on a webpage. Tags are enclosed in angle brackets, like <tag>content</tag>.Attributes: Explore attributes that provide additional information about HTML elements. Attributes are added to the opening tag and provide details like class, id, src, etc.",
-      p4: " Common HTML Elements: Headings: Use <h1> to <h6> for headings with varying levels of importance. Paragraphs: Employ <p> tags for paragraphs. Links: Create hyperlinks with <a> tags. Understand the href attribute for linking to other pages or resources. Lists: Use <ul>, <ol>, and <li> for unordered and ordered lists. Images: Embed images using the <img> tag with the src attribute.",
-      p5:
-        " HTML Forms: Learn how to create forms using the <form> tag. Explore form elements like <input>, <select>, <textarea>, and their attributes.",
-      p6: " Semantic HTML: Understand the importance of semantic HTML for better page structure and accessibility. Semantic elements like <header>, <nav>, <main>, <article>, <section>, and <footer> provide meaning to the content.",
-      p7:
-        " HTML5: Familiarize yourself with HTML5 features and tags, such as <article>, <nav>, <section>, <header>, <footer>, <canvas>, and <video>.",
-      p8:
-        " Responsive Design: Learn about responsive design principles, including the use of meta tags like <meta name=viewport content=width=device-width, initial-scale=1.0> for mobile-friendly pages. ",
-      p9:
-        " HTML Entities: Understand HTML entities for special characters, such as &lt; for < and &gt; for >. 10. Practice: Apply your knowledge by creating simple web pages. Practice is crucial for reinforcing what you've learned.",
+      title: "Internet Vs Web",
+      p1:" Although we tend
+to imagine the internet as an in-
+visible source of information it is
+actually a physical connection of
+cables, servers, modems, routers,
+and computers. These connec-
+tions form a huge network in
+much the same way phone lines
+have connected the world. The
+world wide web is the digital col-
+lection of websites and webpages
+that can be accessed by using the
+internet. Each website is made up
+of files stored on computers. Us-
+ing web browsers allows us to ac-
+cess these files over the internet.
+Using the internet is commonly
+referred to as being online.",
+ p2:"",
 
       imgUrl: "/logo-html5.svg",
     },
