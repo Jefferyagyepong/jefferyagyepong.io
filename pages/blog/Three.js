@@ -100,12 +100,12 @@ Url: "/logo-sass.svg",
                   width={40}
                   height={40}
                 />{" "}
-                previous
+                
               </Link>
 
               <Link href={"/blog/Four"}>
                 {" "}
-                next
+              
                 <Image
                   src="/arrow-forward-circle-outline.svg"
                   alt="Coast Republic"
