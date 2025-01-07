@@ -151,7 +151,34 @@ Url: "/logo-sass.svg",
           </ul>
         </div>
         
-        
+           <div className="blog-footer">
+            <span>
+              By: Jeffery Agyepong |{" "}
+              <Image
+                src={"/lee.png"}
+                width={44}
+                height={44}
+                alt="jeffery agyepong"
+              />
+            </span>
+            <span className="blog-footer-text">February 03, 2024</span>
+          </div>
+          <div className="fluid-container">
+            <h5>share on social media</h5>
+            <Link
+              href="https://twitter.com/intent/tweet?text=http://jefferyagyepong-io.vercel.app/blog/"
+              target="_blank"
+              className="twitter-share-button"
+            >
+              <Image
+                src={"/logo-twitter.svg"}
+                width={20}
+                height={20}
+                alt="icon"
+              />{" "}
+            </Link>{" "}
+          </div>
+        </div>
         
     
       </main>
