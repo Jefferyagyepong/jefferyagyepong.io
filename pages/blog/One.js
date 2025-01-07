@@ -144,7 +144,7 @@ const One = () => {
               />{" "}
             </Link>{" "}
           </div>
-        </div>
+        
         <div className="fluid-container">
           <h4>Resources</h4>
           <ul>
