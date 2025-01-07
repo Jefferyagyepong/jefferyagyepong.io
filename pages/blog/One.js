@@ -97,7 +97,7 @@ const One = () => {
           <nav>
             <div className="blog-footer">
               {" "}
-              <Link href={"/blog/index"}>
+              <Link href={"/blog/One"}>
                 <Image
                   src="/arrow-back-circle-outline.svg"
                   alt="Coast Republic"
