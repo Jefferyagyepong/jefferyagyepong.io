@@ -122,13 +122,13 @@ const One = () => {
           <ul>
             <li>
               {" "}
-              <Link href="h#" target="_blank">
+              <Link href="/blog/two" target="_blank">
                 Getting started with web and internet
               </Link>
             </li>
             <li>
               {" "}
-              <Link href="h#" target="_blank">
+              <Link href="/blog/three" target="_blank">
                 Web Design
               </Link>
             </li>
