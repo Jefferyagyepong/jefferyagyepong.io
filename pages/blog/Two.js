@@ -101,11 +101,11 @@ p10:" File path: Each page of a website has a file location indicated in the fil
                   width={40}
                   height={40}
                 />{" "}
-                previous
+                
               </Link>
               <Link href={"/blog/Three"}>
                 {" "}
-                next
+                
                 <Image
                   src="/arrow-forward-circle-outline.svg"
                   alt="Coast Republic"
