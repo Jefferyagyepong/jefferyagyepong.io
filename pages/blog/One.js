@@ -106,7 +106,7 @@ const One = () => {
                 />
               </Link>
               <Link href={"/blog/Two"}>
-                next
+                
                 <Image
                   src="/arrow-forward-circle-outline.svg"
                   alt="Coast Republic"
