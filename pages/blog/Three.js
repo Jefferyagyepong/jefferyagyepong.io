@@ -126,13 +126,13 @@ Url: "/logo-sass.svg",
           <ul>
             <li>
               {" "}
-              <Link href="h#" target="_blank">
+              <Link href="/blog/Two" target="_blank">
                 Getting started with web and internet
               </Link>
             </li>
             <li>
               {" "}
-              <Link href="h#" target="_blank">
+              <Link href="/blog/Three" target="_blank">
                 Web Design
               </Link>
             </li>
