@@ -121,37 +121,7 @@ Url: "/logo-sass.svg",
             </div>
           </nav>
         </div>
-        
-         <div className="fluid-container">
-          <h4>Resources</h4>
-          <ul>
-            <li>
-              {" "}
-              <Link href="/blog/Two" target="_blank">
-                Getting started with web and internet
-              </Link>
-            </li>
-            <li>
-              {" "}
-              <Link href="/blog/Three" target="_blank">
-                Web Design
-              </Link>
-            </li>
-            <li>
-              <Link href="h#" target="_blank">
-                Web Programming
-              </Link>
-            </li>
-            <li>
-              {" "}
-              <Link href="h#" target="_blank">
-                Web Publishing
-              </Link>
-            </li>
-          </ul>
-        </div>
-        
-           <div className="blog-footer">
+                <div className="blog-footer">
             <span>
               By: Jeffery Agyepong |{" "}
               <Image
@@ -180,7 +150,35 @@ Url: "/logo-sass.svg",
           </div>
         </div>
         
-    
+        
+         <div className="fluid-container">
+          <h4>Resources</h4>
+          <ul>
+            <li>
+              {" "}
+              <Link href="/blog/Two" target="_blank">
+                Getting started with web and internet
+              </Link>
+            </li>
+            <li>
+              {" "}
+              <Link href="/blog/Three" target="_blank">
+                Web Design
+              </Link>
+            </li>
+            <li>
+              <Link href="h#" target="_blank">
+                Web Programming
+              </Link>
+            </li>
+            <li>
+              {" "}
+              <Link href="h#" target="_blank">
+                Web Publishing
+              </Link>
+            </li>
+          </ul>
+        </div>    
       </main>
     </>
   );
