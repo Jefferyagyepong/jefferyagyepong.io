@@ -142,7 +142,7 @@ p10:" File path: Each page of a website has a file location indicated in the fil
                 alt="icon"
               />{" "}
             </Link>{" "}
-          </div>
+        
         </div>
            <div className="fluid-container">
           <h4>Resources</h4>
