@@ -112,7 +112,7 @@ const Three = () => {
               />{" "}
             </Link>{" "}
                     </p>
-              </header>
+              </header> <br/><br/>
             <section>
               <em>User Experience, Interaction, and User Interface design</em>
               <br />
