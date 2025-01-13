@@ -79,12 +79,12 @@ export default function Blog() {
             width={380}
             height={200}
           />
-          <h4>Learn Web Developement</h4>
-          <p>
+         
+          <em>
             If you are a complete beginner, web development can be challenging.
             This article will provide enough detail for to learn the topics
             properly. Enjoy your exciting journey.
-          </p>
+          </em>
           <Link href="/blog/One" className="slate-blue">
             Read
             <Image
@@ -94,7 +94,7 @@ export default function Blog() {
               alt="forward arrow"
             />
           </Link>
-          5 mins
+       
         </div>
       </main>
     </>

@@ -9,20 +9,6 @@ const Two = () => {
   const blogPosts = [
     {
       title: "HTML 5",
-      p1: " Absolutely! HTML (HyperText Markup Language) is the foundation of web development, and it's essential to understand its basics. Here's a beginner's guide to learning HTML:",
-      p2: " Introduction to HTML: HTML Structure: Understand the basic structure of an HTML document. It includes elements like <!DOCTYPE html>, <html>, <head>, and <body>.",
-      p3:
-        " HTML Elements: Tags: Learn about HTML tags, which are used to define elements on a webpage. Tags are enclosed in angle brackets, like <tag>content</tag>.Attributes: Explore attributes that provide additional information about HTML elements. Attributes are added to the opening tag and provide details like class, id, src, etc.",
-      p4: " Common HTML Elements: Headings: Use <h1> to <h6> for headings with varying levels of importance. Paragraphs: Employ <p> tags for paragraphs. Links: Create hyperlinks with <a> tags. Understand the href attribute for linking to other pages or resources. Lists: Use <ul>, <ol>, and <li> for unordered and ordered lists. Images: Embed images using the <img> tag with the src attribute.",
-      p5:
-        " HTML Forms: Learn how to create forms using the <form> tag. Explore form elements like <input>, <select>, <textarea>, and their attributes.",
-      p6: " Semantic HTML: Understand the importance of semantic HTML for better page structure and accessibility. Semantic elements like <header>, <nav>, <main>, <article>, <section>, and <footer> provide meaning to the content.",
-      p7:
-        " HTML5: Familiarize yourself with HTML5 features and tags, such as <article>, <nav>, <section>, <header>, <footer>, <canvas>, and <video>.",
-      p8:
-        " Responsive Design: Learn about responsive design principles, including the use of meta tags like <meta name=viewport content=width=device-width, initial-scale=1.0> for mobile-friendly pages. ",
-      p9:
-        " HTML Entities: Understand HTML entities for special characters, such as &lt; for < and &gt; for >. 10. Practice: Apply your knowledge by creating simple web pages. Practice is crucial for reinforcing what you've learned.",
 
       imgUrl: "/logo-html5.svg",
     },
@@ -96,6 +82,83 @@ const Two = () => {
           {blogPosts.map((post, index) => (
             <Post key={index} index={index} post={post} />
           ))}
+          <article>
+            <section>
+              <em>
+                Absolutely! HTML (HyperText Markup Language) is the foundation
+                of web development, and it&apos;s essential to understand its
+                basics. Here&apos;s a beginner&apos;s guide to learning HTML:
+              </em><br/><br/>
+              <p>
+                <em>
+                  Introduction to HTML:
+                  <br />
+                </em>{" "}
+                HTML Structure: Understand the basic structure of an HTML
+                document. It includes elements like,
+                <b> DOCTYPE html element</b>, <b> head element</b> and
+                <b> body element</b>
+              </p>
+            </section>
+
+            <section>
+              <p>
+                <em>HTML Elements:</em> <br /> Tags: Learn about HTML tags,
+                which are used to define elements on a webpage. Tags are
+                enclosed in angle brackets, like .Attributes: Explore attributes
+                that provide additional information about HTML elements.
+                Attributes are added to the opening tag and provide details like
+                class, id, src, etc.
+              </p>
+              <br />
+              <p>
+                {" "}
+                <em>Common HTML Elements: </em> <br /> Headings: Use <b>h1</b>{" "}
+                to <b>h6</b> for headings with varying levels of importance.
+                Paragraphs: Employ <b>p</b> tags for paragraphs. Links: Create
+                hyperlinks with <b>a</b> tags. Understand the href attribute for
+                linking to other pages or resources. Lists: Use <b>ul</b> ,{" "}
+                <b>ol</b> , and <b>li</b> for unordered and ordered lists.
+                Images: Embed images using the <b>img element</b> tag with the
+                src attribute.
+              </p>
+              <br />
+              <p>
+                {" "}
+                <em>HTML Forms: </em>
+                <br /> Learn how to create forms using the <b>form </b>tag.
+                Explore form elements like <b>input</b>, <b>select</b>,{" "}
+                <b>textarea</b> and their attributes.
+              </p>
+              <br />
+              <p>
+                <em>Semantic HTML: </em> <br /> Understand the importance of
+                semantic HTML for better page structure and accessibility.
+                Semantic elements like <b> header</b>,<b>nav</b>,<b> main</b>,
+                <b> article</b>,<b> section </b> and <b> footer</b> provide
+                meaning to the content.
+              </p>
+              <br />
+              <p>
+                <em>HTML5: </em> <br /> Familiarize yourself with HTML5 features
+                and tags, such as <b>article</b>, <b> nav</b>, <b> section</b>,{" "}
+                <b> header</b>, <b> footer</b>, <b>  canvas </b> and<b> video</b> .
+              </p>
+              <p>
+                Responsive Design: Learn about responsive design principles,
+                including the use of meta tags like{" "}
+                <code>
+                  <Head>
+                    <meta
+                      name="viewport"
+                      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover"
+                    />
+                  </Head>
+                </code>{" "}
+                for mobile-friendly pages.
+              </p>
+            </section>
+          </article>
           <nav>
             <div className="blog-footer">
               <Link href={"/blog/One"}>
