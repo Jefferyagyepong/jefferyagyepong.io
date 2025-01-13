@@ -83,6 +83,33 @@ const Two = () => {
             <Post key={index} index={index} post={post} />
           ))}
           <article>
+                      <header>
+              <p>    By: Jeffery Agyepong |{" "}
+              <Image
+                src={"/lee.png"}
+                width={44}
+                height={44}
+                alt="jeffery agyepong"
+              />
+                </p>
+                <p><time datetime="2025-01-13">January 13, 2025</time>
+                  </p>
+                  
+                  <p>    <h5>share on social media</h5>
+            <Link
+              href="https://twitter.com/intent/tweet?text=http://jefferyagyepong-io.vercel.app/blog/"
+              target="_blank"
+              className="twitter-share-button"
+            >
+              <Image
+                src={"/logo-twitter.svg"}
+                width={20}
+                height={20}
+                alt="icon"
+              />{" "}
+            </Link>{" "}
+                    </p>
+              </header>
             <section>
               <em>
                 Absolutely! HTML (HyperText Markup Language) is the foundation
@@ -184,35 +211,8 @@ const Two = () => {
             </div>
           </nav>
         </div>
-        <div className="blog-footer">
-          <span>
-            By: Jeffery Agyepong |{" "}
-            <Image
-              src={"/lee.png"}
-              width={44}
-              height={44}
-              alt="jeffery agyepong"
-            />
-          </span>
-          <span className="blog-footer-text">
-            <time datetime="2025-01-13">January 13, 2025</time>
-          </span>
-        </div>
-        <div className="fluid-container">
-          <h5>share on social media</h5>
-          <Link
-            href="https://twitter.com/intent/tweet?text=http://jefferyagyepong-io.vercel.app/blog/"
-            target="_blank"
-            className="twitter-share-button"
-          >
-            <Image
-              src={"/logo-twitter.svg"}
-              width={20}
-              height={20}
-              alt="icon"
-            />{" "}
-          </Link>{" "}
-        </div>
+    
+  
         <div className="fluid-container">
           <h4>Resources</h4>
           <ul>
