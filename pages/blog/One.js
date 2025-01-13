@@ -82,7 +82,7 @@ const One = () => {
           ))}
           <article>
             <header>
-              <p>    By: Jeffery Agyepong |{" "}
+              <p>    By: Jeffery Agyepong
               <Image
                 src={"/lee.png"}
                 width={44}
