@@ -8,21 +8,7 @@ import Scroll from "@/components/Scroll";
 const Two = () => {
   const blogPosts = [
     {
-<<<<<<< HEAD
       title: "HTML 5",
-=======
-      title: "Internet Vs Web",
-      p1:" Although we tend to imagine the internet as an invisible source of information it is actually a physical connection of cables, servers, modems, routers, and computers. These connections form a huge network in much the same way phone lines have connected the world. The world wide web is the digital collection of websites and webpages that can be accessed by using the internet. Each website is made up of files stored on computers. Using web browsers allows us to access these files over the internet. Using the internet is commonly referred to as being online.",
-      p2:" A web browser is software designed to navigate the world wide web via the internet. Web browsers use special transfer protocol (http) to send and receive information. They convert the web markup language, HTML, into a visual display on computer screens. Many software companies have designed different web browsers. Some of the most popular are Google Chrome, Microsoft Edge, Mozilla Firefox, Apple’s Safari and Brave. Each web browser looks a little different but they share many of the same features.",
-p3: " Understanding web addresses",
-p4:" Website addresses indicate where a website “lives.” Each address is in the form of a URL (Uniform Resource Locator). Every website has a unique URL. URLs have the following parts:",
-p5:" Scheme: The scheme tells the web browser the type of web address being entered. The most common schemes are http:// and https://. The latter is the secure version. Browsers indicate secure websites with a padlock symbol.",
-p6:" Domain: The website domain is the key part of the web address. It is broken up into the Subdomain, the Second-level Domain, and the Top-Level Domain.",
-p7:" Subdomain: The most common subdomain is www which stands for World Wide Web. This indicates where the website is located.",
-p8:" Second-level domain: The second-level domain is often the company’s name. Keeping an eye on the domain name can help you evaluate a website’s legitimacy.",
-p9:" Top-level Domain Extension: Extensions identify the website type. Look at the following examples: .com = commercial .org = organization .net = network .edu = educational .mil = military .gov = governmental .gh = Ghana .ng = Nigeria Extensions can help you identify a website’s validity or authority. For example, only government websites are able to use .gov. A scam website attempting to look like a government site will not be able to use this extension. This is good news for web users. If you are able to identify the extension, you will be a long way towards determining the safety and validity of the website you are viewing.",
-p10:" File path: Each page of a website has a file location indicated in the file path. Remove the file path, and the browser will return to the website’s homepage.",
->>>>>>> a00e0aa65cd884b83b59b38951bb30e8ece201ff
 
       imgUrl: "/logo-html5.svg",
     },
