@@ -159,6 +159,11 @@ const Two = () => {
                 Explore form elements like <b>input</b>, <b>select</b>,{" "}
                 <b>textarea</b> and their attributes.
               </p>
+              <p> <em> HOW FORMS WORK</em> <br/>
+                There are two parts to a working form. The first part is the form that you see on the page itself that is created using HTML markup. Forms are made up of buttons, input fields, and drop-down menus (collectively known as form controls) used to collect information from the user. Forms may also contain text and other elements.
+The other component of a web form is an application or script on the server that processes the information collected by the form and returns an appro- priate response. It’s what makes the form work. In other words, posting an HTML document with form elements isn’t enough. Web applications and scripts require programming know-how that is beyond the scope of this book, but the “Getting Your Forms to Work” sidebar, later in this chapter, pro- vides some options for getting the scripts you need.
+
+                </p>
               <br />
               <p>
                 <em>Semantic HTML: </em> <br /> Understand the importance of
