@@ -94,11 +94,7 @@ export default function Blog() {
               alt="forward arrow"
             />
           </Link>
-<<<<<<< HEAD
-       
-=======
           
->>>>>>> a00e0aa65cd884b83b59b38951bb30e8ece201ff
         </div>
       </main>
     </>
