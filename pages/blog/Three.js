@@ -86,8 +86,8 @@ const Three = () => {
             <Post key={index} index={index} post={post} />
           ))}
           <article>
-                      <header>
-              <p>    By: Jeffery Agyepong |{" "}
+                      <header className="blog-header">
+              <p>    By: Jeffery Agyepong 
               <Image
                 src={"/lee.png"}
                 width={44}
