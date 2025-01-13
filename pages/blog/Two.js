@@ -98,8 +98,8 @@ const Two = () => {
                 </em>{" "}
                 HTML Structure: Understand the basic structure of an HTML
                 document. It includes elements like,
-                <b> DOCTYPE html element</b>, <b> head element</b> and
-                <b> body element</b>
+                <b> DOCTYPE html </b>, <b> Head</b> and
+                <b> Body </b>
               </p>
             </section>
 
