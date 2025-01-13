@@ -107,7 +107,7 @@ const One = () => {
               />{" "}
             </Link>{" "}
                     </p>
-              </header>
+              </header> <br/><br/>
             <section>
               <em>
                 Certainly! Learning web development can be an exciting journey.
