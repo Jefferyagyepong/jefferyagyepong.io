@@ -76,7 +76,7 @@ const One = () => {
         <Scroll />
         <Header />
 
-        <div className="fluid-container">
+        <div className="fluid-container-flex">
           {blogPosts.map((post, index) => (
             <Post key={index} index={index} post={post} />
           ))}
@@ -125,7 +125,7 @@ const One = () => {
           <nav>
             <div className="blog-footer">
               {" "}
-              <Link href={"/blog/index"}>
+              <Link href={"/blog/One"}>
                 <Image
                   src="/arrow-back-circle-outline.svg"
                   alt="Coast Republic"
@@ -134,7 +134,7 @@ const One = () => {
                 />
               </Link>
               <Link href={"/blog/Two"}>
-                next
+                
                 <Image
                   src="/arrow-forward-circle-outline.svg"
                   alt="Coast Republic"
@@ -145,18 +145,46 @@ const One = () => {
             </div>
           </nav>
         </div>
+                 <div className="blog-footer">
+            <span>
+              By: Jeffery Agyepong |{" "}
+              <Image
+                src={"/lee.png"}
+                width={44}
+                height={44}
+                alt="jeffery agyepong"
+              />
+            </span>
+            <span className="blog-footer-text">February 03, 2024</span>
+          </div>
+          <div className="fluid-container">
+            <h5>share on social media</h5>
+            <Link
+              href="https://twitter.com/intent/tweet?text=http://jefferyagyepong-io.vercel.app/blog/"
+              target="_blank"
+              className="twitter-share-button"
+            >
+              <Image
+                src={"/logo-twitter.svg"}
+                width={20}
+                height={20}
+                alt="icon"
+              />{" "}
+            </Link>{" "}
+          </div>
+        
         <div className="fluid-container">
           <h4>Resources</h4>
           <ul>
             <li>
               {" "}
-              <Link href="h#" target="_blank">
+              <Link href="/blog/Two" target="_blank">
                 Getting started with web and internet
               </Link>
             </li>
             <li>
               {" "}
-              <Link href="h#" target="_blank">
+              <Link href="/blog/Three" target="_blank">
                 Web Design
               </Link>
             </li>
@@ -173,6 +201,7 @@ const One = () => {
             </li>
           </ul>
         </div>
+  
       </main>
     </>
   );
