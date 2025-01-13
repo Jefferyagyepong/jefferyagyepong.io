@@ -37,7 +37,10 @@ const Four = () => {
         />
         <meta name="google-adsense-account" content="ca-pub-2474265697377160" />
 
-      <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover"
+        />
         <meta name="author" content="Jeffery Agyepong" />
         <meta name="description" content="Blogger" />
         <meta
@@ -108,7 +111,9 @@ const Four = () => {
                 alt="jeffery agyepong"
               />
             </span>
-            <span className="blog-footer-text">February 03, 2024</span>
+            <span className="blog-footer-text">
+              <time datetime="2025-01-13">January 13, 2025</time>
+            </span>
           </div>
           <div className="fluid-container">
             <h5>share on social media</h5>
@@ -126,7 +131,6 @@ const Four = () => {
             </Link>{" "}
           </div>
         </div>
- 
       </main>
     </>
   );

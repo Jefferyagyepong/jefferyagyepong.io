@@ -8,7 +8,7 @@ import Scroll from "@/components/Scroll";
 const Two = () => {
   const blogPosts = [
     {
-      title: "HTML 5",
+      title: "Web Programming",
 
       imgUrl: "/logo-html5.svg",
     },
@@ -88,7 +88,9 @@ const Two = () => {
                 Absolutely! HTML (HyperText Markup Language) is the foundation
                 of web development, and it&apos;s essential to understand its
                 basics. Here&apos;s a beginner&apos;s guide to learning HTML:
-              </em><br/><br/>
+              </em>
+              <br />
+              <br />
               <p>
                 <em>
                   Introduction to HTML:
@@ -142,8 +144,9 @@ const Two = () => {
               <p>
                 <em>HTML5: </em> <br /> Familiarize yourself with HTML5 features
                 and tags, such as <b>article</b>, <b> nav</b>, <b> section</b>,{" "}
-                <b> header</b>, <b> footer</b>, <b>  canvas </b> and<b> video</b> .
-              </p>
+                <b> header</b>, <b> footer</b>, <b> canvas </b> and<b> video</b>{" "}
+                .
+              </p><br/>
               <p>
                 Responsive Design: Learn about responsive design principles,
                 including the use of meta tags like{" "}
@@ -168,11 +171,9 @@ const Two = () => {
                   width={40}
                   height={40}
                 />{" "}
-                
               </Link>
               <Link href={"/blog/Three"}>
                 {" "}
-                
                 <Image
                   src="/arrow-forward-circle-outline.svg"
                   alt="Coast Republic"
@@ -183,35 +184,36 @@ const Two = () => {
             </div>
           </nav>
         </div>
-                <div className="blog-footer">
-            <span>
-              By: Jeffery Agyepong |{" "}
-              <Image
-                src={"/lee.png"}
-                width={44}
-                height={44}
-                alt="jeffery agyepong"
-              />
-            </span>
-            <span className="blog-footer-text">February 03, 2024</span>
-          </div>
-          <div className="fluid-container">
-            <h5>share on social media</h5>
-            <Link
-              href="https://twitter.com/intent/tweet?text=http://jefferyagyepong-io.vercel.app/blog/"
-              target="_blank"
-              className="twitter-share-button"
-            >
-              <Image
-                src={"/logo-twitter.svg"}
-                width={20}
-                height={20}
-                alt="icon"
-              />{" "}
-            </Link>{" "}
-        
+        <div className="blog-footer">
+          <span>
+            By: Jeffery Agyepong |{" "}
+            <Image
+              src={"/lee.png"}
+              width={44}
+              height={44}
+              alt="jeffery agyepong"
+            />
+          </span>
+          <span className="blog-footer-text">
+            <time datetime="2025-01-13">January 13, 2025</time>
+          </span>
         </div>
-           <div className="fluid-container">
+        <div className="fluid-container">
+          <h5>share on social media</h5>
+          <Link
+            href="https://twitter.com/intent/tweet?text=http://jefferyagyepong-io.vercel.app/blog/"
+            target="_blank"
+            className="twitter-share-button"
+          >
+            <Image
+              src={"/logo-twitter.svg"}
+              width={20}
+              height={20}
+              alt="icon"
+            />{" "}
+          </Link>{" "}
+        </div>
+        <div className="fluid-container">
           <h4>Resources</h4>
           <ul>
             <li>
@@ -239,7 +241,6 @@ const Two = () => {
             </li>
           </ul>
         </div>
-   
       </main>
     </>
   );

@@ -155,7 +155,7 @@ const One = () => {
                 alt="jeffery agyepong"
               />
             </span>
-            <span className="blog-footer-text">February 03, 2024</span>
+            <span className="blog-footer-text"><time datetime="2025-01-13">January 13, 2025</time></span>
           </div>
           <div className="fluid-container">
             <h5>share on social media</h5>
