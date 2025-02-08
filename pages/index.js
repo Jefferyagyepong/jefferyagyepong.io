@@ -83,12 +83,12 @@ export default function Home() {
 
       <section>
         <p>
-          Hi! I'm a web developer with expertise in modern JavaScript frameworks, React, and Next.js.
+          Hi! Iam a web developer with expertise in modern JavaScript frameworks, React, and Next.js.
         </p>
       </section>
 
       <section>
-        <Link href="https://github.com/johndoe" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-gray-800 text-white rounded-md">
+        <Link href="https://github.com/johndoe" target="_blank" rel="noopener noreferrer">
           GitHub
         </Link>
         <Link href="https://linkedin.com/in/johndoe" target="_blank" rel="noopener noreferrer" >
