@@ -4,7 +4,10 @@ import Head from "next/head";
 export default function Home() {
   return (
     <>
-         <Head>
+ 
+    <main>
+    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 flex flex-col justify-center items-center">
+           <Head>
         <title>Jeffery Agyepong | Web Developer</title>
 
         <meta
@@ -71,12 +74,6 @@ export default function Home() {
           name="google-site-verification"
           content="HIhs3rvT7a6WD274_Txl6lfu3opycY_McRAFvT2-oBw"
         />
-      </Head>
-    <main>
-    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 flex flex-col justify-center items-center">
-      <Head>
-        <title>My Portfolio</title>
-        <meta name="description" content="Web Developer Portfolio" />
       </Head>
 
       <header>
