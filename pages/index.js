@@ -1,16 +1,4 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
+import Link from 'next/link';
 import Head from "next/head";
 
 export default function Home() {
@@ -91,28 +79,28 @@ export default function Home() {
         <meta name="description" content="Web Developer Portfolio" />
       </Head>
 
-      <header className="text-center">
-        <h1 className="text-4xl font-bold">John Doe</h1>
-        <p className="text-lg text-gray-600 dark:text-gray-400">Full Stack Web Developer</p>
+      <header>
+        <h1>Jeffery Agyepong</h1>
+        <p>Full Stack Web Developer</p>
       </header>
 
-      <section className="mt-6 max-w-3xl text-center">
-        <p className="text-lg">
+      <section>
+        <p>
           Hi! I'm a web developer with expertise in modern JavaScript frameworks, React, and Next.js.
         </p>
       </section>
 
-      <section className="mt-8 flex space-x-4">
-        <a href="https://github.com/johndoe" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-gray-800 text-white rounded-md">
+      <section>
+        <Link href="https://github.com/johndoe" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-gray-800 text-white rounded-md">
           GitHub
-        </a>
-        <a href="https://linkedin.com/in/johndoe" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-blue-600 text-white rounded-md">
+        </Link>
+        <Link href="https://linkedin.com/in/johndoe" target="_blank" rel="noopener noreferrer" >
           LinkedIn
-        </a>
+        </Link>
       </section>
 
-      <footer className="mt-10 text-sm text-gray-500">
-        © {new Date().getFullYear()} John Doe. All rights reserved.
+      <footer>
+        © {new Date().getFullYear()} Jeffery Agyepong. All rights reserved.
       </footer>
     </div>
     </main>
