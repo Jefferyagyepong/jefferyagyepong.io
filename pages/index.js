@@ -1,16 +1,22 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
 import Head from "next/head";
-import Header from "../components/Header";
-import Work from "../components/Work";
-import Footer from "../components/Footer";
-import Introduction from "../components/Introduction";
-import { Inter } from "next/font/google";
-import Myself from "@/components/Myself";
-import Articles from "@/components/Articles";
-const inter = Inter({ subsets: ["latin"] });
+
 export default function Home() {
   return (
     <>
-      <Head>
+         <Head>
         <title>Jeffery Agyepong | Web Developer</title>
 
         <meta
@@ -78,15 +84,58 @@ export default function Home() {
           content="HIhs3rvT7a6WD274_Txl6lfu3opycY_McRAFvT2-oBw"
         />
       </Head>
-      <main>
-    
-        <Header />
-        <Introduction />
-        <Myself />
-        <Articles />
-        <Work />
-        <Footer />
-      </main>
+    <main>
+    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 flex flex-col justify-center items-center">
+      <Head>
+        <title>My Portfolio</title>
+        <meta name="description" content="Web Developer Portfolio" />
+      </Head>
+
+      <header className="text-center">
+        <h1 className="text-4xl font-bold">John Doe</h1>
+        <p className="text-lg text-gray-600 dark:text-gray-400">Full Stack Web Developer</p>
+      </header>
+
+      <section className="mt-6 max-w-3xl text-center">
+        <p className="text-lg">
+          Hi! I'm a web developer with expertise in modern JavaScript frameworks, React, and Next.js.
+        </p>
+      </section>
+
+      <section className="mt-8 flex space-x-4">
+        <a href="https://github.com/johndoe" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-gray-800 text-white rounded-md">
+          GitHub
+        </a>
+        <a href="https://linkedin.com/in/johndoe" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-blue-600 text-white rounded-md">
+          LinkedIn
+        </a>
+      </section>
+
+      <footer className="mt-10 text-sm text-gray-500">
+        © {new Date().getFullYear()} John Doe. All rights reserved.
+      </footer>
+    </div>
+    </main>
     </>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
