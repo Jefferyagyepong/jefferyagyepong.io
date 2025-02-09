@@ -1,13 +1,16 @@
-import Link from 'next/link';
 import Head from "next/head";
-
+import Header from "../components/Header";
+import Work from "../components/Work";
+import Footer from "../components/Footer";
+import Introduction from "../components/Introduction";
+import { Inter } from "next/font/google";
+import Myself from "@/components/Myself";
+import Articles from "@/components/Articles";
+const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <>
- 
-    <main>
-    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 flex flex-col justify-center items-center">
-           <Head>
+      <Head>
         <title>Jeffery Agyepong | Web Developer</title>
 
         <meta
@@ -75,52 +78,15 @@ export default function Home() {
           content="HIhs3rvT7a6WD274_Txl6lfu3opycY_McRAFvT2-oBw"
         />
       </Head>
-
-      <header>
-        <h1>Jeffery Agyepong</h1>
-        <p>Full Stack Web Developer</p>
-      </header>
-
-      <section>
-        <p>
-          Hi! Iam a web developer with expertise in modern JavaScript frameworks, React, and Next.js.
-        </p>
-      </section>
-
-      <section>
-        <Link href="https://github.com/johndoe" target="_blank" rel="noopener noreferrer">
-          GitHub
-        </Link>
-        <Link href="https://linkedin.com/in/johndoe" target="_blank" rel="noopener noreferrer" >
-          LinkedIn
-        </Link>
-      </section>
-
-      <footer>
-        © {new Date().getFullYear()} Jeffery Agyepong. All rights reserved.
-      </footer>
-    </div>
-    </main>
+      <main>
+    
+        <Header />
+        <Introduction />
+        <Myself />
+        <Articles />
+        <Work />
+        <Footer />
+      </main>
     </>
   );
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
