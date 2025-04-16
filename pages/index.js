@@ -83,7 +83,7 @@ export default function Home() {
         <Header />
         <Introduction />
         <Myself />
-        <Articles />
+      
         <Work />
         <Footer />
       </main>
