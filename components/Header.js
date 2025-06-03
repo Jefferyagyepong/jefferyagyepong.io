@@ -7,15 +7,10 @@ function Header() {
         <h3 className="header-title">Jeffery Agyepong</h3>
       </Link>
 
-      <div>
-        <Link href={"/blog"} >
-          BLOG
+        <Link href={"#"} >
+          PROJECT COLLABORATION
         </Link>
 
-        <Link href={"#"} >
-          TOOLS
-        </Link>
-      </div>
     </header>
   );
 }
