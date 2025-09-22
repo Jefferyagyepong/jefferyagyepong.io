@@ -1,11 +1,11 @@
 @import "../abstracts/variables";
 .fluid-container-row{
-width:96%;
+width:100%;
 display:flex;
 flex-direction: row;
 margin: 0 auto;
 background:red;
-padding: 0px;
+padding: 10px;
 justify-content: space-between;
 
 }
