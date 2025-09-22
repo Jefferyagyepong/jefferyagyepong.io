@@ -48,7 +48,7 @@ import Image from "next/image";
             alt="icon"
           />{" "}
         </Link>
-      </
+      </div>
 </div>
   );
 }
