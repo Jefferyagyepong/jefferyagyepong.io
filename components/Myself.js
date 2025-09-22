@@ -4,7 +4,7 @@ import Image from "next/image";
   return (
     <div className="fluid-container-row">
       <div className="bg-picture">
-           <Image src={"/https://unsplash.com/photos/black-and-white-laptop-computer-XopauR-Nagk"} width={220} height={320} alt="web dev" />
+           <Image src={"/https://unsplash.com/photos/black-and-white-laptop-computer-XopauR-Nagk"} width={220} height={220} alt="web dev" />
         </div>
       
     
