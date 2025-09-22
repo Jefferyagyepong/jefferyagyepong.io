@@ -24,12 +24,12 @@ padding-left: 5px;
 height:220px;
 
 }
+
 .profile-picture {
-  width: 100px; /* Adjust size as needed */
-  height: 100px; /* Same as width for a perfect circle */
-  border-radius: 50%; /* Makes the image round */
-  object-fit: cover; /* Ensures the image fills the circle without distortion */
-  overflow: hidden; /* Hides any excess image parts */
+  width: 100px; /* Set desired width */
+  height: 100px; /* Must match width for a perfect circle */
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* any excess image parts */
 }
 .bg-white{
 background:#fff;
