@@ -4,7 +4,7 @@ function Header() {
   return (
     <header>
       <Link href={"/"}>
-        <h3 className="header-title">Subscribe</h3>
+        <h3 className="header-title">🔔   Subscribe</h3>
       </Link>
 
       
