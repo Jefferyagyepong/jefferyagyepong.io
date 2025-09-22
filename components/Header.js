@@ -7,9 +7,8 @@ function Header() {
         <h3 className="header-title">Subscribe</h3>
       </Link>
 
-        <Link href={"#"} >
-          Mail
-        </Link>
+      
+         <Link href="mailto:agyepong9jeff@icloud.com" >Mail</Link>
 
     </header>
   );
