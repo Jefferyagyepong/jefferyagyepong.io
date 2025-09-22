@@ -12,6 +12,7 @@ import Image from "next/image";
         <h3>Career guidance in Web Development</h3>
        <p> ⏱️ 724hrs</p>
         <p>GHS 500</p>
+        <button className="buy-now">Buy Now</button>
         </div>
     </div>
   );
