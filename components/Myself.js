@@ -5,7 +5,7 @@ import Image from "next/image";
     <div className="fluid-container-row">
       
       
-       <Image src={"/arrow-forward-sharp.svg"} width={220} height={320} alt="web dev" />
+       <Image src={"/https://unsplash.com/photos/black-and-white-laptop-computer-XopauR-Nagk"} width={220} height={320} alt="web dev" />
       <div className="bg-purple">
         <h3>Career guidance in Web Development</h3>
        <p> ⏱️ 724hrs</p>
