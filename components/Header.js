@@ -4,11 +4,11 @@ function Header() {
   return (
     <header>
       <Link href={"/"}>
-        <h3 className="header-title">Jeffery Agyepong</h3>
+        <h3 className="header-title">Subscribe</h3>
       </Link>
 
         <Link href={"#"} >
-          PROJECT COLLABORATION
+          Mail
         </Link>
 
     </header>
