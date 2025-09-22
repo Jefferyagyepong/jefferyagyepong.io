@@ -1,5 +1,14 @@
 @import "../abstracts/variables";
-
+.fluid-container-row{
+width:96%;
+display:flex;
+flex-direction: row;
+margin: 0 auto;
+}
+.bg-purple{
+background:purple;
+color: black;
+}
 .profile-picture {
   width: 100px; /* Adjust size as needed */
   height: 100px; /* Same as width for a perfect circle */
