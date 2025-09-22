@@ -47,9 +47,10 @@ import Image from "next/image";
             alt="icon"
           />{" "}
         </Link>
-        <p>Are you new to the world of building websites? Let me guide 
-    you on your journey to becoming a skilled professional</p>
+
       </div>
+              <p>Are you new to the world of building websites? Let me guide 
+    you on your journey to becoming a skilled professional</p>
 </div>
   );
 }
