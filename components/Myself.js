@@ -2,11 +2,15 @@ import Link from "next/link";
 import Image from "next/image";
  function Myself() {
   return (
-    <div className="fluid-container">
-      <h4 className="text-center">I am a Web Developer</h4>
-      <Link href="/aboutme" className="slate-blue">
-        Read more about me <Image src={"/arrow-forward-sharp.svg"} width={20} height={20} alt="forward arrow" />
-      </Link>
+    <div className="fluid-container-row">
+      
+      
+       <Image src={"/arrow-forward-sharp.svg"} width={320} height={420} alt="web dev" />
+      <div className="bg-purple">
+        <h3>Career guidance in Web Development</h3>
+       <p> ⏱️ 724hrs</p>
+        <p>GHS 500</p>
+        </div>
     </div>
   );
 }
