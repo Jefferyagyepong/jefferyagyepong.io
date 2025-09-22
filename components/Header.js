@@ -8,7 +8,7 @@ function Header() {
       </Link>
 
       
-         <Link href="mailto:agyepong9jeff@icloud.com" >Mail</Link>
+         <Link href="mailto:agyepong9jeff@icloud.com" className="mail-white">Mail</Link>
 
     </header>
   );
