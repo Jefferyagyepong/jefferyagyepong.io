@@ -19,7 +19,7 @@ import Image from "next/image";
           target="_blank"
           className="footer-link-item"
         >
-          <Image src={"/logo-twitter.svg"} width={33} height={33} alt="icon" />{" "}
+          <Image src={"/IMG_3695.png"}  width={33} height={33} alt="icon" />{" "}
         </Link>{" "}
         <Link
           href="https://github.com/Jefferyagyepong"
