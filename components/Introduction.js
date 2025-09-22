@@ -5,8 +5,8 @@ import Image from "next/image";
   return (
    
      <div className="fluid-container-flex">
-<div className="profile-picture">
-  <Image src ={"/IMG_3237.jpeg"} width={80} height={70}/>
+<div>
+  <Image  className="profile-picture" src ={"/IMG_3237.jpeg"} width={80} height={70}/>
   
   </div>
 <h2>Jeffery Agyepong</h2>
