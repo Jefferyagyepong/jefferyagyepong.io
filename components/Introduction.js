@@ -12,8 +12,7 @@ import Image from "next/image";
 <h2>Jeffery Agyepong</h2>
 <span>📍Internet</span>
 <h5>Web Developer </h5>
-<p>Are you new to the world of building websites? Let me guide 
-    you on your journey to becoming a skilled professional</p>
+
     <div className="bg-white">
         <Link
           href="https://twitter.com/jeffagyepong"
@@ -48,6 +47,8 @@ import Image from "next/image";
             alt="icon"
           />{" "}
         </Link>
+        <p>Are you new to the world of building websites? Let me guide 
+    you on your journey to becoming a skilled professional</p>
       </div>
 </div>
   );
