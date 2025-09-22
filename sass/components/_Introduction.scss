@@ -7,6 +7,9 @@
   object-fit: cover; /* Ensures the image fills the circle without distortion */
   overflow: hidden; /* Hides any excess image parts */
 }
+.bg-white{
+background:#fff;
+}
 hr {
     opacity: 0.2;
 }
