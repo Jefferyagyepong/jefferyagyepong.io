@@ -8,6 +8,9 @@ margin: 0 auto;
 .bg-purple{
 background:purple;
 color: black;
+display: flex;
+flex-direction: column;
+text-align: start;
 }
 .profile-picture {
   width: 100px; /* Adjust size as needed */
