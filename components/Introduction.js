@@ -6,7 +6,7 @@ import Image from "next/image";
    
      <div className="fluid-container-flex">
 <div className="profile-picture">
-  <Image src ={"/IMG_3237.jpeg"} width={40} height={50}/>
+  <Image src ={"/IMG_3237.jpeg"} width={80} height={70}/>
   
   </div>
 <h2>Jeffery Agyepong</h2>
@@ -20,7 +20,7 @@ import Image from "next/image";
           target="_blank"
           className="footer-link-item"
         >
-          <Image src={"/logo-twitter.svg"} width={93} height={93} alt="icon" />{" "}
+          <Image src={"/logo-twitter.svg"} width={33} height={33} alt="icon" />{" "}
         </Link>{" "}
         <Link
           href="https://github.com/Jefferyagyepong"
