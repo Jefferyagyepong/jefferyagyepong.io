@@ -14,7 +14,7 @@ import Image from "next/image";
 <h5>Web Developer </h5>
 <p>Are you new to the world of building websites? Let me guide 
     you on journey to becoming a skilled professional</p>
-    <div>
+    <div className="bg-white">
         <Link
           href="https://twitter.com/jeffagyepong"
           target="_blank"
