@@ -13,17 +13,19 @@ justify-content: space-between;
 width:30%;
 background: url("https://unsplash.com/photos/black-and-white-laptop-computer-XopauR-Nagk");
 background-size: cover;
-height:270px;
+
 }
 .bg-purple{
+padding-top: 10px;
 background:#7f5af0;
 width: 60%;
 color: black;
 display: flex;
 flex-direction: column;
 text-align: start;
+justify-content:center;
 padding-left: 5px;
-height:270px;
+
 
 }
 
