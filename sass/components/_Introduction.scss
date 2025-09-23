@@ -10,8 +10,12 @@ justify-content: space-between;
 }
 .bg-picture{
 width:30%;
-border-radius:6px 0 0 6px;
+height: 200;
 
+img{
+    height: fit-content;
+border-radius:6px 0 0 6px;
+}
 
 }
 .bg-purple{
