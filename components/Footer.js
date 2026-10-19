@@ -1,13 +1,20 @@
 import Link from "next/link";
 import Image from "next/image";
 
- function Footer() {
+function Footer() {
   return (
     <footer>
       <div>
         <Link href={"./"}>
-          <h3 className="white">Jeffery</h3>
+          <h3 className="white">Jeffery Agyepong</h3>
         </Link>
+
+        <address>
+          <p>agyepong9jeff@icloud.com</p>
+          <p>0244736420</p>
+
+          <p>PLT 20 ASOKWA Ksi</p>
+        </address>
       </div>
       <div>
         <Link
