@@ -14,50 +14,30 @@ import Link from "next/link";
   <div className="slider">
     <div className="slides">
       <div id="slides__1" className="slide">
-      
-                 <Image          
-                src="/IMG_0968.png"
-                alt="Coast Republic"
+       <Image          
+                src="https://res.cloudinary.com/zxiwczte/image/upload/v1790976616/CCNIKEDUNKLOWRETRO004.jpg"
+                alt="Coast Collective"
                 width={280}
                 height={250}
                 className="image-opacity"
               />
             
-            <h3>Coast Republic inc.</h3>
+            <h3>Coast Collective Store.</h3>
             <p>
-              Clothing store located in Ghana delivering items to all 16 regions
+              Clothing and shoes store located in Ghana delivering items to all 16 regions
               🇬🇭
             </p>
             <Link
-              href={"https://coast-republic.vercel.app/"}
+              to ="https://www.coast-collective.com"
+              target="_blank"
               className="mail-link">
-              Visit Website
-            </Link><br/><br/>
+              Visit Coast Collective
+            </Link>
       </div>
-      <div id="slides__2" className="slide">
-     
-                
-                   
-                <Image
-                src="/yo.png"
-                alt="Yo Cho"
-                width={280}
-                height={250}
-              />
-                        
-              <h3 className="font-weight">Yo Cho inc.</h3>
-              <p className="article-para">
-                Continental restaurant serving local dishes and beverages.
-              </p>
-        
-            <Link href={"#"} className="mail-link">
-              Visit Website
-            </Link><br/><br/>
-      </div>
+    
     </div>
   </div>
 </div>
-
 
 
 
@@ -71,10 +51,6 @@ import Link from "next/link";
             <label for="frame2"></label>
          
         </div>
-
-    
-
-              
          </div>
         );
   
