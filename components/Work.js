@@ -28,7 +28,7 @@ import Link from "next/link";
               🇬🇭
             </p>
             <Link
-              to ="https://www.coast-collective.com"
+              href ="https://www.coast-collective.com"
               target="_blank"
               className="mail-link">
               Visit Coast Collective
