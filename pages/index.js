@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Jeffery Agyepong | Web Developer</title>
+        <title>Jeffery Agyepong | Fullstack Developer</title>
 
         <meta
           name="facebook-domain-verification"
@@ -19,8 +19,8 @@ export default function Home() {
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@jeffagyepong" />
         <meta name="twitter:creator" content="@jeffagyepong" />
-        <meta name="twitter:title" content="Web Developer " />
-        <meta name="twitter:description" content="Web developer" />
+        <meta name="twitter:title" content="Fullstack Developer " />
+        <meta name="twitter:description" content="Fullstack developer" />
         <meta
           name="twitter:image"
           content="https://i.postimg.cc/DzR6JLQL/lee.png"
@@ -47,11 +47,11 @@ export default function Home() {
         <meta name="author" content="Jeffery Agyepong" />
         <meta
           name="description"
-          content="Designer, Web Developer, Website development Agency"
+          content="Fullstack Developer, Website development Agency"
         />
         <meta
           name="keywords"
-          content="web designer, Web developer, SEO expert, Web Engineer, Web Master Tools, Website development Agency, Software Application Developer, Website management, Hire, careers, information technology, recruitment, ghana, Africa, Europe, America, talent "
+          content=" Fullstack developer, SEO expert, Web Engineer, Web Master Tools, Website development Culsultant, Software Application Developer, Website management, Hire, careers, information technology, recruitment, ghana, Africa, Europe, America, talent "
         />
         <link rel="icon" href="/lee.ico" />
         <link

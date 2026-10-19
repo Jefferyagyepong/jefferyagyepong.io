@@ -10,8 +10,9 @@ import Image from "next/image";
   
   </div>
 <h2>Jeffery Agyepong</h2>
-<span>📍Internet</span>
-<h5>Web Developer </h5>
+<h5>Fullstack Developer </h5>
+<address>PLT 20 ASOKWA, Ksi</address>
+<span>Follow my socials</span>
 
     <div className="bg-white">
         <Link
